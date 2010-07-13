@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'iaic' target in the 'iaic' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
