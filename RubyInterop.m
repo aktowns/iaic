@@ -44,9 +44,18 @@ static VALUE t_init(VALUE self)
 static VALUE _rbCallbackManager(VALUE self, VALUE aKlass, VALUE anObject, VALUE callback) {
     NSLog(@"Ruby code requesting a callback: %@", [NSString fromRubyString:anObject]);
     // Lets create the class instance here.... (prepend? iaic_)
+    //
     NSString* instance_name =  [NSString stringWithFormat:@"iaic_%@",[NSString fromRubyString:aKlass]];
-    VALUE ourklass = rb_class_new_instance(0, 0, rb_const_get(rb_cObject, rb_intern([[NSString fromRubyString:aKlass] UTF8String])));
+    VALUE ourklass;
+    if (rb_gv_get([instance_name UTF8String]) == Qnil) {
+        NSLog(@"Creating a new class.");
+        ourklass = rb_class_new_instance(0, 0, rb_const_get(rb_cObject, rb_intern([[NSString fromRubyString:aKlass] UTF8String])));
+    } else {
+        NSLog(@"Class already exists.");
+        ourklass = rb_gv_get([instance_name UTF8String]);
+    }
     rb_gv_set([instance_name UTF8String], ourklass);
+    //
     NSDictionary* cbObj = [NSDictionary dictionaryWithObjectsAndKeys:kCBTypeRegister,kCBType,
                            [NSString fromRubyString:anObject],kCBMethodDef,
                            instance_name,kCBKlassDef,
@@ -125,6 +134,8 @@ static VALUE _rbTest (VALUE _self){
         // Unsafe!
         rbfile = [script UTF8String];
         rb_load_file([script UTF8String]);
+    
+        //ruby_script([script UTF8String]);
         ruby_exec();
         // Safe
         //int status; 

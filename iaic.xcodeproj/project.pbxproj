@@ -22,6 +22,12 @@
 		3947A76F11E9B035006D532E /* NSDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3947A76811E9B035006D532E /* NSDateAdditions.m */; };
 		3947A77511E9B069006D532E /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3947A77411E9B069006D532E /* libxml2.2.dylib */; };
 		3947A79111E9B17D006D532E /* AGRegex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3947A79011E9B17D006D532E /* AGRegex.framework */; };
+		398A4E3E11EC64AE00A49122 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 398A4E3D11EC64AE00A49122 /* HomeView.xib */; };
+		398A4E4211EC7C3F00A49122 /* ScriptView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 398A4E4111EC7C3F00A49122 /* ScriptView.xib */; };
+		398A4E4611EC7FDA00A49122 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398A4E4511EC7FDA00A49122 /* HomeViewController.m */; };
+		398A4E5911EC7FE800A49122 /* ScriptViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 398A4E5811EC7FE800A49122 /* ScriptViewController.m */; };
+		398A4F8E11EC983000A49122 /* myclient.icns in Resources */ = {isa = PBXBuildFile; fileRef = 398A4F8D11EC983000A49122 /* myclient.icns */; };
+		398A4FB011ECA23D00A49122 /* NSString+Colour.m in Sources */ = {isa = PBXBuildFile; fileRef = 398A4FAF11ECA23D00A49122 /* NSString+Colour.m */; };
 		39AD634D11E9C56D0089F4E7 /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AD634C11E9C56D0089F4E7 /* NSString+XMLEntities.m */; };
 		39AD659811E9FD330089F4E7 /* NSString+ByteConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AD659711E9FD330089F4E7 /* NSString+ByteConversion.m */; };
 		39BE77C411EAA8FB00D5B70A /* RubyInterop.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BE77C311EAA8FB00D5B70A /* RubyInterop.m */; };
@@ -64,6 +70,15 @@
 		3947A76911E9B035006D532E /* NSDateAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateAdditions.h; sourceTree = "<group>"; };
 		3947A77411E9B069006D532E /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
 		3947A79011E9B17D006D532E /* AGRegex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGRegex.framework; path = /Users/ashleyis/Library/Frameworks/AGRegex.framework; sourceTree = "<absolute>"; };
+		398A4E3D11EC64AE00A49122 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		398A4E4111EC7C3F00A49122 /* ScriptView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScriptView.xib; sourceTree = "<group>"; };
+		398A4E4411EC7FDA00A49122 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		398A4E4511EC7FDA00A49122 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		398A4E5711EC7FE800A49122 /* ScriptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptViewController.h; sourceTree = "<group>"; };
+		398A4E5811EC7FE800A49122 /* ScriptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptViewController.m; sourceTree = "<group>"; };
+		398A4F8D11EC983000A49122 /* myclient.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = myclient.icns; sourceTree = "<group>"; };
+		398A4FAE11ECA23D00A49122 /* NSString+Colour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Colour.h"; sourceTree = "<group>"; };
+		398A4FAF11ECA23D00A49122 /* NSString+Colour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Colour.m"; sourceTree = "<group>"; };
 		39AD634B11E9C56D0089F4E7 /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMLEntities.h"; sourceTree = "<group>"; };
 		39AD634C11E9C56D0089F4E7 /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMLEntities.m"; sourceTree = "<group>"; };
 		39AD659611E9FD330089F4E7 /* NSString+ByteConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ByteConversion.h"; sourceTree = "<group>"; };
@@ -109,7 +124,10 @@
 				3947A06D11E8E162006D532E /* ChanWindowController.m */,
 				3947A13911E8EB7B006D532E /* ChanTabViewController.h */,
 				3947A13A11E8EB7B006D532E /* ChanTabViewController.m */,
-				3947A18F11E8EF03006D532E /* lazy.h */,
+				398A4E4411EC7FDA00A49122 /* HomeViewController.h */,
+				398A4E4511EC7FDA00A49122 /* HomeViewController.m */,
+				398A4E5711EC7FE800A49122 /* ScriptViewController.h */,
+				398A4E5811EC7FE800A49122 /* ScriptViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -170,12 +188,15 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				398A4F8D11EC983000A49122 /* myclient.icns */,
 				8D1107310486CEB800E47090 /* iaic-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
 				39DEFB2D11E8E0D700CC9638 /* ChanWindow.xib */,
 				3947A12A11E8E747006D532E /* ChanTabView.xib */,
 				3947A5E111E91C89006D532E /* MainTab.xib */,
+				398A4E3D11EC64AE00A49122 /* HomeView.xib */,
+				398A4E4111EC7C3F00A49122 /* ScriptView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -232,8 +253,11 @@
 		39AD659511E9FD1D0089F4E7 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				3947A18F11E8EF03006D532E /* lazy.h */,
 				39AD659611E9FD330089F4E7 /* NSString+ByteConversion.h */,
 				39AD659711E9FD330089F4E7 /* NSString+ByteConversion.m */,
+				398A4FAE11ECA23D00A49122 /* NSString+Colour.h */,
+				398A4FAF11ECA23D00A49122 /* NSString+Colour.m */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -277,7 +301,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iaic" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* iaic */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -297,6 +328,9 @@
 				39DEFB2E11E8E0D700CC9638 /* ChanWindow.xib in Resources */,
 				3947A12B11E8E747006D532E /* ChanTabView.xib in Resources */,
 				3947A5E211E91C89006D532E /* MainTab.xib in Resources */,
+				398A4E3E11EC64AE00A49122 /* HomeView.xib in Resources */,
+				398A4E4211EC7C3F00A49122 /* ScriptView.xib in Resources */,
+				398A4F8E11EC983000A49122 /* myclient.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +353,9 @@
 				39AD659811E9FD330089F4E7 /* NSString+ByteConversion.m in Sources */,
 				39BE77C411EAA8FB00D5B70A /* RubyInterop.m in Sources */,
 				39BE7D9211EAEDB600D5B70A /* MiscRubyAdditions.m in Sources */,
+				398A4E4611EC7FDA00A49122 /* HomeViewController.m in Sources */,
+				398A4E5911EC7FE800A49122 /* ScriptViewController.m in Sources */,
+				398A4FB011ECA23D00A49122 /* NSString+Colour.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,8 +10,12 @@
 
 @implementation NSString (ByteConversion) // Need to change the name to reflect other changes
 
-+ (NSString*)stringAsStatus:(NSString*)content {//width: 100%;
-    return [NSString stringWithFormat:@"<span style=' background-color: #c0c0c0; display: inline-block; line-height:130%%'>&nbsp;%@&nbsp;</span> <br />", content];
+- (NSString*)asTimestamp {
+    return [NSString stringWithFormat:@"<span style='background-color: #e0e0e0;'><span style=\"color:#4c4c4c\">[</span>%@<span style='color:#4c4c4c'>]</span></span>", self];
+}
+
++ (NSString*)stringAsStatus:(NSString*)content {//width: 100%;  line-height:130%%; #d0d0d0 / c
+    return [NSString stringWithFormat:@"<span style='background-color: #e0e0e0; display: inline-block;'>&nbsp;%@&nbsp;</span> <br />", content];
 }
 
 - (NSString*)asUser {

@@ -12,6 +12,8 @@
 #import "lazy.h"
 #import "ChanTabViewController.h"
 #import "RubyInterop.h"
+#import "HomeViewController.h"
+#import "ScriptViewController.h"
 
 @interface ChanWindowController : NSWindowController <NSTabViewDelegate> {
     IBOutlet PSMTabBarControl* tabBar;

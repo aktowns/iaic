@@ -96,7 +96,7 @@
     if ([[payload valueForKey:kCBScriptCommandType] isEqualToString:kCBScriptCommandWriteLine] && 
         [[payload valueForKey:kCBScriptCommandPayloadArgs1] isEqualToString:myChannel]) 
         NSLog(@"WriteLine script command fired");
-        [self writeLine:[payload valueForKey:kCBScriptCommandPayloadArgs0]];
+        [self writeLine:[[payload valueForKey:kCBScriptCommandPayloadArgs0] stringByEncodingXMLEntities]];
 }
 
 #pragma mark IRC notifications
@@ -159,7 +159,7 @@
         
         webContentbuffer = [[NSMutableString stringWithString:[NSString stringWithFormat:@"<html><head><style>"
                                                                @"body{ color: #666666; background-color: #e6e6e6;"
-                                                               @"font-size: 12px; font-family: menlo; line-height: 140%%; }"
+                                                               @"font-size: 12px; font-family: menlo; }" //line-height: 140%%;
                                                                @"</style><script>window.location='#bottom'</script></head><body>%@%@",topicHtml, joinHtml]] retain];
         NSLog(@"%@", webContentbuffer);
         [[content mainFrame] loadHTMLString:webContentbuffer baseURL:nil];
@@ -387,7 +387,7 @@
 	[timeFormatter setTimeStyle:NSDateFormatterMediumStyle];
     NSDate *stringTime = [NSDate date];
 	NSString *timestamp = [timeFormatter stringFromDate:stringTime];
-    webContentbuffer = [[NSMutableString stringWithString:[webContentbuffer stringByAppendingFormat:@"<span style=\"color:#4c4c4c\">[</span>%@<span style='color:#4c4c4c'>]</span> %@<br />",timestamp, _content]] retain];
+    webContentbuffer = [[NSMutableString stringWithString:[webContentbuffer stringByAppendingFormat:@"%@ %@<br />",[timestamp asTimestamp], _content]] retain];
     [[content mainFrame] loadHTMLString:[NSString stringWithFormat:@"%@<a name=\"bottom\">&nbsp;</a>",webContentbuffer] baseURL:nil];
 }
 - (void)_writeLine:(NSString *)_content {

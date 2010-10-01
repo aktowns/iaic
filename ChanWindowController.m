@@ -54,7 +54,7 @@
     NSLog(@"yipeee");
 }
 -(void)windowDidLoad {
-    NSLog(@"Loaded?");
+    self.window.title = @"Ikes awkward irc client";
     [self tabBarSetup];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(testCallback:) name:kRbTest object:nil];
     [RubyInterop ruby_initialize];
@@ -66,9 +66,9 @@
     //[[tabView tabViewItemAtIndex:0] setView:[ctvc view]];
     //[[tabView tabViewItemAtIndex:0] setLabel:@"test"];
     //[[tabView tabViewItemAtIndex:1] setLabel:@"baw"];
-    ircSession = [[[MVChatConnection alloc] initWithServer:@"irc.avoidinspace.com" type:MVChatConnectionIRCType port:6667 user:@"objircc"] retain];
+    ircSession = [[[MVChatConnection alloc] initWithServer:@"irc.streetgeek.com.au" type:MVChatConnectionIRCType port:6667 user:@"objircc"] retain];
     [ircSession connect];
-    NSString* mainChan = @"#main";
+    NSString* mainChan = @"#streetgeek";
     [ircSession joinChatRoomNamed:mainChan];
     [ircSession joinChatRoomNamed:@"#test"];
     [channels addObject:[[ircSession chatRoomWithName:mainChan] retain]];
@@ -78,7 +78,12 @@
     [self addNewTab:self objectCount:1];
     [self addNewTab:self objectCount:0];
     [[tabView tabViewItemAtIndex:0] setLabel:@"Home"];
+    HomeViewController* hvc = [[HomeViewController alloc] init];
+    [[tabView tabViewItemAtIndex:0] setView:[hvc view]];
     [[tabView tabViewItemAtIndex:3] setLabel:@"Scripts"];
+    ScriptViewController* svc = [[ScriptViewController alloc] init];
+    [[tabView tabViewItemAtIndex:3] setView:[svc view]];
+
     [[tabView tabViewItemAtIndex:1] setLabel:mainChan];
     ChanTabViewController* ctvc = [[ChanTabViewController alloc] 
                                    initWithMyRoom:[[ircSession chatRoomWithName:mainChan]retain]
