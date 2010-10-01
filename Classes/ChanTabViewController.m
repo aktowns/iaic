@@ -163,6 +163,13 @@
         NSLog(@"%@", webContentbuffer);
         [[content mainFrame] loadHTMLString:webContentbuffer baseURL:nil];
         nicklist = [[NSMutableArray arrayWithArray:[room.memberUsers allObjects]] retain];
+		[nicklist sortUsingComparator:^(id nick1, id nick2) 
+		 {
+			 NSComparisonResult comp = [nick1 compareByNickname:nick2];
+			 //comp = (comp == NSOrderedAscending) ? NSOrderedDescending : NSOrderedAscending;
+			 return comp;
+			 
+		 }];
         [userList reloadData];
         [_parent setTitle:[NSString stringWithFormat:@"%@ - %@", room.name, [NSString stringWithUTF8String:[room.topic bytes]]]];
     }
@@ -237,6 +244,13 @@
 }
 
 -(void)resyncUserList {
+	[nicklist sortUsingComparator:^(id nick1, id nick2) 
+	 {
+		 NSComparisonResult comp = [nick1 compareByNickname:nick2];
+		 //comp = (comp == NSOrderedAscending) ? NSOrderedDescending : NSOrderedAscending;
+		 return comp;
+		 
+	 }];
     [userList reloadData];
 //    nicklist = myRoom.memberUsers;
 }
@@ -335,7 +349,13 @@
                     else 
                         response = [NSString stringWithFormat:@"Failed to set variable '%@'", [tokens objectAtIndex:0]];
                     [self writeLine:[NSString stringWithFormat:@"%@", response]];
-                } else {
+                } else if ([rawCmd hasPrefix:@"join"]) {
+					NSArray* tokens = [[[entryText stringValue] substringFromIndex:6] componentsSeparatedByString:@" "];
+					NSArray* rooms = [[tokens componentsJoinedByString:@" "] componentsSeparatedByString:@","];
+					for (NSString* room in rooms) {
+						[_parent createTabForChannel:room];
+					}
+				} else {
                     [session sendRawMessage:rawCmd];
                 }
             } else {

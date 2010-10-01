@@ -52,6 +52,20 @@
 -(void)testCallback:(NSNotification*) notification {
     NSLog(@"yipeee");
 }
+
+-(void)createTabForChannel:(NSString*)channel {
+	[ircSession joinChatRoomNamed:channel];
+	[channels addObject:[[ircSession chatRoomWithName:channel] retain]];
+	[self addNewTab:self objectCount:0];
+	[[tabView tabViewItemAtIndex:[[tabView tabViewItems] count]-1] setLabel:channel];
+	ChanTabViewController* ctvc = [[ChanTabViewController alloc] 
+                                   initWithMyRoom:[[ircSession chatRoomWithName:channel]retain]
+                                   andSession:[ircSession retain]
+								   ];
+    ctvc._parent = self;
+    [[tabView tabViewItemAtIndex:[[tabView tabViewItems] count]-1] setView:[ctvc view]];
+}
+
 -(void)windowDidLoad {
     self.window.title = @"Ikes awkward irc client";
     [self tabBarSetup];
@@ -67,22 +81,24 @@
     //[[tabView tabViewItemAtIndex:1] setLabel:@"baw"];
     ircSession = [[[MVChatConnection alloc] initWithServer:@"irc.streetgeek.com.au" type:MVChatConnectionIRCType port:6667 user:@"objircc"] retain];
     [ircSession connect];
-    NSString* mainChan = @"#streetgeek";
-    [ircSession joinChatRoomNamed:mainChan];
-    [ircSession joinChatRoomNamed:@"#test"];
-    [channels addObject:[[ircSession chatRoomWithName:mainChan] retain]];
-    [channels addObject:[[ircSession chatRoomWithName:@"#test"] retain]];
-    [self addNewTab:self objectCount:0];
-    [self addNewTab:self objectCount:0];
-    [self addNewTab:self objectCount:1];
-    [self addNewTab:self objectCount:0];
+    //NSString* mainChan = @"#streetgeek";
+    //[ircSession joinChatRoomNamed:mainChan];
+    //[ircSession joinChatRoomNamed:@"#test"];
+    //[channels addObject:[[ircSession chatRoomWithName:mainChan] retain]];
+    //[channels addObject:[[ircSession chatRoomWithName:@"#test"] retain]];
+//    [self addNewTab:self objectCount:0];
+	[self createTabForChannel:@"#test"];
+    //[self addNewTab:self objectCount:0];
+    //[self addNewTab:self objectCount:1];
+//    [self addNewTab:self objectCount:0];
+	/*
     [[tabView tabViewItemAtIndex:0] setLabel:@"Home"];
     HomeViewController* hvc = [[HomeViewController alloc] init];
     [[tabView tabViewItemAtIndex:0] setView:[hvc view]];
     [[tabView tabViewItemAtIndex:3] setLabel:@"Scripts"];
     ScriptViewController* svc = [[ScriptViewController alloc] init];
-    [[tabView tabViewItemAtIndex:3] setView:[svc view]];
-
+    [[tabView tabViewItemAtIndex:3] setView:[svc view]];*/
+/*
     [[tabView tabViewItemAtIndex:1] setLabel:mainChan];
     ChanTabViewController* ctvc = [[ChanTabViewController alloc] 
                                    initWithMyRoom:[[ircSession chatRoomWithName:mainChan]retain]
@@ -97,6 +113,7 @@
                                    ];
     ctvc2._parent = self;
     [[tabView tabViewItemAtIndex:2] setView:[ctvc2 view]];
+ */
     //[tabView selectTabViewItem:[tabView tabViewItemAtIndex:1]];
     //ChanTabViewController* ctvc = [[ChanTabViewController alloc] init];
     //[[tabView tabViewItemAtIndex:0] setView:[ctvc view]];

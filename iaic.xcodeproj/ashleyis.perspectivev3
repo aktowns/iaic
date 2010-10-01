@@ -286,13 +286,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>24</integer>
+									<integer>26</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {495, 760}}</string>
+							<string>{{0, 199}, {495, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -327,7 +327,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>39DEFB3011E8E0F500CC9638</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ChanWindowController.m</string>
+								<string>ChanTabViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -335,11 +335,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>39DEFB3111E8E0F500CC9638</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ChanWindowController.m</string>
+										<string>ChanTabViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>39DD7ADF125643D700DEF963</string>
+										<string>39DD7B7212564EBB00DEF963</string>
 										<key>history</key>
 										<array>
 											<string>3947A34711E8FB1C006D532E</string>
@@ -372,9 +372,9 @@
 											<string>39DD7AD9125643D700DEF963</string>
 											<string>39DD7ADA125643D700DEF963</string>
 											<string>39DD7ADB125643D700DEF963</string>
-											<string>39DD7ADC125643D700DEF963</string>
 											<string>39DD7ADD125643D700DEF963</string>
-											<string>39DD7ADE125643D700DEF963</string>
+											<string>39DD7B7012564EBB00DEF963</string>
+											<string>39DD7B7112564EBB00DEF963</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -691,7 +691,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>39DD7AE0125643D700DEF963</string>
+		<string>39DD7B7312564EBB00DEF963</string>
 		<string>39DD7A4B12563DE100DEF963</string>
 		<string>39DD7A4C12563DE100DEF963</string>
 		<string>/Users/ashleyis/Documents/Projects/iaic/iaic.xcodeproj</string>
