@@ -3,7 +3,6 @@
  *  iaic
  *
  *  Created by Ashley Towns on 11/07/10.
- *  Copyright 2010 Mogeneration. All rights reserved.
  *
  */
 

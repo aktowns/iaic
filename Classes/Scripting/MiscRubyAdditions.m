@@ -3,7 +3,6 @@
 //  iaic
 //
 //  Created by Ashley Towns on 12/07/10.
-//  Copyright 2010 Mogeneration. All rights reserved.
 //
 
 #import "MiscRubyAdditions.h"

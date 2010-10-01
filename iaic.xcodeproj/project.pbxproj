@@ -12,7 +12,6 @@
 		3947A06E11E8E162006D532E /* ChanWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */; };
 		3947A12B11E8E747006D532E /* ChanTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3947A12A11E8E747006D532E /* ChanTabView.xib */; };
 		3947A13B11E8EB7B006D532E /* ChanTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */; };
-		3947A15311E8ECB8006D532E /* ChatCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3947A15211E8ECB8006D532E /* ChatCore.framework */; };
 		3947A29311E8F5F4006D532E /* tabModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3947A29211E8F5F4006D532E /* tabModel.m */; };
 		3947A38111E8FCB6006D532E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3947A38011E8FCB6006D532E /* WebKit.framework */; };
 		3947A5E211E91C89006D532E /* MainTab.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3947A5E111E91C89006D532E /* MainTab.xib */; };
@@ -32,6 +31,19 @@
 		39BE77C411EAA8FB00D5B70A /* RubyInterop.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BE77C311EAA8FB00D5B70A /* RubyInterop.m */; };
 		39BE7D2F11EAE98000D5B70A /* Ruby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BE7D2E11EAE98000D5B70A /* Ruby.framework */; };
 		39BE7D9211EAEDB600D5B70A /* MiscRubyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BE7D9111EAEDB600D5B70A /* MiscRubyAdditions.m */; };
+		39DD76831256355B00DEF963 /* ChatCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3947A15211E8ECB8006D532E /* ChatCore.framework */; };
+		39DD76AF125636A100DEF963 /* ChatCore.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3947A15211E8ECB8006D532E /* ChatCore.framework */; };
+		39DD76B0125636A100DEF963 /* AGRegex.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3947A79011E9B17D006D532E /* AGRegex.framework */; };
+		39DD76EC125637EA00DEF963 /* TCMPortMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD76EB125637EA00DEF963 /* TCMPortMapper.framework */; };
+		39DD76F0125637F400DEF963 /* Acid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD76EF125637F400DEF963 /* Acid.framework */; };
+		39DD76FB125637FB00DEF963 /* Acid.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD76EF125637F400DEF963 /* Acid.framework */; };
+		39DD76FC125637FF00DEF963 /* TCMPortMapper.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD76EB125637EA00DEF963 /* TCMPortMapper.framework */; };
+		39DD78691256383900DEF963 /* libsilc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD78681256383900DEF963 /* libsilc.framework */; };
+		39DD78C41256383C00DEF963 /* libsilc.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD78681256383900DEF963 /* libsilc.framework */; };
+		39DD78D11256385600DEF963 /* libsilcclient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD78D01256385600DEF963 /* libsilcclient.framework */; };
+		39DD78DD1256385A00DEF963 /* libsilcclient.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD78D01256385600DEF963 /* libsilcclient.framework */; };
+		39DD7AB41256428900DEF963 /* PSMTabBarControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD7AAF1256425300DEF963 /* PSMTabBarControl.framework */; };
+		39DD7ABE1256436000DEF963 /* PSMTabBarControl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD7AAF1256425300DEF963 /* PSMTabBarControl.framework */; };
 		39DEFB2E11E8E0D700CC9638 /* ChanWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39DEFB2D11E8E0D700CC9638 /* ChanWindow.xib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -39,28 +51,55 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		39DD7670125634CA00DEF963 /* PBXContainerItemProxy */ = {
+		39DD7AAC1256425300DEF963 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 39DD740E1256299900DEF963 /* PSMTabBarControl.xcodeproj */;
+			containerPortal = 39DD7AA51256425300DEF963 /* PSMTabBarControl.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 8D1AC9740486D14A00FE50C9 /* PSMTabBarControl.ibplugin */;
 			remoteInfo = PSMTabBarControl;
 		};
-		39DD7672125634CA00DEF963 /* PBXContainerItemProxy */ = {
+		39DD7AAE1256425300DEF963 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 39DD740E1256299900DEF963 /* PSMTabBarControl.xcodeproj */;
+			containerPortal = 39DD7AA51256425300DEF963 /* PSMTabBarControl.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 53DF68FD067E5B5A0090B5B0 /* PSMTabBarControl.framework */;
 			remoteInfo = PSMTabBarControlFramework;
 		};
-		39DD7674125634CA00DEF963 /* PBXContainerItemProxy */ = {
+		39DD7AB01256425300DEF963 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 39DD740E1256299900DEF963 /* PSMTabBarControl.xcodeproj */;
+			containerPortal = 39DD7AA51256425300DEF963 /* PSMTabBarControl.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 8BD4395A1185147D00DB4AC3 /* PSMTabBarControlDemo.app */;
 			remoteInfo = PSMTabBarControlDemo;
 		};
+		39DD7AB5125642B200DEF963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DD7AA51256425300DEF963 /* PSMTabBarControl.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0 /* PSMTabBarControlFramework */;
+			remoteInfo = PSMTabBarControlFramework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		39DD769A1256368400DEF963 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				39DD7ABE1256436000DEF963 /* PSMTabBarControl.framework in Copy Frameworks */,
+				39DD78DD1256385A00DEF963 /* libsilcclient.framework in Copy Frameworks */,
+				39DD78C41256383C00DEF963 /* libsilc.framework in Copy Frameworks */,
+				39DD76FC125637FF00DEF963 /* TCMPortMapper.framework in Copy Frameworks */,
+				39DD76FB125637FB00DEF963 /* Acid.framework in Copy Frameworks */,
+				39DD76AF125636A100DEF963 /* ChatCore.framework in Copy Frameworks */,
+				39DD76B0125636A100DEF963 /* AGRegex.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -110,7 +149,11 @@
 		39BE7D2E11EAE98000D5B70A /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = System/Library/Frameworks/Ruby.framework; sourceTree = SDKROOT; };
 		39BE7D9011EAEDB600D5B70A /* MiscRubyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MiscRubyAdditions.h; path = Classes/Scripting/MiscRubyAdditions.h; sourceTree = "<group>"; };
 		39BE7D9111EAEDB600D5B70A /* MiscRubyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MiscRubyAdditions.m; path = Classes/Scripting/MiscRubyAdditions.m; sourceTree = "<group>"; };
-		39DD740E1256299900DEF963 /* PSMTabBarControl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PSMTabBarControl.xcodeproj; path = Classes/External/psmtabbarcontrol/Source/PSMTabBarControl.xcodeproj; sourceTree = "<group>"; };
+		39DD76EB125637EA00DEF963 /* TCMPortMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TCMPortMapper.framework; path = Frameworks/TCMPortMapper.framework; sourceTree = "<group>"; };
+		39DD76EF125637F400DEF963 /* Acid.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Acid.framework; path = Frameworks/Acid.framework; sourceTree = "<group>"; };
+		39DD78681256383900DEF963 /* libsilc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libsilc.framework; path = Frameworks/libsilc.framework; sourceTree = "<group>"; };
+		39DD78D01256385600DEF963 /* libsilcclient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libsilcclient.framework; path = Frameworks/libsilcclient.framework; sourceTree = "<group>"; };
+		39DD7AA51256425300DEF963 /* PSMTabBarControl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PSMTabBarControl.xcodeproj; path = Classes/External/psmtabbarcontrol/Source/PSMTabBarControl.xcodeproj; sourceTree = "<group>"; };
 		39DEFB2D11E8E0D700CC9638 /* ChanWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ChanWindow.xib; path = Resources/ChanWindow.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iaic-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iaic-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* iaic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iaic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,12 +164,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				3947A15311E8ECB8006D532E /* ChatCore.framework in Frameworks */,
-				3947A38111E8FCB6006D532E /* WebKit.framework in Frameworks */,
+				39DD7AB41256428900DEF963 /* PSMTabBarControl.framework in Frameworks */,
 				3947A77511E9B069006D532E /* libxml2.2.dylib in Frameworks */,
 				3947A79111E9B17D006D532E /* AGRegex.framework in Frameworks */,
+				39DD76831256355B00DEF963 /* ChatCore.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				3947A38111E8FCB6006D532E /* WebKit.framework in Frameworks */,
 				39BE7D2F11EAE98000D5B70A /* Ruby.framework in Frameworks */,
+				39DD76EC125637EA00DEF963 /* TCMPortMapper.framework in Frameworks */,
+				39DD76F0125637F400DEF963 /* Acid.framework in Frameworks */,
+				39DD78691256383900DEF963 /* libsilc.framework in Frameworks */,
+				39DD78D11256385600DEF963 /* libsilcclient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +211,10 @@
 				3947A77411E9B069006D532E /* libxml2.2.dylib */,
 				3947A79011E9B17D006D532E /* AGRegex.framework */,
 				39BE7D2E11EAE98000D5B70A /* Ruby.framework */,
+				39DD76EB125637EA00DEF963 /* TCMPortMapper.framework */,
+				39DD76EF125637F400DEF963 /* Acid.framework */,
+				39DD78681256383900DEF963 /* libsilc.framework */,
+				39DD78D01256385600DEF963 /* libsilcclient.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -243,7 +295,7 @@
 		3947A74911E9AF7B006D532E /* External */ = {
 			isa = PBXGroup;
 			children = (
-				39DD740E1256299900DEF963 /* PSMTabBarControl.xcodeproj */,
+				39DD7AA51256425300DEF963 /* PSMTabBarControl.xcodeproj */,
 				39AD634711E9C5350089F4E7 /* mwaterfall */,
 				3947A74A11E9AF83006D532E /* Colloquy */,
 			);
@@ -295,12 +347,12 @@
 			name = Scripting;
 			sourceTree = "<group>";
 		};
-		39DD766A125634CA00DEF963 /* Products */ = {
+		39DD7AA61256425300DEF963 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				39DD7671125634CA00DEF963 /* PSMTabBarControl.ibplugin */,
-				39DD7673125634CA00DEF963 /* PSMTabBarControl.framework */,
-				39DD7675125634CA00DEF963 /* PSMTabBarControlDemo.app */,
+				39DD7AAD1256425300DEF963 /* PSMTabBarControl.ibplugin */,
+				39DD7AAF1256425300DEF963 /* PSMTabBarControl.framework */,
+				39DD7AB11256425300DEF963 /* PSMTabBarControlDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -312,6 +364,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "iaic" */;
 			buildPhases = (
+				39DD7ACA1256438A00DEF963 /* Install PSMTabBar Locally */,
+				39DD769A1256368400DEF963 /* Copy Frameworks */,
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
@@ -319,6 +373,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				39DD7AB6125642B200DEF963 /* PBXTargetDependency */,
 			);
 			name = iaic;
 			productInstallPath = "$(HOME)/Applications";
@@ -345,8 +400,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 39DD766A125634CA00DEF963 /* Products */;
-					ProjectRef = 39DD740E1256299900DEF963 /* PSMTabBarControl.xcodeproj */;
+					ProductGroup = 39DD7AA61256425300DEF963 /* Products */;
+					ProjectRef = 39DD7AA51256425300DEF963 /* PSMTabBarControl.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -357,25 +412,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		39DD7671125634CA00DEF963 /* PSMTabBarControl.ibplugin */ = {
+		39DD7AAD1256425300DEF963 /* PSMTabBarControl.ibplugin */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = PSMTabBarControl.ibplugin;
-			remoteRef = 39DD7670125634CA00DEF963 /* PBXContainerItemProxy */;
+			remoteRef = 39DD7AAC1256425300DEF963 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		39DD7673125634CA00DEF963 /* PSMTabBarControl.framework */ = {
+		39DD7AAF1256425300DEF963 /* PSMTabBarControl.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = PSMTabBarControl.framework;
-			remoteRef = 39DD7672125634CA00DEF963 /* PBXContainerItemProxy */;
+			remoteRef = 39DD7AAE1256425300DEF963 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		39DD7675125634CA00DEF963 /* PSMTabBarControlDemo.app */ = {
+		39DD7AB11256425300DEF963 /* PSMTabBarControlDemo.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = PSMTabBarControlDemo.app;
-			remoteRef = 39DD7674125634CA00DEF963 /* PBXContainerItemProxy */;
+			remoteRef = 39DD7AB01256425300DEF963 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -397,6 +452,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39DD7ACA1256438A00DEF963 /* Install PSMTabBar Locally */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Install PSMTabBar Locally";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -r Classes/External/psmtabbarcontrol/Source/build/Debug/PSMTabBarControl.framework ~/Library/Frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D11072C0486CEB800E47090 /* Sources */ = {
@@ -422,6 +494,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39DD7AB6125642B200DEF963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PSMTabBarControlFramework;
+			targetProxy = 39DD7AB5125642B200DEF963 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
@@ -459,13 +539,18 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iaic_Prefix.pch;
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/Classes/External/psmtabbar/source/",
+					"$(SRCROOT)/Classes/External/psmtabbarcontrol/Source/",
 					"$(SRCROOT)/Frameworks/AGRegex",
 					/usr/include/,
 				);
 				INFOPLIST_FILE = "iaic-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks/PSMTabBarControl.framework\"",
+				);
 				PRODUCT_NAME = iaic;
+				VALID_ARCHS = "i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -477,6 +562,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../Library/Frameworks\"",
+					"\"$(SRCROOT)/Frameworks\"",
+					"\"$(SRCROOT)/Classes/External/psmtabbarcontrol/Source/build/Debug\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -488,6 +575,10 @@
 				);
 				INFOPLIST_FILE = "iaic-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks/PSMTabBarControl.framework\"",
+				);
 				PRODUCT_NAME = iaic;
 			};
 			name = Release;
