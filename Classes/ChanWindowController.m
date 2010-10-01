@@ -60,7 +60,7 @@
     [RubyInterop ruby_initialize];
     RubyInterop* ri = [[RubyInterop alloc] initWithScript:@"testScript.rb"];
     RubyInterop* ri2 = [[RubyInterop alloc] initWithScript:@"testScript2.rb"];
-
+	NSLog(@"%@ ~ %@", ri, ri2);
     NSLog(@"%@ - %@", tabBar, [tabBar tabView]);
     //ChanTabViewController* ctvc = [[ChanTabViewController alloc] init];
     //[[tabView tabViewItemAtIndex:0] setView:[ctvc view]];

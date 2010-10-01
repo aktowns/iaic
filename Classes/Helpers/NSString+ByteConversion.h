@@ -15,6 +15,7 @@
 +(NSString*)stringAsStatus:(NSString*)content;
 -(NSString*)asChannel;
 -(NSString*)asUser;
+-(NSString*)asTimestamp;
 @end
 
 @interface NSString (SearchingAdditions)

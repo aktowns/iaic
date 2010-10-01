@@ -50,4 +50,6 @@
 PROP NSMutableDictionary *registeredCallbacks;
 
 -(id)initWithScript:(NSString*)script;
++ (void)ruby_initialize;
+-(void)fireCallback:(NSString*)callbackType content:(NSDictionary*)content;
 @end

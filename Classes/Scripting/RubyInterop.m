@@ -26,7 +26,7 @@
 // 
 @implementation RubyInterop
 @synthesize registeredCallbacks;
-char* rbfile;
+const char* rbfile;
 VALUE IAIC_klass;
 #pragma mark -
 #pragma mark RUBY METHODS

@@ -13,7 +13,6 @@
 		3947A12B11E8E747006D532E /* ChanTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3947A12A11E8E747006D532E /* ChanTabView.xib */; };
 		3947A13B11E8EB7B006D532E /* ChanTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */; };
 		3947A15311E8ECB8006D532E /* ChatCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3947A15211E8ECB8006D532E /* ChatCore.framework */; };
-		3947A15511E8ECB8006D532E /* PSMTabBarControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3947A15411E8ECB8006D532E /* PSMTabBarControl.framework */; };
 		3947A29311E8F5F4006D532E /* tabModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3947A29211E8F5F4006D532E /* tabModel.m */; };
 		3947A38111E8FCB6006D532E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3947A38011E8FCB6006D532E /* WebKit.framework */; };
 		3947A5E211E91C89006D532E /* MainTab.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3947A5E111E91C89006D532E /* MainTab.xib */; };
@@ -110,7 +109,6 @@
 		3947A13911E8EB7B006D532E /* ChanTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChanTabViewController.h; path = Classes/ChanTabViewController.h; sourceTree = "<group>"; };
 		3947A13A11E8EB7B006D532E /* ChanTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChanTabViewController.m; path = Classes/ChanTabViewController.m; sourceTree = "<group>"; };
 		3947A15211E8ECB8006D532E /* ChatCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChatCore.framework; path = Frameworks/ChatCore.framework; sourceTree = "<group>"; };
-		3947A15411E8ECB8006D532E /* PSMTabBarControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSMTabBarControl.framework; path = /Users/ashleyis/Library/Frameworks/PSMTabBarControl.framework; sourceTree = "<absolute>"; };
 		3947A18F11E8EF03006D532E /* lazy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lazy.h; path = Classes/Helpers/lazy.h; sourceTree = "<group>"; };
 		3947A29111E8F5F4006D532E /* tabModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tabModel.h; path = Classes/Models/tabModel.h; sourceTree = "<group>"; };
 		3947A29211E8F5F4006D532E /* tabModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tabModel.m; path = Classes/Models/tabModel.m; sourceTree = "<group>"; };
@@ -155,7 +153,6 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				3947A15311E8ECB8006D532E /* ChatCore.framework in Frameworks */,
-				3947A15511E8ECB8006D532E /* PSMTabBarControl.framework in Frameworks */,
 				3947A38111E8FCB6006D532E /* WebKit.framework in Frameworks */,
 				3947A77511E9B069006D532E /* libxml2.2.dylib in Frameworks */,
 				3947A79111E9B17D006D532E /* AGRegex.framework in Frameworks */,
@@ -194,7 +191,6 @@
 			children = (
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				3947A15211E8ECB8006D532E /* ChatCore.framework */,
-				3947A15411E8ECB8006D532E /* PSMTabBarControl.framework */,
 				3947A38011E8FCB6006D532E /* WebKit.framework */,
 				3947A77411E9B069006D532E /* libxml2.2.dylib */,
 				3947A79011E9B17D006D532E /* AGRegex.framework */,

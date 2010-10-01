@@ -267,6 +267,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
+								<string>080E96DDFE201D6D7F000001</string>
+								<string>39BE77C111EAA8E700D5B70A</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
@@ -282,10 +284,10 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>71</integer>
 									<integer>60</integer>
-									<integer>59</integer>
-									<integer>31</integer>
-									<integer>30</integer>
+									<integer>48</integer>
+									<integer>47</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -324,7 +326,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>39DEFB3011E8E0F500CC9638</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ChanWindowController.h</string>
+								<string>RubyInterop.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -332,11 +334,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>39DEFB3111E8E0F500CC9638</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ChanWindowController.h</string>
+										<string>RubyInterop.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>39DD761E12562E8800DEF963</string>
+										<string>39DD76561256310600DEF963</string>
 										<key>history</key>
 										<array>
 											<string>3947A2A711E8F6B1006D532E</string>
@@ -349,10 +351,8 @@
 											<string>39BE7CC611EAE86300D5B70A</string>
 											<string>39BE7CF411EAE8CD00D5B70A</string>
 											<string>39BE7D7011EAEC5A00D5B70A</string>
-											<string>39BE84F411EC33EE00D5B70A</string>
 											<string>39AC693811EC56A500A25B29</string>
 											<string>39AC697611EC591100A25B29</string>
-											<string>39AC698911EC5BF700A25B29</string>
 											<string>398A4E6511EC80DE00A49122</string>
 											<string>398A4E6811EC80DE00A49122</string>
 											<string>398A4E6911EC80DE00A49122</string>
@@ -363,12 +363,17 @@
 											<string>398A4F6A11EC93B400A49122</string>
 											<string>398A4F9411EC985000A49122</string>
 											<string>398A4F9E11EC991A00A49122</string>
-											<string>398A4FA811EC9D7C00A49122</string>
 											<string>398A4FB211EE77DE00A49122</string>
-											<string>39235EA011FC25F70017301A</string>
-											<string>39DD740B125626F500DEF963</string>
 											<string>39DD761C12562E8800DEF963</string>
-											<string>39DD761D12562E8800DEF963</string>
+											<string>39DD7649125630D400DEF963</string>
+											<string>39DD764A125630D400DEF963</string>
+											<string>39DD764B125630D400DEF963</string>
+											<string>39DD764C125630D400DEF963</string>
+											<string>39DD764D125630D400DEF963</string>
+											<string>39DD764E125630D400DEF963</string>
+											<string>39DD7650125630D400DEF963</string>
+											<string>39DD7651125630D400DEF963</string>
+											<string>39DD7652125630D400DEF963</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -408,6 +413,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1147, 127}}</string>
+										<key>RubberWindowFrame</key>
+										<string>0 101 1440 777 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -462,8 +469,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1147, 127}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 101 1440 777 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
