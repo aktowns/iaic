@@ -25,4 +25,6 @@ UB PSMTabBarControl* tabBar;
 UB NSTabView* tabView;
 //@property (nonatomic,retain) IBOutlet NSWindow *window;
 -(void)setTitle:(NSString *)title;
+-(void)createTabForChannel:(NSString *)channel;
+-(void)closeTabForChannel:(NSString *)channel withMessage:(NSString *)message;
 @end

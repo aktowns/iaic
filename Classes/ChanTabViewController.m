@@ -355,6 +355,10 @@
 					for (NSString* room in rooms) {
 						[_parent createTabForChannel:room];
 					}
+				} else if ([rawCmd hasPrefix:@"part"]) {
+					NSArray* tokens = [[[entryText stringValue] substringFromIndex:6] componentsSeparatedByString:@" "];
+					NSString* partMsg = [tokens componentsJoinedByString:@" "];
+					[_parent closeTabForChannel:myChannel withMessage:partMsg];
 				} else {
                     [session sendRawMessage:rawCmd];
                 }

@@ -272,6 +272,7 @@
 								<string>39AD659511E9FD1D0089F4E7</string>
 								<string>3947A74911E9AF7B006D532E</string>
 								<string>39DD7AA51256425300DEF963</string>
+								<string>3947A29C11E8F65E006D532E</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
@@ -286,13 +287,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>26</integer>
+									<integer>28</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 199}, {495, 760}}</string>
+							<string>{{0, 0}, {495, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -339,12 +340,11 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>39DD7B7212564EBB00DEF963</string>
+										<string>39DD7BA7125653CD00DEF963</string>
 										<key>history</key>
 										<array>
 											<string>3947A34711E8FB1C006D532E</string>
 											<string>3947A7B311E9B40D006D532E</string>
-											<string>3947A7CE11E9B5AD006D532E</string>
 											<string>39AD64CD11E9F2C00089F4E7</string>
 											<string>39AD65E711EA06DF0089F4E7</string>
 											<string>39BE791B11EAC61900D5B70A</string>
@@ -355,8 +355,6 @@
 											<string>398A4F9411EC985000A49122</string>
 											<string>398A4F9E11EC991A00A49122</string>
 											<string>39DD7A7E125641F000DEF963</string>
-											<string>39DD7A80125641F000DEF963</string>
-											<string>39DD7A82125641F000DEF963</string>
 											<string>39DD7A86125641F000DEF963</string>
 											<string>39DD7A87125641F000DEF963</string>
 											<string>39DD7A88125641F000DEF963</string>
@@ -373,8 +371,12 @@
 											<string>39DD7ADA125643D700DEF963</string>
 											<string>39DD7ADB125643D700DEF963</string>
 											<string>39DD7ADD125643D700DEF963</string>
-											<string>39DD7B7012564EBB00DEF963</string>
-											<string>39DD7B7112564EBB00DEF963</string>
+											<string>39DD7B8C1256529200DEF963</string>
+											<string>39DD7B8D1256529200DEF963</string>
+											<string>39DD7BA3125653CD00DEF963</string>
+											<string>39DD7BA4125653CD00DEF963</string>
+											<string>39DD7BA5125653CD00DEF963</string>
+											<string>39DD7BA6125653CD00DEF963</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -414,8 +416,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {923, 131}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -469,7 +469,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1147, 127}}</string>
+										<string>{{10, 27}, {923, 131}}</string>
+										<key>RubberWindowFrame</key>
+										<string>0 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -691,7 +693,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>39DD7B7312564EBB00DEF963</string>
+		<string>39DD7BA8125653CD00DEF963</string>
 		<string>39DD7A4B12563DE100DEF963</string>
 		<string>39DD7A4C12563DE100DEF963</string>
 		<string>/Users/ashleyis/Documents/Projects/iaic/iaic.xcodeproj</string>

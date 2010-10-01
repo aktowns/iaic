@@ -53,6 +53,15 @@
     NSLog(@"yipeee");
 }
 
+-(NSTabViewItem*)tabViewForTabViewLabeled:(NSString*)label {
+	for (NSTabViewItem* tab in [tabView tabViewItems]) {
+		if ([[tab label] isEqualToString:label])
+			return tab;
+	}
+	NSLog(@"Tab remove panic!");
+	return nil;
+}
+
 -(void)createTabForChannel:(NSString*)channel {
 	[ircSession joinChatRoomNamed:channel];
 	[channels addObject:[[ircSession chatRoomWithName:channel] retain]];
@@ -64,6 +73,13 @@
 								   ];
     ctvc._parent = self;
     [[tabView tabViewItemAtIndex:[[tabView tabViewItems] count]-1] setView:[ctvc view]];
+}
+-(void)closeTabForChannel:(NSString*)channel withMessage:(NSString*)message {
+	NSLog(@"Leaving.. %@", channel);
+	[channels removeObject:[ircSession chatRoomWithName:channel]];
+	NSAttributedString* attrStr = [NSAttributedString attributedStringWithHTMLFragment:message baseURL:nil];
+	[[ircSession chatRoomWithName:channel] partWithReason:attrStr];
+	[tabView removeTabViewItem:[self tabViewForTabViewLabeled:channel]];
 }
 
 -(void)windowDidLoad {
