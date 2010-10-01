@@ -607,7 +607,7 @@
 	39BE77C311EAA8FB00D5B70A /* RubyInterop.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1086, 2912}}";
-			sepNavSelRange = "{816, 0}";
+			sepNavSelRange = "{445, 0}";
 			sepNavVisRange = "{0, 1174}";
 			sepNavWindowFrame = "{{15, 326}, {723, 727}}";
 		};
