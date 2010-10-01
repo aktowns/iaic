@@ -44,15 +44,15 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		256AC3D80F4B6AC300CF3369 /* iaicAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iaicAppDelegate.h; sourceTree = "<group>"; };
-		256AC3D90F4B6AC300CF3369 /* iaicAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iaicAppDelegate.m; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* iaicAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iaicAppDelegate.h; path = Classes/iaicAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* iaicAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iaicAppDelegate.m; path = Classes/iaicAppDelegate.m; sourceTree = "<group>"; };
 		256AC3F00F4B6AF500CF3369 /* iaic_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iaic_Prefix.pch; sourceTree = "<group>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Other Sources/main.m"; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		3947A06C11E8E162006D532E /* ChanWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChanWindowController.h; path = Classes/ChanWindowController.h; sourceTree = SOURCE_ROOT; };
 		3947A06D11E8E162006D532E /* ChanWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChanWindowController.m; path = Classes/ChanWindowController.m; sourceTree = "<group>"; };
-		3947A12A11E8E747006D532E /* ChanTabView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChanTabView.xib; sourceTree = "<group>"; };
+		3947A12A11E8E747006D532E /* ChanTabView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ChanTabView.xib; path = Resources/ChanTabView.xib; sourceTree = "<group>"; };
 		3947A13911E8EB7B006D532E /* ChanTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChanTabViewController.h; path = Classes/ChanTabViewController.h; sourceTree = "<group>"; };
 		3947A13A11E8EB7B006D532E /* ChanTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChanTabViewController.m; path = Classes/ChanTabViewController.m; sourceTree = "<group>"; };
 		3947A15211E8ECB8006D532E /* ChatCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChatCore.framework; path = /Users/ashleyis/Library/Frameworks/ChatCore.framework; sourceTree = "<absolute>"; };
@@ -61,22 +61,22 @@
 		3947A29111E8F5F4006D532E /* tabModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tabModel.h; path = Classes/Models/tabModel.h; sourceTree = "<group>"; };
 		3947A29211E8F5F4006D532E /* tabModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tabModel.m; path = Classes/Models/tabModel.m; sourceTree = "<group>"; };
 		3947A38011E8FCB6006D532E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		3947A5E111E91C89006D532E /* MainTab.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTab.xib; sourceTree = "<group>"; };
-		3947A76411E9B035006D532E /* NSBundleAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSBundleAdditions.m; sourceTree = "<group>"; };
-		3947A76511E9B035006D532E /* NSBundleAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBundleAdditions.h; sourceTree = "<group>"; };
-		3947A76611E9B035006D532E /* NSTextStorageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTextStorageAdditions.m; sourceTree = "<group>"; };
-		3947A76711E9B035006D532E /* NSTextStorageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTextStorageAdditions.h; sourceTree = "<group>"; };
-		3947A76811E9B035006D532E /* NSDateAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateAdditions.m; sourceTree = "<group>"; };
-		3947A76911E9B035006D532E /* NSDateAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDateAdditions.h; sourceTree = "<group>"; };
+		3947A5E111E91C89006D532E /* MainTab.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainTab.xib; path = Resources/MainTab.xib; sourceTree = "<group>"; };
+		3947A76411E9B035006D532E /* NSBundleAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSBundleAdditions.m; path = Classes/External/Colloquy/NSBundleAdditions.m; sourceTree = "<group>"; };
+		3947A76511E9B035006D532E /* NSBundleAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSBundleAdditions.h; path = Classes/External/Colloquy/NSBundleAdditions.h; sourceTree = "<group>"; };
+		3947A76611E9B035006D532E /* NSTextStorageAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSTextStorageAdditions.m; path = Classes/External/Colloquy/NSTextStorageAdditions.m; sourceTree = "<group>"; };
+		3947A76711E9B035006D532E /* NSTextStorageAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSTextStorageAdditions.h; path = Classes/External/Colloquy/NSTextStorageAdditions.h; sourceTree = "<group>"; };
+		3947A76811E9B035006D532E /* NSDateAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDateAdditions.m; path = Classes/External/Colloquy/NSDateAdditions.m; sourceTree = "<group>"; };
+		3947A76911E9B035006D532E /* NSDateAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDateAdditions.h; path = Classes/External/Colloquy/NSDateAdditions.h; sourceTree = "<group>"; };
 		3947A77411E9B069006D532E /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
 		3947A79011E9B17D006D532E /* AGRegex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGRegex.framework; path = /Users/ashleyis/Library/Frameworks/AGRegex.framework; sourceTree = "<absolute>"; };
-		398A4E3D11EC64AE00A49122 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
-		398A4E4111EC7C3F00A49122 /* ScriptView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScriptView.xib; sourceTree = "<group>"; };
+		398A4E3D11EC64AE00A49122 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HomeView.xib; path = Resources/HomeView.xib; sourceTree = "<group>"; };
+		398A4E4111EC7C3F00A49122 /* ScriptView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ScriptView.xib; path = Resources/ScriptView.xib; sourceTree = "<group>"; };
 		398A4E4411EC7FDA00A49122 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Classes/HomeViewController.h; sourceTree = "<group>"; };
 		398A4E4511EC7FDA00A49122 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Classes/HomeViewController.m; sourceTree = "<group>"; };
 		398A4E5711EC7FE800A49122 /* ScriptViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScriptViewController.h; path = Classes/ScriptViewController.h; sourceTree = "<group>"; };
 		398A4E5811EC7FE800A49122 /* ScriptViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScriptViewController.m; path = Classes/ScriptViewController.m; sourceTree = "<group>"; };
-		398A4F8D11EC983000A49122 /* myclient.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = myclient.icns; sourceTree = "<group>"; };
+		398A4F8D11EC983000A49122 /* myclient.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = myclient.icns; path = Resources/myclient.icns; sourceTree = "<group>"; };
 		398A4FAE11ECA23D00A49122 /* NSString+Colour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Colour.h"; path = "Classes/Helpers/NSString+Colour.h"; sourceTree = SOURCE_ROOT; };
 		398A4FAF11ECA23D00A49122 /* NSString+Colour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Colour.m"; path = "Classes/Helpers/NSString+Colour.m"; sourceTree = SOURCE_ROOT; };
 		39AD634B11E9C56D0089F4E7 /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+XMLEntities.h"; path = "Classes/External/mwaterfall/NSString+XMLEntities.h"; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		39BE7D2E11EAE98000D5B70A /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = System/Library/Frameworks/Ruby.framework; sourceTree = SDKROOT; };
 		39BE7D9011EAEDB600D5B70A /* MiscRubyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MiscRubyAdditions.h; path = Classes/Scripting/MiscRubyAdditions.h; sourceTree = "<group>"; };
 		39BE7D9111EAEDB600D5B70A /* MiscRubyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MiscRubyAdditions.m; path = Classes/Scripting/MiscRubyAdditions.m; sourceTree = "<group>"; };
-		39DEFB2D11E8E0D700CC9638 /* ChanWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChanWindow.xib; sourceTree = "<group>"; };
+		39DEFB2D11E8E0D700CC9638 /* ChanWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ChanWindow.xib; path = Resources/ChanWindow.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iaic-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iaic-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* iaic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iaic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -223,12 +223,12 @@
 			isa = PBXGroup;
 			children = (
 				39AD634711E9C5350089F4E7 /* mwaterfall */,
-				3947A74A11E9AF83006D532E /* Colloquy-Borrowed */,
+				3947A74A11E9AF83006D532E /* Colloquy */,
 			);
 			name = External;
 			sourceTree = "<group>";
 		};
-		3947A74A11E9AF83006D532E /* Colloquy-Borrowed */ = {
+		3947A74A11E9AF83006D532E /* Colloquy */ = {
 			isa = PBXGroup;
 			children = (
 				3947A76411E9B035006D532E /* NSBundleAdditions.m */,
@@ -238,7 +238,7 @@
 				3947A76811E9B035006D532E /* NSDateAdditions.m */,
 				3947A76911E9B035006D532E /* NSDateAdditions.h */,
 			);
-			name = "Colloquy-Borrowed";
+			name = Colloquy;
 			sourceTree = "<group>";
 		};
 		39AD634711E9C5350089F4E7 /* mwaterfall */ = {

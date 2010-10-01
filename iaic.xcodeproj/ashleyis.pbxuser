@@ -14,6 +14,13 @@
 			sepNavVisRange = "{0, 696}";
 		};
 	};
+	256AC3F00F4B6AF500CF3369 /* iaic_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1086, 545}}";
+			sepNavSelRange = "{139, 0}";
+			sepNavVisRange = "{0, 139}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 39DEFB2511E8E0A900CC9638 /* iaic */;
@@ -137,6 +144,11 @@
 			39DD73EE125618D000DEF963 /* PBXTextBookmark */ = 39DD73EE125618D000DEF963 /* PBXTextBookmark */;
 			39DD73FA125623F300DEF963 /* PBXTextBookmark */ = 39DD73FA125623F300DEF963 /* PBXTextBookmark */;
 			39DD73FD1256245800DEF963 /* PBXTextBookmark */ = 39DD73FD1256245800DEF963 /* PBXTextBookmark */;
+			39DD7401125626AA00DEF963 /* PBXTextBookmark */ = 39DD7401125626AA00DEF963 /* PBXTextBookmark */;
+			39DD7408125626DD00DEF963 /* PBXTextBookmark */ = 39DD7408125626DD00DEF963 /* PBXTextBookmark */;
+			39DD740B125626F500DEF963 /* PBXTextBookmark */ = 39DD740B125626F500DEF963 /* PBXTextBookmark */;
+			39DD740C125626F500DEF963 /* PBXBookmark */ = 39DD740C125626F500DEF963 /* PBXBookmark */;
+			39DD740D125626F500DEF963 /* PBXTextBookmark */ = 39DD740D125626F500DEF963 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 39DEFB2B11E8E0C900CC9638 /* Source Control */;
 		userBuildSettings = {
@@ -469,7 +481,7 @@
 	398A4FAF11ECA23D00A49122 /* NSString+Colour.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1086, 545}}";
-			sepNavSelRange = "{575, 4}";
+			sepNavSelRange = "{479, 0}";
 			sepNavVisRange = "{0, 602}";
 		};
 	};
@@ -717,6 +729,50 @@
 		rLoc = 575;
 		rType = 0;
 		vrLen = 602;
+		vrLoc = 0;
+	};
+	39DD7401125626AA00DEF963 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398A4FAF11ECA23D00A49122 /* NSString+Colour.m */;
+		name = "NSString+Colour.m: 22";
+		rLen = 0;
+		rLoc = 479;
+		rType = 0;
+		vrLen = 602;
+		vrLoc = 0;
+	};
+	39DD7408125626DD00DEF963 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398A4FAF11ECA23D00A49122 /* NSString+Colour.m */;
+		name = "NSString+Colour.m: 22";
+		rLen = 0;
+		rLoc = 479;
+		rType = 0;
+		vrLen = 602;
+		vrLoc = 0;
+	};
+	39DD740B125626F500DEF963 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398A4FAF11ECA23D00A49122 /* NSString+Colour.m */;
+		name = "NSString+Colour.m: 22";
+		rLen = 0;
+		rLoc = 479;
+		rType = 0;
+		vrLen = 602;
+		vrLoc = 0;
+	};
+	39DD740C125626F500DEF963 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 256AC3F00F4B6AF500CF3369 /* iaic_Prefix.pch */;
+	};
+	39DD740D125626F500DEF963 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3F00F4B6AF500CF3369 /* iaic_Prefix.pch */;
+		name = "iaic_Prefix.pch: 8";
+		rLen = 0;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 139;
 		vrLoc = 0;
 	};
 	39DEFB2511E8E0A900CC9638 /* iaic */ = {
