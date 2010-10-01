@@ -33,11 +33,65 @@
 		39BE77C411EAA8FB00D5B70A /* RubyInterop.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BE77C311EAA8FB00D5B70A /* RubyInterop.m */; };
 		39BE7D2F11EAE98000D5B70A /* Ruby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BE7D2E11EAE98000D5B70A /* Ruby.framework */; };
 		39BE7D9211EAEDB600D5B70A /* MiscRubyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BE7D9111EAEDB600D5B70A /* MiscRubyAdditions.m */; };
+		39DD743E125629B200DEF963 /* PSMTabBarEmbedded.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD743C125629A000DEF963 /* PSMTabBarEmbedded.framework */; };
+		39DD743F125629B200DEF963 /* PSMTabBarFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD7436125629A000DEF963 /* PSMTabBarFramework.framework */; };
 		39DEFB2E11E8E0D700CC9638 /* ChanWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39DEFB2D11E8E0D700CC9638 /* ChanWindow.xib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39DD7433125629A000DEF963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DD740E1256299900DEF963 /* PSMTabBar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D1AC9740486D14A00FE50C9 /* PSMTabBar.ibplugin */;
+			remoteInfo = PSMTabBar;
+		};
+		39DD7435125629A000DEF963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DD740E1256299900DEF963 /* PSMTabBar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53DF68FD067E5B5A0090B5B0 /* PSMTabBarFramework.framework */;
+			remoteInfo = PSMTabBarFramework;
+		};
+		39DD7437125629A000DEF963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DD740E1256299900DEF963 /* PSMTabBar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65140EA50FE5F86400D862D2 /* TestApplication.app */;
+			remoteInfo = TestApplication;
+		};
+		39DD7439125629A000DEF963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DD740E1256299900DEF963 /* PSMTabBar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65371A2D0FEDDF5E0008D1A1 /* IBApplication.app */;
+			remoteInfo = IBApplication;
+		};
+		39DD743B125629A000DEF963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DD740E1256299900DEF963 /* PSMTabBar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65ABCAB71037C5EE0080D020 /* PSMTabBarEmbedded.framework */;
+			remoteInfo = PSMTabBarEmbedded;
+		};
+		39DD760612562D5300DEF963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DD740E1256299900DEF963 /* PSMTabBar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0 /* PSMTabBarFramework */;
+			remoteInfo = PSMTabBarFramework;
+		};
+		39DD760812562D5300DEF963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39DD740E1256299900DEF963 /* PSMTabBar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 65ABCA601037C5EE0080D020 /* PSMTabBarEmbedded */;
+			remoteInfo = PSMTabBarEmbedded;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -55,7 +109,7 @@
 		3947A12A11E8E747006D532E /* ChanTabView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ChanTabView.xib; path = Resources/ChanTabView.xib; sourceTree = "<group>"; };
 		3947A13911E8EB7B006D532E /* ChanTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChanTabViewController.h; path = Classes/ChanTabViewController.h; sourceTree = "<group>"; };
 		3947A13A11E8EB7B006D532E /* ChanTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChanTabViewController.m; path = Classes/ChanTabViewController.m; sourceTree = "<group>"; };
-		3947A15211E8ECB8006D532E /* ChatCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChatCore.framework; path = /Users/ashleyis/Library/Frameworks/ChatCore.framework; sourceTree = "<absolute>"; };
+		3947A15211E8ECB8006D532E /* ChatCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChatCore.framework; path = Frameworks/ChatCore.framework; sourceTree = "<group>"; };
 		3947A15411E8ECB8006D532E /* PSMTabBarControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PSMTabBarControl.framework; path = /Users/ashleyis/Library/Frameworks/PSMTabBarControl.framework; sourceTree = "<absolute>"; };
 		3947A18F11E8EF03006D532E /* lazy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lazy.h; path = Classes/Helpers/lazy.h; sourceTree = "<group>"; };
 		3947A29111E8F5F4006D532E /* tabModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tabModel.h; path = Classes/Models/tabModel.h; sourceTree = "<group>"; };
@@ -69,7 +123,7 @@
 		3947A76811E9B035006D532E /* NSDateAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSDateAdditions.m; path = Classes/External/Colloquy/NSDateAdditions.m; sourceTree = "<group>"; };
 		3947A76911E9B035006D532E /* NSDateAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSDateAdditions.h; path = Classes/External/Colloquy/NSDateAdditions.h; sourceTree = "<group>"; };
 		3947A77411E9B069006D532E /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
-		3947A79011E9B17D006D532E /* AGRegex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGRegex.framework; path = /Users/ashleyis/Library/Frameworks/AGRegex.framework; sourceTree = "<absolute>"; };
+		3947A79011E9B17D006D532E /* AGRegex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGRegex.framework; path = Frameworks/AGRegex.framework; sourceTree = "<group>"; };
 		398A4E3D11EC64AE00A49122 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HomeView.xib; path = Resources/HomeView.xib; sourceTree = "<group>"; };
 		398A4E4111EC7C3F00A49122 /* ScriptView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ScriptView.xib; path = Resources/ScriptView.xib; sourceTree = "<group>"; };
 		398A4E4411EC7FDA00A49122 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Classes/HomeViewController.h; sourceTree = "<group>"; };
@@ -88,6 +142,7 @@
 		39BE7D2E11EAE98000D5B70A /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = System/Library/Frameworks/Ruby.framework; sourceTree = SDKROOT; };
 		39BE7D9011EAEDB600D5B70A /* MiscRubyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MiscRubyAdditions.h; path = Classes/Scripting/MiscRubyAdditions.h; sourceTree = "<group>"; };
 		39BE7D9111EAEDB600D5B70A /* MiscRubyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MiscRubyAdditions.m; path = Classes/Scripting/MiscRubyAdditions.m; sourceTree = "<group>"; };
+		39DD740E1256299900DEF963 /* PSMTabBar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PSMTabBar.xcodeproj; path = Classes/External/psmtabbar/PSMTabBar.xcodeproj; sourceTree = SOURCE_ROOT; };
 		39DEFB2D11E8E0D700CC9638 /* ChanWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ChanWindow.xib; path = Resources/ChanWindow.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iaic-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iaic-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* iaic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iaic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +160,8 @@
 				3947A77511E9B069006D532E /* libxml2.2.dylib in Frameworks */,
 				3947A79111E9B17D006D532E /* AGRegex.framework in Frameworks */,
 				39BE7D2F11EAE98000D5B70A /* Ruby.framework in Frameworks */,
+				39DD743E125629B200DEF963 /* PSMTabBarEmbedded.framework in Frameworks */,
+				39DD743F125629B200DEF963 /* PSMTabBarFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +279,7 @@
 		3947A74911E9AF7B006D532E /* External */ = {
 			isa = PBXGroup;
 			children = (
+				39DD740E1256299900DEF963 /* PSMTabBar.xcodeproj */,
 				39AD634711E9C5350089F4E7 /* mwaterfall */,
 				3947A74A11E9AF83006D532E /* Colloquy */,
 			);
@@ -273,6 +331,18 @@
 			name = Scripting;
 			sourceTree = "<group>";
 		};
+		39DD742B125629A000DEF963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39DD7434125629A000DEF963 /* PSMTabBar.ibplugin */,
+				39DD7436125629A000DEF963 /* PSMTabBarFramework.framework */,
+				39DD7438125629A000DEF963 /* TestApplication.app */,
+				39DD743A125629A000DEF963 /* IBApplication.app */,
+				39DD743C125629A000DEF963 /* PSMTabBarEmbedded.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -287,6 +357,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				39DD760712562D5300DEF963 /* PBXTargetDependency */,
+				39DD760912562D5300DEF963 /* PBXTargetDependency */,
 			);
 			name = iaic;
 			productInstallPath = "$(HOME)/Applications";
@@ -311,12 +383,56 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* iaic */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 39DD742B125629A000DEF963 /* Products */;
+					ProjectRef = 39DD740E1256299900DEF963 /* PSMTabBar.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* iaic */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		39DD7434125629A000DEF963 /* PSMTabBar.ibplugin */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = PSMTabBar.ibplugin;
+			remoteRef = 39DD7433125629A000DEF963 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39DD7436125629A000DEF963 /* PSMTabBarFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PSMTabBarFramework.framework;
+			remoteRef = 39DD7435125629A000DEF963 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39DD7438125629A000DEF963 /* TestApplication.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TestApplication.app;
+			remoteRef = 39DD7437125629A000DEF963 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39DD743A125629A000DEF963 /* IBApplication.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = IBApplication.app;
+			remoteRef = 39DD7439125629A000DEF963 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39DD743C125629A000DEF963 /* PSMTabBarEmbedded.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PSMTabBarEmbedded.framework;
+			remoteRef = 39DD743B125629A000DEF963 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8D1107290486CEB800E47090 /* Resources */ = {
@@ -361,6 +477,19 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		39DD760712562D5300DEF963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PSMTabBarFramework;
+			targetProxy = 39DD760612562D5300DEF963 /* PBXContainerItemProxy */;
+		};
+		39DD760912562D5300DEF963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PSMTabBarEmbedded;
+			targetProxy = 39DD760812562D5300DEF963 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -388,7 +517,7 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../../Library/Frameworks\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -397,9 +526,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iaic_Prefix.pch;
 				HEADER_SEARCH_PATHS = (
-					/Users/ashleyis/Documents/repos/Colloquy/Frameworks/AGRegex,
+					"$(SRCROOT)/Classes/External/psmtabbar/source/",
+					"$(SRCROOT)/Frameworks/AGRegex",
 					/usr/include/,
-					/Users/ashleyis/Documents/repos/psmtabbarcontrol/Source,
 				);
 				INFOPLIST_FILE = "iaic-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";

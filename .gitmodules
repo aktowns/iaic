@@ -1,0 +1,3 @@
+[submodule "Classes/External/psmtabbar"]
+	path = Classes/External/psmtabbar
+	url = http://github.com/dparnell/psmtabbar.git

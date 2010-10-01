@@ -17,7 +17,7 @@
 	256AC3F00F4B6AF500CF3369 /* iaic_Prefix.pch */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1086, 545}}";
-			sepNavSelRange = "{139, 0}";
+			sepNavSelRange = "{86, 0}";
 			sepNavVisRange = "{0, 139}";
 		};
 	};
@@ -149,6 +149,11 @@
 			39DD740B125626F500DEF963 /* PBXTextBookmark */ = 39DD740B125626F500DEF963 /* PBXTextBookmark */;
 			39DD740C125626F500DEF963 /* PBXBookmark */ = 39DD740C125626F500DEF963 /* PBXBookmark */;
 			39DD740D125626F500DEF963 /* PBXTextBookmark */ = 39DD740D125626F500DEF963 /* PBXTextBookmark */;
+			39DD74A912562B9800DEF963 /* PBXTextBookmark */ = 39DD74A912562B9800DEF963 /* PBXTextBookmark */;
+			39DD75E712562CD800DEF963 /* PBXTextBookmark */ = 39DD75E712562CD800DEF963 /* PBXTextBookmark */;
+			39DD761C12562E8800DEF963 /* PBXTextBookmark */ = 39DD761C12562E8800DEF963 /* PBXTextBookmark */;
+			39DD761D12562E8800DEF963 /* XCBuildMessageTextBookmark */ = 39DD761D12562E8800DEF963 /* XCBuildMessageTextBookmark */;
+			39DD761E12562E8800DEF963 /* PBXTextBookmark */ = 39DD761E12562E8800DEF963 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 39DEFB2B11E8E0C900CC9638 /* Source Control */;
 		userBuildSettings = {
@@ -196,8 +201,8 @@
 	};
 	3947A06C11E8E162006D532E /* ChanWindowController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1086, 557}}";
-			sepNavSelRange = "{383, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1086, 545}}";
+			sepNavSelRange = "{594, 0}";
 			sepNavVisRange = "{0, 748}";
 		};
 	};
@@ -773,6 +778,55 @@
 		rLoc = 139;
 		rType = 0;
 		vrLen = 139;
+		vrLoc = 0;
+	};
+	39DD74A912562B9800DEF963 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3F00F4B6AF500CF3369 /* iaic_Prefix.pch */;
+		name = "iaic_Prefix.pch: 8";
+		rLen = 0;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 139;
+		vrLoc = 0;
+	};
+	39DD75E712562CD800DEF963 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3F00F4B6AF500CF3369 /* iaic_Prefix.pch */;
+		name = "iaic_Prefix.pch: 8";
+		rLen = 0;
+		rLoc = 139;
+		rType = 0;
+		vrLen = 139;
+		vrLoc = 0;
+	};
+	39DD761C12562E8800DEF963 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3F00F4B6AF500CF3369 /* iaic_Prefix.pch */;
+		name = "iaic_Prefix.pch: 3";
+		rLen = 0;
+		rLoc = 86;
+		rType = 0;
+		vrLen = 139;
+		vrLoc = 0;
+	};
+	39DD761D12562E8800DEF963 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "PSMTabBarControl.h: No such file or directory";
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 8;
+		rType = 1;
+	};
+	39DD761E12562E8800DEF963 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		name = "ChanWindowController.h: 22";
+		rLen = 0;
+		rLoc = 594;
+		rType = 0;
+		vrLen = 748;
 		vrLoc = 0;
 	};
 	39DEFB2511E8E0A900CC9638 /* iaic */ = {
