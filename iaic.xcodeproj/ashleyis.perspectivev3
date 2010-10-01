@@ -231,8 +231,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -273,7 +271,7 @@
 								<string>39BE77C111EAA8E700D5B70A</string>
 								<string>39AD659511E9FD1D0089F4E7</string>
 								<string>3947A74911E9AF7B006D532E</string>
-								<string>3947A29C11E8F65E006D532E</string>
+								<string>39AD634711E9C5350089F4E7</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
@@ -285,14 +283,15 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>18</integer>
 									<integer>16</integer>
+									<integer>14</integer>
+									<integer>13</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {271, 718}}</string>
+							<string>{{0, 14}, {271, 718}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -320,18 +319,26 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>39DEFB3011E8E0F500CC9638</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>&lt;No Editor&gt;</string>
+								<string>NSString+Colour.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
 										<string>39DEFB3111E8E0F500CC9638</string>
+										<key>PBXProjectModuleLabel</key>
+										<string>NSString+Colour.m</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>39DD73FD1256245800DEF963</string>
 										<key>history</key>
 										<array>
 											<string>3947A2A711E8F6B1006D532E</string>
@@ -344,7 +351,6 @@
 											<string>39BE7CC611EAE86300D5B70A</string>
 											<string>39BE7CF411EAE8CD00D5B70A</string>
 											<string>39BE7D7011EAEC5A00D5B70A</string>
-											<string>39BE7D9B11EAEE0800D5B70A</string>
 											<string>39BE84F411EC33EE00D5B70A</string>
 											<string>39AC693811EC56A500A25B29</string>
 											<string>39AC697611EC591100A25B29</string>

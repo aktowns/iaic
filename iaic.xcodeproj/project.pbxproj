@@ -79,8 +79,8 @@
 		398A4F8D11EC983000A49122 /* myclient.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = myclient.icns; sourceTree = "<group>"; };
 		398A4FAE11ECA23D00A49122 /* NSString+Colour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Colour.h"; path = "Classes/Helpers/NSString+Colour.h"; sourceTree = SOURCE_ROOT; };
 		398A4FAF11ECA23D00A49122 /* NSString+Colour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Colour.m"; path = "Classes/Helpers/NSString+Colour.m"; sourceTree = SOURCE_ROOT; };
-		39AD634B11E9C56D0089F4E7 /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XMLEntities.h"; sourceTree = "<group>"; };
-		39AD634C11E9C56D0089F4E7 /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XMLEntities.m"; sourceTree = "<group>"; };
+		39AD634B11E9C56D0089F4E7 /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+XMLEntities.h"; path = "Classes/External/mwaterfall/NSString+XMLEntities.h"; sourceTree = "<group>"; };
+		39AD634C11E9C56D0089F4E7 /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+XMLEntities.m"; path = "Classes/External/mwaterfall/NSString+XMLEntities.m"; sourceTree = "<group>"; };
 		39AD659611E9FD330089F4E7 /* NSString+ByteConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ByteConversion.h"; path = "Classes/Helpers/NSString+ByteConversion.h"; sourceTree = SOURCE_ROOT; };
 		39AD659711E9FD330089F4E7 /* NSString+ByteConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ByteConversion.m"; path = "Classes/Helpers/NSString+ByteConversion.m"; sourceTree = SOURCE_ROOT; };
 		39BE77C211EAA8FB00D5B70A /* RubyInterop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RubyInterop.h; path = Classes/Scripting/RubyInterop.h; sourceTree = "<group>"; };
@@ -222,7 +222,7 @@
 		3947A74911E9AF7B006D532E /* External */ = {
 			isa = PBXGroup;
 			children = (
-				39AD634711E9C5350089F4E7 /* mwaterfall-github */,
+				39AD634711E9C5350089F4E7 /* mwaterfall */,
 				3947A74A11E9AF83006D532E /* Colloquy-Borrowed */,
 			);
 			name = External;
@@ -241,13 +241,13 @@
 			name = "Colloquy-Borrowed";
 			sourceTree = "<group>";
 		};
-		39AD634711E9C5350089F4E7 /* mwaterfall-github */ = {
+		39AD634711E9C5350089F4E7 /* mwaterfall */ = {
 			isa = PBXGroup;
 			children = (
 				39AD634B11E9C56D0089F4E7 /* NSString+XMLEntities.h */,
 				39AD634C11E9C56D0089F4E7 /* NSString+XMLEntities.m */,
 			);
-			name = "mwaterfall-github";
+			name = mwaterfall;
 			sourceTree = "<group>";
 		};
 		39AD659511E9FD1D0089F4E7 /* Helpers */ = {
