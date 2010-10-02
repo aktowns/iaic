@@ -37,7 +37,6 @@
 -(void)windowDidLoad {
     self.window.title = @"Ikes awkward irc client";
 	tabBar.delegate = self;
-
     [self tabBarSetup];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(testCallback:) name:kRbTest object:nil];
     [RubyInterop ruby_initialize];

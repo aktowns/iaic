@@ -380,6 +380,10 @@
 					NSString* meMsg = [tokens componentsJoinedByString:@" "];
 					[myRoom sendMessage:[[NSAttributedString alloc] initWithString:meMsg] asAction:YES];
 					[self writeLine:[NSString stringWithFormat:@"<span style=\"background-color: #ffcc66;\"><b>*</b> <span style=\"color: #999999\">%@</span> %@</span>",[session nickname], [meMsg stringByEncodingXMLEntities]]];
+				} else if ([rawCmd hasPrefix:@"quit"]) {
+					NSString* quitMsg = [[entryText stringValue] substringFromIndex:1];
+					[session sendRawMessage:quitMsg immediately:YES];
+					[self performSelector:@selector(exitApplication) withObject:nil afterDelay:1];
 				} else {
                     [session sendRawMessage:rawCmd];
                 }
@@ -424,6 +428,10 @@
 //<a name="bottom"> at bottom of page, then window.location='#bottom' .
 
 #pragma mark helpers
+- (void)exitApplication {
+	exit(0);
+}
+
 - (void)writeLine:(NSString *)_content {
     NSLog(@"Writing '%@' to the content buffer", _content);
     NSDateFormatter *timeFormatter = [[[NSDateFormatter alloc] init] autorelease];
