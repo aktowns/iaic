@@ -328,7 +328,7 @@
                         text = newtext;
                     } 
                     [myRoom sendMessage:[[NSAttributedString alloc] initWithString:text] asAction:NO];
-                    [self writeLine:[NSString stringWithFormat:@"&lt;<span style=\"color: #999999\">%@</span>&gt; %@",[session nickname], text]];
+                    [self writeLine:[NSString stringWithFormat:@"&lt;<span style=\"color: #999999\">%@</span>&gt; %@",[session nickname], [text stringByEncodingXMLEntities]]];
                 } else if ([rawCmd hasPrefix:@"echo"]) {
                     NSString* text = [[entryText stringValue] substringFromIndex:5];
                     if ([rawCmd containsString:@"$" ignoringCase:YES]) {
@@ -346,7 +346,7 @@
                         }
                         text = newtext;
                     } 
-                    [self writeLine:[NSString stringWithFormat:@"%@", text]];
+                    [self writeLine:[NSString stringWithFormat:@"%@", [text stringByEncodingXMLEntities]]];
                 } else if ([rawCmd hasPrefix:@"set"]) {
                     NSArray* tokens = [[[entryText stringValue] substringFromIndex:5] componentsSeparatedByString:@" "];
                     int retcode;
@@ -364,7 +364,7 @@
                         response = [NSString stringWithFormat:@"Successfully set '%@'", [tokens objectAtIndex:0]];
                     else 
                         response = [NSString stringWithFormat:@"Failed to set variable '%@'", [tokens objectAtIndex:0]];
-                    [self writeLine:[NSString stringWithFormat:@"%@", response]];
+                    [self writeLine:[NSString stringWithFormat:@"%@", [response stringByEncodingXMLEntities]]];
                 } else if ([rawCmd hasPrefix:@"join"]) {
 					NSArray* tokens = [[[entryText stringValue] substringFromIndex:6] componentsSeparatedByString:@" "];
 					NSArray* rooms = [[tokens componentsJoinedByString:@" "] componentsSeparatedByString:@","];
@@ -379,13 +379,13 @@
 					NSArray* tokens = [[[entryText stringValue] substringFromIndex:4] componentsSeparatedByString:@" "];
 					NSString* meMsg = [tokens componentsJoinedByString:@" "];
 					[myRoom sendMessage:[[NSAttributedString alloc] initWithString:meMsg] asAction:YES];
-					[self writeLine:[NSString stringWithFormat:@"<span style=\"background-color: #ffcc66;\"><b>*</b> <span style=\"color: #999999\">%@</span> %@</span>",[session nickname], meMsg]];
+					[self writeLine:[NSString stringWithFormat:@"<span style=\"background-color: #ffcc66;\"><b>*</b> <span style=\"color: #999999\">%@</span> %@</span>",[session nickname], [meMsg stringByEncodingXMLEntities]]];
 				} else {
                     [session sendRawMessage:rawCmd];
                 }
             } else {
                 [myRoom sendMessage:[[NSAttributedString alloc] initWithString:[entryText stringValue]] asAction:NO];
-                [self writeLine:[NSString stringWithFormat:@"&lt;<span style=\"color: #999999\">%@</span>&gt; %@",[session nickname], [entryText stringValue]]];
+                [self writeLine:[NSString stringWithFormat:@"&lt;<span style=\"color: #999999\">%@</span>&gt; %@",[session nickname], [[entryText stringValue] stringByEncodingXMLEntities]]];
             }
             textBufferOffset = 0;
             [textBuffer addObject:[entryText stringValue]];
