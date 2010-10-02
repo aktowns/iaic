@@ -107,12 +107,13 @@
 
 - (void)roomGotMessage:(NSNotification*)notification {
     NSData* message = [[notification userInfo] objectForKey:@"message"];
-    NSString* user = [[notification userInfo] objectForKey:@"user"];
+    MVChatUser* _user = [[notification userInfo] objectForKey:@"user"];
     //NSString* room = [[notification userInfo] objectForKey:@"room"];
     NSParameterAssert( message != nil );
-	NSParameterAssert( user != nil );
+	NSParameterAssert( _user != nil );
     
     MVChatRoom* chat = notification.object;
+	NSLog(@"chan: %@ ~~ %@", myChannel, chat.name);
     if ([chat.name isEqualToString:myChannel]) {
         /*
         NSFont *baseFont = [[NSFontManager sharedFontManager] fontWithFamily:@"Menlo" traits:( NSUnboldFontMask | NSUnitalicFontMask ) weight:5 size:12.0f];
@@ -140,7 +141,9 @@
         if (_message == nil) 
             return;
         _message = [_message stringByEncodingXMLEntities];
-        [self writeLine:[NSString stringWithFormat:@"&lt;<span style='color:#ff8000'>%@</span>&gt; %@", user, _message]];
+        //[self writeLine:[NSString stringWithFormat:@"&lt;<span style='color:#ff8000'>%@</span>&gt; %@", user, _message]];
+		[self writeLine:[NSString stringWithFormat:@"&lt;%@&gt; %@", [[_user nickname] toHashedColour], _message]];
+
     }
 }
 

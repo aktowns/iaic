@@ -44,6 +44,7 @@
 		39DD78DD1256385A00DEF963 /* libsilcclient.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD78D01256385600DEF963 /* libsilcclient.framework */; };
 		39DD7AB41256428900DEF963 /* PSMTabBarControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD7AAF1256425300DEF963 /* PSMTabBarControl.framework */; };
 		39DD7ABE1256436000DEF963 /* PSMTabBarControl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD7AAF1256425300DEF963 /* PSMTabBarControl.framework */; };
+		39DD7BE012565C6C00DEF963 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD7BDF12565C6C00DEF963 /* libcrypto.dylib */; };
 		39DEFB2E11E8E0D700CC9638 /* ChanWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39DEFB2D11E8E0D700CC9638 /* ChanWindow.xib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -55,28 +56,28 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 39DD7AA51256425300DEF963 /* PSMTabBarControl.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8D1AC9740486D14A00FE50C9 /* PSMTabBarControl.ibplugin */;
+			remoteGlobalIDString = 8D1AC9740486D14A00FE50C9;
 			remoteInfo = PSMTabBarControl;
 		};
 		39DD7AAE1256425300DEF963 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 39DD7AA51256425300DEF963 /* PSMTabBarControl.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 53DF68FD067E5B5A0090B5B0 /* PSMTabBarControl.framework */;
+			remoteGlobalIDString = 53DF68FD067E5B5A0090B5B0;
 			remoteInfo = PSMTabBarControlFramework;
 		};
 		39DD7AB01256425300DEF963 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 39DD7AA51256425300DEF963 /* PSMTabBarControl.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 8BD4395A1185147D00DB4AC3 /* PSMTabBarControlDemo.app */;
+			remoteGlobalIDString = 8BD4395A1185147D00DB4AC3;
 			remoteInfo = PSMTabBarControlDemo;
 		};
 		39DD7AB5125642B200DEF963 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 39DD7AA51256425300DEF963 /* PSMTabBarControl.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0 /* PSMTabBarControlFramework */;
+			remoteGlobalIDString = 53DF68FC067E5B5A0090B5B0;
 			remoteInfo = PSMTabBarControlFramework;
 		};
 /* End PBXContainerItemProxy section */
@@ -154,6 +155,7 @@
 		39DD78681256383900DEF963 /* libsilc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libsilc.framework; path = Frameworks/libsilc.framework; sourceTree = "<group>"; };
 		39DD78D01256385600DEF963 /* libsilcclient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libsilcclient.framework; path = Frameworks/libsilcclient.framework; sourceTree = "<group>"; };
 		39DD7AA51256425300DEF963 /* PSMTabBarControl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PSMTabBarControl.xcodeproj; path = Classes/External/psmtabbarcontrol/Source/PSMTabBarControl.xcodeproj; sourceTree = "<group>"; };
+		39DD7BDF12565C6C00DEF963 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
 		39DEFB2D11E8E0D700CC9638 /* ChanWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ChanWindow.xib; path = Resources/ChanWindow.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iaic-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iaic-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* iaic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iaic.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +177,7 @@
 				39DD76F0125637F400DEF963 /* Acid.framework in Frameworks */,
 				39DD78691256383900DEF963 /* libsilc.framework in Frameworks */,
 				39DD78D11256385600DEF963 /* libsilcclient.framework in Frameworks */,
+				39DD7BE012565C6C00DEF963 /* libcrypto.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +248,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				39DD7BDF12565C6C00DEF963 /* libcrypto.dylib */,
 			);
 			name = iaic;
 			sourceTree = "<group>";

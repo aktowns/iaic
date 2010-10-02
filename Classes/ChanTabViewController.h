@@ -14,6 +14,7 @@
 #import "NSString+XMLEntities.h"
 #import "NSString+ByteConversion.h"
 #import "MiscRubyAdditions.h"
+#import "NSString+Colour.h"
 
 @interface ChanTabViewController : NSViewController <NSTableViewDelegate, NSTableViewDataSource, NSTextFieldDelegate> {
     id _parent;

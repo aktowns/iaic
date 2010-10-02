@@ -82,6 +82,11 @@
 	[tabView removeTabViewItem:[self tabViewForTabViewLabeled:channel]];
 }
 
+- (void)windowWillClose:(NSNotification *)notification {
+	//[ircSession sendRawMessage:@"quit objirc" immediately:YES];
+	exit(0);
+}
+
 -(void)windowDidLoad {
     self.window.title = @"Ikes awkward irc client";
     [self tabBarSetup];
@@ -90,7 +95,7 @@
     //RubyInterop* ri = [[RubyInterop alloc] initWithScript:@"testScript.rb"];
     //RubyInterop* ri2 = [[RubyInterop alloc] initWithScript:@"testScript2.rb"];
 	//NSLog(@"%@ ~ %@", ri, ri2);
-    NSLog(@"%@ - %@", tabBar, [tabBar tabView]);
+    //NSLog(@"%@ - %@", tabBar, [tabBar tabView]);
     //ChanTabViewController* ctvc = [[ChanTabViewController alloc] init];
     //[[tabView tabViewItemAtIndex:0] setView:[ctvc view]];
     //[[tabView tabViewItemAtIndex:0] setLabel:@"test"];
@@ -151,6 +156,9 @@
 }
 
 - (IBAction)closeTab:(id)sender {
+	[channels removeObject:[ircSession chatRoomWithName:[[tabView selectedTabViewItem] label]]];
+	[[ircSession chatRoomWithName:[[tabView selectedTabViewItem] label]] part];
+
 	[tabView removeTabViewItem:[tabView selectedTabViewItem]];
 }
 
