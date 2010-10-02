@@ -31,6 +31,10 @@
 		39BE77C411EAA8FB00D5B70A /* RubyInterop.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BE77C311EAA8FB00D5B70A /* RubyInterop.m */; };
 		39BE7D2F11EAE98000D5B70A /* Ruby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39BE7D2E11EAE98000D5B70A /* Ruby.framework */; };
 		39BE7D9211EAEDB600D5B70A /* MiscRubyAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39BE7D9111EAEDB600D5B70A /* MiscRubyAdditions.m */; };
+		39C551861257AF4300ACF2F0 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C551851257AF4300ACF2F0 /* Growl.framework */; };
+		39C551881257AF4300ACF2F0 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C551871257AF4300ACF2F0 /* Sparkle.framework */; };
+		39C5519E1257AF5F00ACF2F0 /* Growl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 39C551851257AF4300ACF2F0 /* Growl.framework */; };
+		39C5519F1257AF5F00ACF2F0 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 39C551871257AF4300ACF2F0 /* Sparkle.framework */; };
 		39DD76831256355B00DEF963 /* ChatCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3947A15211E8ECB8006D532E /* ChatCore.framework */; };
 		39DD76AF125636A100DEF963 /* ChatCore.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3947A15211E8ECB8006D532E /* ChatCore.framework */; };
 		39DD76B0125636A100DEF963 /* AGRegex.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 3947A79011E9B17D006D532E /* AGRegex.framework */; };
@@ -89,6 +93,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				39C5519E1257AF5F00ACF2F0 /* Growl.framework in Copy Frameworks */,
+				39C5519F1257AF5F00ACF2F0 /* Sparkle.framework in Copy Frameworks */,
 				39DD7ABE1256436000DEF963 /* PSMTabBarControl.framework in Copy Frameworks */,
 				39DD78DD1256385A00DEF963 /* libsilcclient.framework in Copy Frameworks */,
 				39DD78C41256383C00DEF963 /* libsilc.framework in Copy Frameworks */,
@@ -150,6 +156,8 @@
 		39BE7D2E11EAE98000D5B70A /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = System/Library/Frameworks/Ruby.framework; sourceTree = SDKROOT; };
 		39BE7D9011EAEDB600D5B70A /* MiscRubyAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MiscRubyAdditions.h; path = Classes/Scripting/MiscRubyAdditions.h; sourceTree = "<group>"; };
 		39BE7D9111EAEDB600D5B70A /* MiscRubyAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MiscRubyAdditions.m; path = Classes/Scripting/MiscRubyAdditions.m; sourceTree = "<group>"; };
+		39C551851257AF4300ACF2F0 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = Frameworks/Growl.framework; sourceTree = "<group>"; };
+		39C551871257AF4300ACF2F0 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = Frameworks/Sparkle.framework; sourceTree = "<group>"; };
 		39DD76EB125637EA00DEF963 /* TCMPortMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TCMPortMapper.framework; path = Frameworks/TCMPortMapper.framework; sourceTree = "<group>"; };
 		39DD76EF125637F400DEF963 /* Acid.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Acid.framework; path = Frameworks/Acid.framework; sourceTree = "<group>"; };
 		39DD78681256383900DEF963 /* libsilc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libsilc.framework; path = Frameworks/libsilc.framework; sourceTree = "<group>"; };
@@ -178,6 +186,8 @@
 				39DD78691256383900DEF963 /* libsilc.framework in Frameworks */,
 				39DD78D11256385600DEF963 /* libsilcclient.framework in Frameworks */,
 				39DD7BE012565C6C00DEF963 /* libcrypto.dylib in Frameworks */,
+				39C551861257AF4300ACF2F0 /* Growl.framework in Frameworks */,
+				39C551881257AF4300ACF2F0 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,12 +222,15 @@
 				3947A15211E8ECB8006D532E /* ChatCore.framework */,
 				3947A38011E8FCB6006D532E /* WebKit.framework */,
 				3947A77411E9B069006D532E /* libxml2.2.dylib */,
+				39DD7BDF12565C6C00DEF963 /* libcrypto.dylib */,
 				3947A79011E9B17D006D532E /* AGRegex.framework */,
 				39BE7D2E11EAE98000D5B70A /* Ruby.framework */,
 				39DD76EB125637EA00DEF963 /* TCMPortMapper.framework */,
 				39DD76EF125637F400DEF963 /* Acid.framework */,
 				39DD78681256383900DEF963 /* libsilc.framework */,
 				39DD78D01256385600DEF963 /* libsilcclient.framework */,
+				39C551851257AF4300ACF2F0 /* Growl.framework */,
+				39C551871257AF4300ACF2F0 /* Sparkle.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -248,7 +261,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				39DD7BDF12565C6C00DEF963 /* libcrypto.dylib */,
 			);
 			name = iaic;
 			sourceTree = "<group>";
