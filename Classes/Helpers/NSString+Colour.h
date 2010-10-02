@@ -6,10 +6,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#include <openssl/sha.h>
 
 // I shall call this the micolous colour alogorithm
-@interface NSString_Colour : NSObject {
+@interface NSString (Colour)
 
-}
+-(NSString*)toHashedColour;
 
 @end
