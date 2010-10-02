@@ -292,7 +292,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 359}, {495, 760}}</string>
+							<string>{{0, 0}, {495, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -339,7 +339,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>39C550AF1257980C00ACF2F0</string>
+										<string>39C5510312579FEB00ACF2F0</string>
 										<key>history</key>
 										<array>
 											<string>3947A7B311E9B40D006D532E</string>
@@ -357,7 +357,6 @@
 											<string>39DD7A87125641F000DEF963</string>
 											<string>39DD7A88125641F000DEF963</string>
 											<string>39DD7A89125641F000DEF963</string>
-											<string>39DD7A8C125641F000DEF963</string>
 											<string>39DD7A8F125641F000DEF963</string>
 											<string>39DD7AD9125643D700DEF963</string>
 											<string>39DD7ADA125643D700DEF963</string>
@@ -371,14 +370,15 @@
 											<string>39C54F3B12576F2800ACF2F0</string>
 											<string>39C54F3C12576F2800ACF2F0</string>
 											<string>39C54FC2125782FB00ACF2F0</string>
-											<string>39C54FC4125782FB00ACF2F0</string>
 											<string>39C54FFB12578A4C00ACF2F0</string>
 											<string>39C5501112578BBB00ACF2F0</string>
 											<string>39C5503F12578F9E00ACF2F0</string>
 											<string>39C550631257912000ACF2F0</string>
-											<string>39C550A31257974600ACF2F0</string>
-											<string>39C550A41257974600ACF2F0</string>
-											<string>39C550A51257974600ACF2F0</string>
+											<string>39C550BC12579C1E00ACF2F0</string>
+											<string>39C550C812579C5D00ACF2F0</string>
+											<string>39C550E412579EBA00ACF2F0</string>
+											<string>39C5510012579F9800ACF2F0</string>
+											<string>39C5510112579F9800ACF2F0</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -695,7 +695,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>39C550AC125797BD00ACF2F0</string>
+		<string>39C5510412579FEB00ACF2F0</string>
 		<string>39C54D001257215200ACF2F0</string>
 		<string>39C54D011257215200ACF2F0</string>
 		<string>/Users/ashleyis/Documents/Projects/iaic/iaic.xcodeproj</string>

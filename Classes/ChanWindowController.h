@@ -21,6 +21,7 @@
     NSMutableArray* channels;
 }
 
+PROP MVChatConnection* ircSession;
 UB PSMTabBarControl* tabBar;
 UB NSTabView* tabView;
 //@property (nonatomic,retain) IBOutlet NSWindow *window;

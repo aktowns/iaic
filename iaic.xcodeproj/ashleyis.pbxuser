@@ -498,6 +498,42 @@
 			39C550A61257974600ACF2F0 /* PBXTextBookmark */ = 39C550A61257974600ACF2F0 /* PBXTextBookmark */;
 			39C550AB125797BD00ACF2F0 /* PBXTextBookmark */ = 39C550AB125797BD00ACF2F0 /* PBXTextBookmark */;
 			39C550AF1257980C00ACF2F0 /* PBXTextBookmark */ = 39C550AF1257980C00ACF2F0 /* PBXTextBookmark */;
+			39C550B212579B5300ACF2F0 /* PBXTextBookmark */ = 39C550B212579B5300ACF2F0 /* PBXTextBookmark */;
+			39C550B312579B5300ACF2F0 /* PBXTextBookmark */ = 39C550B312579B5300ACF2F0 /* PBXTextBookmark */;
+			39C550B412579B5300ACF2F0 /* PBXTextBookmark */ = 39C550B412579B5300ACF2F0 /* PBXTextBookmark */;
+			39C550B712579B8000ACF2F0 /* PBXTextBookmark */ = 39C550B712579B8000ACF2F0 /* PBXTextBookmark */;
+			39C550BA12579C1E00ACF2F0 /* PBXTextBookmark */ = 39C550BA12579C1E00ACF2F0 /* PBXTextBookmark */;
+			39C550BB12579C1E00ACF2F0 /* PBXTextBookmark */ = 39C550BB12579C1E00ACF2F0 /* PBXTextBookmark */;
+			39C550BC12579C1E00ACF2F0 /* PBXTextBookmark */ = 39C550BC12579C1E00ACF2F0 /* PBXTextBookmark */;
+			39C550BD12579C1E00ACF2F0 /* PBXTextBookmark */ = 39C550BD12579C1E00ACF2F0 /* PBXTextBookmark */;
+			39C550BE12579C1E00ACF2F0 /* PBXTextBookmark */ = 39C550BE12579C1E00ACF2F0 /* PBXTextBookmark */;
+			39C550C712579C5D00ACF2F0 /* PBXTextBookmark */ = 39C550C712579C5D00ACF2F0 /* PBXTextBookmark */;
+			39C550C812579C5D00ACF2F0 /* PBXTextBookmark */ = 39C550C812579C5D00ACF2F0 /* PBXTextBookmark */;
+			39C550C912579C5D00ACF2F0 /* PBXTextBookmark */ = 39C550C912579C5D00ACF2F0 /* PBXTextBookmark */;
+			39C550CA12579C5D00ACF2F0 /* PBXTextBookmark */ = 39C550CA12579C5D00ACF2F0 /* PBXTextBookmark */;
+			39C550CB12579C5D00ACF2F0 /* PBXTextBookmark */ = 39C550CB12579C5D00ACF2F0 /* PBXTextBookmark */;
+			39C550D212579D1A00ACF2F0 /* PBXTextBookmark */ = 39C550D212579D1A00ACF2F0 /* PBXTextBookmark */;
+			39C550D412579D4F00ACF2F0 /* PBXTextBookmark */ = 39C550D412579D4F00ACF2F0 /* PBXTextBookmark */;
+			39C550D712579DC000ACF2F0 /* PBXTextBookmark */ = 39C550D712579DC000ACF2F0 /* PBXTextBookmark */;
+			39C550DA12579DF700ACF2F0 /* PBXTextBookmark */ = 39C550DA12579DF700ACF2F0 /* PBXTextBookmark */;
+			39C550DE12579E4D00ACF2F0 /* PBXTextBookmark */ = 39C550DE12579E4D00ACF2F0 /* PBXTextBookmark */;
+			39C550E012579E6800ACF2F0 /* PBXTextBookmark */ = 39C550E012579E6800ACF2F0 /* PBXTextBookmark */;
+			39C550E312579EBA00ACF2F0 /* PBXTextBookmark */ = 39C550E312579EBA00ACF2F0 /* PBXTextBookmark */;
+			39C550E412579EBA00ACF2F0 /* PBXTextBookmark */ = 39C550E412579EBA00ACF2F0 /* PBXTextBookmark */;
+			39C550E512579EBA00ACF2F0 /* PBXTextBookmark */ = 39C550E512579EBA00ACF2F0 /* PBXTextBookmark */;
+			39C550E612579EBA00ACF2F0 /* PBXTextBookmark */ = 39C550E612579EBA00ACF2F0 /* PBXTextBookmark */;
+			39C550E812579ED000ACF2F0 /* PBXTextBookmark */ = 39C550E812579ED000ACF2F0 /* PBXTextBookmark */;
+			39C550E912579ED800ACF2F0 /* PBXTextBookmark */ = 39C550E912579ED800ACF2F0 /* PBXTextBookmark */;
+			39C550EA12579ED800ACF2F0 /* PBXTextBookmark */ = 39C550EA12579ED800ACF2F0 /* PBXTextBookmark */;
+			39C550EB12579EE600ACF2F0 /* PBXTextBookmark */ = 39C550EB12579EE600ACF2F0 /* PBXTextBookmark */;
+			39C550EC12579EE900ACF2F0 /* PBXTextBookmark */ = 39C550EC12579EE900ACF2F0 /* PBXTextBookmark */;
+			39C550ED12579EEC00ACF2F0 /* PBXTextBookmark */ = 39C550ED12579EEC00ACF2F0 /* PBXTextBookmark */;
+			39C550EE12579EF200ACF2F0 /* PBXTextBookmark */ = 39C550EE12579EF200ACF2F0 /* PBXTextBookmark */;
+			39C550EF12579EF300ACF2F0 /* PBXTextBookmark */ = 39C550EF12579EF300ACF2F0 /* PBXTextBookmark */;
+			39C5510012579F9800ACF2F0 /* PBXTextBookmark */ = 39C5510012579F9800ACF2F0 /* PBXTextBookmark */;
+			39C5510112579F9800ACF2F0 /* PBXTextBookmark */ = 39C5510112579F9800ACF2F0 /* PBXTextBookmark */;
+			39C5510212579F9800ACF2F0 /* PBXTextBookmark */ = 39C5510212579F9800ACF2F0 /* PBXTextBookmark */;
+			39C5510312579FEB00ACF2F0 /* PBXTextBookmark */ = 39C5510312579FEB00ACF2F0 /* PBXTextBookmark */;
 			39DD761C12562E8800DEF963 = 39DD761C12562E8800DEF963 /* PBXTextBookmark */;
 			39DD764A125630D400DEF963 = 39DD764A125630D400DEF963 /* PBXTextBookmark */;
 			39DD764B125630D400DEF963 = 39DD764B125630D400DEF963 /* PBXTextBookmark */;
@@ -714,15 +750,15 @@
 	3947A06C11E8E162006D532E /* ChanWindowController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {862, 556}}";
-			sepNavSelRange = "{979, 0}";
-			sepNavVisRange = "{0, 985}";
+			sepNavSelRange = "{542, 0}";
+			sepNavVisRange = "{0, 1020}";
 		};
 	};
 	3947A06D11E8E162006D532E /* ChanWindowController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1048, 3146}}";
-			sepNavSelRange = "{7901, 0}";
-			sepNavVisRange = "{478, 1858}";
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 2977}}";
+			sepNavSelRange = "{265, 0}";
+			sepNavVisRange = "{6010, 1838}";
 		};
 	};
 	3947A13911E8EB7B006D532E /* ChanTabViewController.h */ = {
@@ -734,14 +770,14 @@
 	};
 	3947A13A11E8EB7B006D532E /* ChanTabViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {3162, 5954}}";
-			sepNavSelRange = "{8861, 0}";
-			sepNavVisRange = "{6569, 3204}";
+			sepNavIntBoundsRect = "{{0, 0}, {3162, 6084}}";
+			sepNavSelRange = "{5224, 0}";
+			sepNavVisRange = "{4451, 2981}";
 		};
 	};
 	3947A18F11E8EF03006D532E /* lazy.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {862, 560}}";
+			sepNavIntBoundsRect = "{{0, 0}, {862, 556}}";
 			sepNavSelRange = "{67, 0}";
 			sepNavVisRange = "{0, 168}";
 		};
@@ -880,7 +916,7 @@
 		rLen = 0;
 		rLoc = 168;
 		rType = 0;
-		vrLen = 222;
+		vrLen = 168;
 		vrLoc = 0;
 	};
 	398A4E6811EC80DE00A49122 /* PBXTextBookmark */ = {
@@ -1263,7 +1299,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 412;
@@ -1553,7 +1589,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 412;
@@ -1713,7 +1749,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 29";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 821;
 		vrLoc = 0;
@@ -1723,7 +1759,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 412;
@@ -3015,7 +3051,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 144";
 		rLen = 0;
-		rLoc = 8455;
+		rLoc = 8503;
 		rType = 0;
 		vrLen = 3471;
 		vrLoc = 6297;
@@ -3025,7 +3061,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 144";
 		rLen = 0;
-		rLoc = 8455;
+		rLoc = 8503;
 		rType = 0;
 		vrLen = 3471;
 		vrLoc = 6297;
@@ -3045,7 +3081,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 144";
 		rLen = 0;
-		rLoc = 8455;
+		rLoc = 8503;
 		rType = 0;
 		vrLen = 1237;
 		vrLoc = 7699;
@@ -3055,7 +3091,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 110";
 		rLen = 0;
-		rLoc = 5303;
+		rLoc = 5382;
 		rType = 0;
 		vrLen = 3328;
 		vrLoc = 5009;
@@ -3065,7 +3101,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 110";
 		rLen = 0;
-		rLoc = 5303;
+		rLoc = 5382;
 		rType = 0;
 		vrLen = 1666;
 		vrLoc = 6671;
@@ -3075,7 +3111,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 110";
 		rLen = 0;
-		rLoc = 5311;
+		rLoc = 5390;
 		rType = 0;
 		vrLen = 3316;
 		vrLoc = 4926;
@@ -3085,7 +3121,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 110";
 		rLen = 0;
-		rLoc = 5311;
+		rLoc = 5390;
 		rType = 0;
 		vrLen = 1705;
 		vrLoc = 6413;
@@ -3095,7 +3131,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 144";
 		rLen = 0;
-		rLoc = 8469;
+		rLoc = 8517;
 		rType = 0;
 		vrLen = 3432;
 		vrLoc = 5517;
@@ -3105,7 +3141,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 144";
 		rLen = 0;
-		rLoc = 8469;
+		rLoc = 8517;
 		rType = 0;
 		vrLen = 3312;
 		vrLoc = 4927;
@@ -3115,7 +3151,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 412;
@@ -3125,7 +3161,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1393;
 		vrLoc = 6511;
@@ -3135,7 +3171,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1507;
 		vrLoc = 6397;
@@ -3145,7 +3181,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 110";
 		rLen = 0;
-		rLoc = 5311;
+		rLoc = 5390;
 		rType = 0;
 		vrLen = 1258;
 		vrLoc = 7101;
@@ -3155,7 +3191,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 6511;
@@ -3165,7 +3201,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 2169;
 		vrLoc = 1486;
@@ -3175,7 +3211,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1781;
 		vrLoc = 5600;
@@ -3195,7 +3231,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 144";
 		rLen = 0;
-		rLoc = 8469;
+		rLoc = 8517;
 		rType = 0;
 		vrLen = 3423;
 		vrLoc = 4926;
@@ -3205,7 +3241,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 116";
 		rLen = 0;
-		rLoc = 5614;
+		rLoc = 5645;
 		rType = 0;
 		vrLen = 3238;
 		vrLoc = 4817;
@@ -3215,7 +3251,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 116";
 		rLen = 0;
-		rLoc = 5614;
+		rLoc = 5645;
 		rType = 0;
 		vrLen = 3238;
 		vrLoc = 4817;
@@ -3225,7 +3261,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 116";
 		rLen = 0;
-		rLoc = 5614;
+		rLoc = 5645;
 		rType = 0;
 		vrLen = 3238;
 		vrLoc = 4817;
@@ -3235,7 +3271,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 6511;
@@ -3245,7 +3281,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 116";
 		rLen = 0;
-		rLoc = 5614;
+		rLoc = 5645;
 		rType = 0;
 		vrLen = 1459;
 		vrLoc = 5009;
@@ -3255,7 +3291,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 116";
 		rLen = 0;
-		rLoc = 5614;
+		rLoc = 5645;
 		rType = 0;
 		vrLen = 2559;
 		vrLoc = 9302;
@@ -3265,7 +3301,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 120";
 		rLen = 0;
-		rLoc = 5765;
+		rLoc = 5795;
 		rType = 0;
 		vrLen = 3198;
 		vrLoc = 5115;
@@ -3275,7 +3311,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 74";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1443;
 		vrLoc = 1034;
@@ -3285,7 +3321,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 30";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 862;
 		vrLoc = 0;
@@ -3295,7 +3331,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 31";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -3305,7 +3341,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 31";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -3315,7 +3351,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 116";
 		rLen = 0;
-		rLoc = 5614;
+		rLoc = 5645;
 		rType = 0;
 		vrLen = 1970;
 		vrLoc = 5707;
@@ -3325,7 +3361,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 31";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 682;
 		vrLoc = 241;
@@ -3335,7 +3371,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 31";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -3345,7 +3381,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 117";
 		rLen = 0;
-		rLoc = 5663;
+		rLoc = 5693;
 		rType = 0;
 		vrLen = 3198;
 		vrLoc = 5115;
@@ -3355,7 +3391,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 74";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1443;
 		vrLoc = 1034;
@@ -3365,7 +3401,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 66";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1610;
 		vrLoc = 1001;
@@ -3375,7 +3411,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 66";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1576;
 		vrLoc = 1001;
@@ -3385,7 +3421,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 31";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 682;
 		vrLoc = 241;
@@ -3395,7 +3431,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 66";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 628;
 		vrLoc = 1325;
@@ -3405,7 +3441,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 66";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1576;
 		vrLoc = 1001;
@@ -3415,7 +3451,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 117";
 		rLen = 0;
-		rLoc = 5663;
+		rLoc = 5693;
 		rType = 0;
 		vrLen = 3198;
 		vrLoc = 5115;
@@ -3425,7 +3461,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 117";
 		rLen = 0;
-		rLoc = 5663;
+		rLoc = 5693;
 		rType = 0;
 		vrLen = 3198;
 		vrLoc = 5115;
@@ -3435,7 +3471,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 121";
 		rLen = 0;
-		rLoc = 5765;
+		rLoc = 5795;
 		rType = 0;
 		vrLen = 3253;
 		vrLoc = 5115;
@@ -3465,7 +3501,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 66";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 392;
@@ -3475,7 +3511,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 127";
 		rLen = 0;
-		rLoc = 6516;
+		rLoc = 6546;
 		rType = 0;
 		vrLen = 2926;
 		vrLoc = 1117;
@@ -3485,7 +3521,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 120";
 		rLen = 0;
-		rLoc = 5705;
+		rLoc = 5735;
 		rType = 0;
 		vrLen = 3365;
 		vrLoc = 5009;
@@ -3495,7 +3531,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 120";
 		rLen = 0;
-		rLoc = 5705;
+		rLoc = 5735;
 		rType = 0;
 		vrLen = 3360;
 		vrLoc = 5009;
@@ -3525,7 +3561,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 31";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -3545,7 +3581,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 57";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1390;
 		vrLoc = 1034;
@@ -3555,7 +3591,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 121";
 		rLen = 0;
-		rLoc = 5765;
+		rLoc = 5795;
 		rType = 0;
 		vrLen = 3348;
 		vrLoc = 5009;
@@ -3565,7 +3601,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 121";
 		rLen = 0;
-		rLoc = 5765;
+		rLoc = 5795;
 		rType = 0;
 		vrLen = 3323;
 		vrLoc = 5009;
@@ -3575,7 +3611,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 121";
 		rLen = 0;
-		rLoc = 5765;
+		rLoc = 5795;
 		rType = 0;
 		vrLen = 3323;
 		vrLoc = 5009;
@@ -3585,7 +3621,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 77";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 886;
 		vrLoc = 2196;
@@ -3595,7 +3631,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 121";
 		rLen = 0;
-		rLoc = 5765;
+		rLoc = 5795;
 		rType = 0;
 		vrLen = 1547;
 		vrLoc = 5297;
@@ -3605,7 +3641,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 121";
 		rLen = 0;
-		rLoc = 5765;
+		rLoc = 5795;
 		rType = 0;
 		vrLen = 3323;
 		vrLoc = 5009;
@@ -3615,7 +3651,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 57";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1390;
 		vrLoc = 1034;
@@ -3625,7 +3661,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 58";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1630;
 		vrLoc = 1208;
@@ -3635,7 +3671,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 58";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1630;
 		vrLoc = 1208;
@@ -3645,7 +3681,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 58";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1630;
 		vrLoc = 1208;
@@ -3655,7 +3691,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 121";
 		rLen = 0;
-		rLoc = 5765;
+		rLoc = 5795;
 		rType = 0;
 		vrLen = 1547;
 		vrLoc = 5297;
@@ -3665,7 +3701,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 58";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 650;
 		vrLoc = 1208;
@@ -3675,7 +3711,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 58";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1411;
 		vrLoc = 1101;
@@ -3685,7 +3721,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 58";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1411;
 		vrLoc = 1101;
@@ -3695,7 +3731,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 58";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 1208;
@@ -3705,7 +3741,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 58";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1411;
 		vrLoc = 1101;
@@ -3715,7 +3751,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 58";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1411;
 		vrLoc = 1101;
@@ -3725,7 +3761,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 58";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 1208;
@@ -3735,7 +3771,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 58";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1411;
 		vrLoc = 1101;
@@ -3745,7 +3781,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 31";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 923;
 		vrLoc = 0;
@@ -3755,7 +3791,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 58";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1131;
 		vrLoc = 197;
@@ -3785,7 +3821,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 117";
 		rLen = 1;
-		rLoc = 5657;
+		rLoc = 5687;
 		rType = 0;
 		vrLen = 3336;
 		vrLoc = 5009;
@@ -3795,7 +3831,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 121";
 		rLen = 0;
-		rLoc = 5765;
+		rLoc = 5795;
 		rType = 0;
 		vrLen = 3358;
 		vrLoc = 5009;
@@ -3805,7 +3841,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 61";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1219;
 		vrLoc = 728;
@@ -3815,7 +3851,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 121";
 		rLen = 0;
-		rLoc = 5717;
+		rLoc = 5747;
 		rType = 0;
 		vrLen = 3361;
 		vrLoc = 5009;
@@ -3825,7 +3861,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 120";
 		rLen = 0;
-		rLoc = 5705;
+		rLoc = 5735;
 		rType = 0;
 		vrLen = 3185;
 		vrLoc = 4927;
@@ -3835,7 +3871,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 120";
 		rLen = 0;
-		rLoc = 5705;
+		rLoc = 5735;
 		rType = 0;
 		vrLen = 3185;
 		vrLoc = 4927;
@@ -3845,7 +3881,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 58";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 635;
 		vrLoc = 1584;
@@ -3855,7 +3891,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 120";
 		rLen = 0;
-		rLoc = 5705;
+		rLoc = 5735;
 		rType = 0;
 		vrLen = 1533;
 		vrLoc = 5297;
@@ -3865,7 +3901,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 120";
 		rLen = 0;
-		rLoc = 5705;
+		rLoc = 5735;
 		rType = 0;
 		vrLen = 3185;
 		vrLoc = 4927;
@@ -3885,7 +3921,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 61";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1219;
 		vrLoc = 728;
@@ -3895,7 +3931,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 63";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1362;
 		vrLoc = 846;
@@ -3905,7 +3941,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 63";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1362;
 		vrLoc = 846;
@@ -3915,7 +3951,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 120";
 		rLen = 0;
-		rLoc = 5705;
+		rLoc = 5735;
 		rType = 0;
 		vrLen = 1533;
 		vrLoc = 5297;
@@ -3925,7 +3961,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 63";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 659;
 		vrLoc = 1250;
@@ -3935,7 +3971,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 63";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1362;
 		vrLoc = 846;
@@ -3945,7 +3981,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 63";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1362;
 		vrLoc = 846;
@@ -3955,7 +3991,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 63";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 659;
 		vrLoc = 1250;
@@ -3965,7 +4001,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 63";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1374;
 		vrLoc = 846;
@@ -3975,7 +4011,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 63";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1374;
 		vrLoc = 846;
@@ -3985,7 +4021,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 120";
 		rLen = 0;
-		rLoc = 5705;
+		rLoc = 5735;
 		rType = 0;
 		vrLen = 3185;
 		vrLoc = 4927;
@@ -3995,7 +4031,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 120";
 		rLen = 0;
-		rLoc = 5705;
+		rLoc = 5735;
 		rType = 0;
 		vrLen = 3198;
 		vrLoc = 4927;
@@ -4005,7 +4041,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 120";
 		rLen = 0;
-		rLoc = 5705;
+		rLoc = 5735;
 		rType = 0;
 		vrLen = 3198;
 		vrLoc = 4927;
@@ -4015,7 +4051,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 63";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 671;
 		vrLoc = 1250;
@@ -4025,7 +4061,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 120";
 		rLen = 0;
-		rLoc = 5705;
+		rLoc = 5735;
 		rType = 0;
 		vrLen = 1546;
 		vrLoc = 5297;
@@ -4035,7 +4071,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 120";
 		rLen = 0;
-		rLoc = 5765;
+		rLoc = 5795;
 		rType = 0;
 		vrLen = 3259;
 		vrLoc = 4927;
@@ -4045,7 +4081,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 32";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 985;
 		vrLoc = 0;
@@ -4055,7 +4091,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 171";
 		rLen = 0;
-		rLoc = 6612;
+		rLoc = 6624;
 		rType = 0;
 		vrLen = 1980;
 		vrLoc = 5825;
@@ -4095,7 +4131,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 120";
 		rLen = 0;
-		rLoc = 5765;
+		rLoc = 5795;
 		rType = 0;
 		vrLen = 3259;
 		vrLoc = 4927;
@@ -4195,7 +4231,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 32";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 985;
 		vrLoc = 0;
@@ -4212,7 +4248,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 23";
 		rLen = 0;
-		rLoc = 428;
+		rLoc = 440;
 		rType = 0;
 		vrLen = 1014;
 		vrLoc = 0;
@@ -4222,7 +4258,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 23";
 		rLen = 0;
-		rLoc = 428;
+		rLoc = 440;
 		rType = 0;
 		vrLen = 1014;
 		vrLoc = 0;
@@ -4232,7 +4268,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 23";
 		rLen = 0;
-		rLoc = 428;
+		rLoc = 440;
 		rType = 0;
 		vrLen = 1014;
 		vrLoc = 0;
@@ -4242,7 +4278,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 23";
 		rLen = 0;
-		rLoc = 428;
+		rLoc = 440;
 		rType = 0;
 		vrLen = 559;
 		vrLoc = 455;
@@ -4252,7 +4288,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 22";
 		rLen = 0;
-		rLoc = 391;
+		rLoc = 403;
 		rType = 0;
 		vrLen = 1521;
 		vrLoc = 121;
@@ -4302,7 +4338,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 22";
 		rLen = 0;
-		rLoc = 391;
+		rLoc = 403;
 		rType = 0;
 		vrLen = 1478;
 		vrLoc = 121;
@@ -4312,7 +4348,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 179";
 		rLen = 0;
-		rLoc = 6750;
+		rLoc = 6762;
 		rType = 0;
 		vrLen = 1848;
 		vrLoc = 6535;
@@ -4322,7 +4358,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 179";
 		rLen = 0;
-		rLoc = 6750;
+		rLoc = 6762;
 		rType = 0;
 		vrLen = 1848;
 		vrLoc = 6535;
@@ -4332,7 +4368,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 179";
 		rLen = 0;
-		rLoc = 6750;
+		rLoc = 6762;
 		rType = 0;
 		vrLen = 778;
 		vrLoc = 6535;
@@ -4342,7 +4378,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 179";
 		rLen = 0;
-		rLoc = 6750;
+		rLoc = 6762;
 		rType = 0;
 		vrLen = 2032;
 		vrLoc = 5883;
@@ -4352,7 +4388,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 183";
 		rLen = 0;
-		rLoc = 6812;
+		rLoc = 6824;
 		rType = 0;
 		vrLen = 2057;
 		vrLoc = 5883;
@@ -4362,7 +4398,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 183";
 		rLen = 0;
-		rLoc = 6812;
+		rLoc = 6824;
 		rType = 0;
 		vrLen = 2057;
 		vrLoc = 5883;
@@ -4372,7 +4408,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 183";
 		rLen = 0;
-		rLoc = 6812;
+		rLoc = 6824;
 		rType = 0;
 		vrLen = 1226;
 		vrLoc = 705;
@@ -4382,7 +4418,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 94";
 		rLen = 0;
-		rLoc = 3843;
+		rLoc = 3855;
 		rType = 0;
 		vrLen = 2016;
 		vrLoc = 2071;
@@ -4392,7 +4428,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 94";
 		rLen = 0;
-		rLoc = 3843;
+		rLoc = 3855;
 		rType = 0;
 		vrLen = 2016;
 		vrLoc = 2071;
@@ -4402,7 +4438,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 94";
 		rLen = 0;
-		rLoc = 3843;
+		rLoc = 3855;
 		rType = 0;
 		vrLen = 2016;
 		vrLoc = 2071;
@@ -4412,7 +4448,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 94";
 		rLen = 0;
-		rLoc = 3843;
+		rLoc = 3855;
 		rType = 0;
 		vrLen = 1040;
 		vrLoc = 506;
@@ -4422,7 +4458,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 94";
 		rLen = 0;
-		rLoc = 3843;
+		rLoc = 3855;
 		rType = 0;
 		vrLen = 1807;
 		vrLoc = 268;
@@ -4432,7 +4468,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 94";
 		rLen = 0;
-		rLoc = 3843;
+		rLoc = 3855;
 		rType = 0;
 		vrLen = 2380;
 		vrLoc = 522;
@@ -4472,7 +4508,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 94";
 		rLen = 0;
-		rLoc = 3843;
+		rLoc = 3855;
 		rType = 0;
 		vrLen = 2323;
 		vrLoc = 579;
@@ -4482,7 +4518,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 94";
 		rLen = 0;
-		rLoc = 3843;
+		rLoc = 3855;
 		rType = 0;
 		vrLen = 1675;
 		vrLoc = 7046;
@@ -4492,7 +4528,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 94";
 		rLen = 0;
-		rLoc = 3843;
+		rLoc = 3855;
 		rType = 0;
 		vrLen = 895;
 		vrLoc = 7046;
@@ -4502,7 +4538,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 94";
 		rLen = 0;
-		rLoc = 3843;
+		rLoc = 3855;
 		rType = 0;
 		vrLen = 1994;
 		vrLoc = 6470;
@@ -4512,7 +4548,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 40";
 		rLen = 0;
-		rLoc = 755;
+		rLoc = 767;
 		rType = 0;
 		vrLen = 1717;
 		vrLoc = 338;
@@ -4522,7 +4558,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 39";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 749;
 		rType = 0;
 		vrLen = 1765;
 		vrLoc = 391;
@@ -4532,7 +4568,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 39";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 749;
 		rType = 0;
 		vrLen = 1765;
 		vrLoc = 391;
@@ -4542,7 +4578,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 39";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 749;
 		rType = 0;
 		vrLen = 1765;
 		vrLoc = 391;
@@ -4552,7 +4588,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 39";
 		rLen = 0;
-		rLoc = 737;
+		rLoc = 749;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 1094;
@@ -4562,7 +4598,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 184";
 		rLen = 0;
-		rLoc = 6812;
+		rLoc = 6824;
 		rType = 0;
 		vrLen = 1749;
 		vrLoc = 6228;
@@ -4572,7 +4608,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 218";
 		rLen = 0;
-		rLoc = 8324;
+		rLoc = 8336;
 		rType = 0;
 		vrLen = 1618;
 		vrLoc = 7105;
@@ -4582,7 +4618,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 180";
 		rLen = 0;
-		rLoc = 6749;
+		rLoc = 6761;
 		rType = 0;
 		vrLen = 1746;
 		vrLoc = 5406;
@@ -4592,7 +4628,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 184";
 		rLen = 26;
-		rLoc = 6787;
+		rLoc = 6799;
 		rType = 0;
 		vrLen = 1759;
 		vrLoc = 5406;
@@ -4602,7 +4638,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 184";
 		rLen = 26;
-		rLoc = 6787;
+		rLoc = 6799;
 		rType = 0;
 		vrLen = 1759;
 		vrLoc = 5406;
@@ -4612,7 +4648,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 184";
 		rLen = 26;
-		rLoc = 6787;
+		rLoc = 6799;
 		rType = 0;
 		vrLen = 861;
 		vrLoc = 5406;
@@ -4622,7 +4658,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 181";
 		rLen = 0;
-		rLoc = 6759;
+		rLoc = 6771;
 		rType = 0;
 		vrLen = 1535;
 		vrLoc = 7055;
@@ -4632,7 +4668,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 181";
 		rLen = 0;
-		rLoc = 6759;
+		rLoc = 6771;
 		rType = 0;
 		vrLen = 1535;
 		vrLoc = 7055;
@@ -4642,7 +4678,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 181";
 		rLen = 0;
-		rLoc = 6759;
+		rLoc = 6771;
 		rType = 0;
 		vrLen = 969;
 		vrLoc = 7055;
@@ -4652,7 +4688,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 32";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 985;
 		vrLoc = 0;
@@ -4662,7 +4698,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 209";
 		rLen = 0;
-		rLoc = 7901;
+		rLoc = 7913;
 		rType = 0;
 		vrLen = 1858;
 		vrLoc = 478;
@@ -4682,7 +4718,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 150";
 		rLen = 0;
-		rLoc = 8768;
+		rLoc = 9091;
 		rType = 0;
 		vrLen = 3537;
 		vrLoc = 5933;
@@ -4692,7 +4728,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 156";
 		rLen = 0;
-		rLoc = 8872;
+		rLoc = 9195;
 		rType = 0;
 		vrLen = 3096;
 		vrLoc = 6569;
@@ -4702,10 +4738,370 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 155";
 		rLen = 0;
-		rLoc = 8861;
+		rLoc = 9184;
 		rType = 0;
 		vrLen = 3204;
 		vrLoc = 6569;
+	};
+	39C550B212579B5300ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		name = "ChanWindowController.h: 32";
+		rLen = 0;
+		rLoc = 1014;
+		rType = 0;
+		vrLen = 985;
+		vrLoc = 0;
+	};
+	39C550B312579B5300ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 149";
+		rLen = 0;
+		rLoc = 8802;
+		rType = 0;
+		vrLen = 3197;
+		vrLoc = 6599;
+	};
+	39C550B412579B5300ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 149";
+		rLen = 0;
+		rLoc = 8802;
+		rType = 0;
+		vrLen = 3207;
+		vrLoc = 6599;
+	};
+	39C550B712579B8000ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 156";
+		rLen = 0;
+		rLoc = 9135;
+		rType = 0;
+		vrLen = 3078;
+		vrLoc = 6599;
+	};
+	39C550BA12579C1E00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 156";
+		rLen = 0;
+		rLoc = 9135;
+		rType = 0;
+		vrLen = 3078;
+		vrLoc = 6599;
+	};
+	39C550BB12579C1E00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 209";
+		rLen = 0;
+		rLoc = 7913;
+		rType = 0;
+		vrLen = 1858;
+		vrLoc = 478;
+	};
+	39C550BC12579C1E00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A18F11E8EF03006D532E /* lazy.h */;
+		name = "lazy.h: 6";
+		rLen = 0;
+		rLoc = 67;
+		rType = 0;
+		vrLen = 168;
+		vrLoc = 0;
+	};
+	39C550BD12579C1E00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		name = "ChanWindowController.h: 23";
+		rLen = 0;
+		rLoc = 543;
+		rType = 0;
+		vrLen = 985;
+		vrLoc = 0;
+	};
+	39C550BE12579C1E00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		name = "ChanWindowController.h: 22";
+		rLen = 0;
+		rLoc = 542;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 0;
+	};
+	39C550C712579C5D00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13911E8EB7B006D532E /* ChanTabViewController.h */;
+		name = "ChanTabViewController.h: 18";
+		rLen = 0;
+		rLoc = 375;
+		rType = 0;
+		vrLen = 1185;
+		vrLoc = 0;
+	};
+	39C550C812579C5D00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		name = "ChanWindowController.h: 22";
+		rLen = 0;
+		rLoc = 542;
+		rType = 0;
+		vrLen = 1020;
+		vrLoc = 0;
+	};
+	39C550C912579C5D00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 15";
+		rLen = 0;
+		rLoc = 265;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 0;
+	};
+	39C550CA12579C5D00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 154";
+		rLen = 0;
+		rLoc = 9018;
+		rType = 0;
+		vrLen = 3080;
+		vrLoc = 6599;
+	};
+	39C550CB12579C5D00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 155";
+		rLen = 0;
+		rLoc = 9080;
+		rType = 0;
+		vrLen = 3080;
+		vrLoc = 6599;
+	};
+	39C550D212579D1A00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 378";
+		rLen = 0;
+		rLoc = 20811;
+		rType = 0;
+		vrLen = 2471;
+		vrLoc = 19069;
+	};
+	39C550D412579D4F00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 376";
+		rLen = 0;
+		rLoc = 20439;
+		rType = 0;
+		vrLen = 2471;
+		vrLoc = 19069;
+	};
+	39C550D712579DC000ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 379";
+		rLen = 0;
+		rLoc = 20808;
+		rType = 0;
+		vrLen = 2809;
+		vrLoc = 18119;
+	};
+	39C550DA12579DF700ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 379";
+		rLen = 0;
+		rLoc = 20771;
+		rType = 0;
+		vrLen = 2768;
+		vrLoc = 18670;
+	};
+	39C550DE12579E4D00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 379";
+		rLen = 0;
+		rLoc = 20730;
+		rType = 0;
+		vrLen = 2779;
+		vrLoc = 18670;
+	};
+	39C550E012579E6800ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 379";
+		rLen = 0;
+		rLoc = 20722;
+		rType = 0;
+		vrLen = 2779;
+		vrLoc = 18670;
+	};
+	39C550E312579EBA00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 15";
+		rLen = 0;
+		rLoc = 265;
+		rType = 0;
+		vrLen = 1444;
+		vrLoc = 3928;
+	};
+	39C550E412579EBA00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13911E8EB7B006D532E /* ChanTabViewController.h */;
+		name = "ChanTabViewController.h: 18";
+		rLen = 0;
+		rLoc = 375;
+		rType = 0;
+		vrLen = 1185;
+		vrLoc = 0;
+	};
+	39C550E512579EBA00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 379";
+		rLen = 0;
+		rLoc = 20722;
+		rType = 0;
+		vrLen = 2952;
+		vrLoc = 16900;
+	};
+	39C550E612579EBA00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 109";
+		rLen = 0;
+		rLoc = 5224;
+		rType = 0;
+		vrLen = 2473;
+		vrLoc = 4351;
+	};
+	39C550E812579ED000ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 109";
+		rLen = 0;
+		rLoc = 5224;
+		rType = 0;
+		vrLen = 2473;
+		vrLoc = 4351;
+	};
+	39C550E912579ED800ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 181";
+		rLen = 0;
+		rLoc = 6771;
+		rType = 0;
+		vrLen = 969;
+		vrLoc = 7067;
+	};
+	39C550EA12579ED800ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 109";
+		rLen = 0;
+		rLoc = 5224;
+		rType = 0;
+		vrLen = 875;
+		vrLoc = 4678;
+	};
+	39C550EB12579EE600ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 111";
+		rLen = 0;
+		rLoc = 5329;
+		rType = 0;
+		vrLen = 2503;
+		vrLoc = 4351;
+	};
+	39C550EC12579EE900ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 111";
+		rLen = 0;
+		rLoc = 5329;
+		rType = 0;
+		vrLen = 2503;
+		vrLoc = 4351;
+	};
+	39C550ED12579EEC00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 111";
+		rLen = 0;
+		rLoc = 5329;
+		rType = 0;
+		vrLen = 905;
+		vrLoc = 4678;
+	};
+	39C550EE12579EF200ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 111";
+		rLen = 0;
+		rLoc = 5355;
+		rType = 0;
+		vrLen = 2529;
+		vrLoc = 4351;
+	};
+	39C550EF12579EF300ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 111";
+		rLen = 0;
+		rLoc = 5355;
+		rType = 0;
+		vrLen = 931;
+		vrLoc = 4678;
+	};
+	39C5510012579F9800ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 15";
+		rLen = 0;
+		rLoc = 265;
+		rType = 0;
+		vrLen = 1838;
+		vrLoc = 6010;
+	};
+	39C5510112579F9800ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 151";
+		rLen = 0;
+		rLoc = 8754;
+		rType = 0;
+		vrLen = 3355;
+		vrLoc = 5674;
+	};
+	39C5510212579F9800ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 155";
+		rLen = 0;
+		rLoc = 8864;
+		rType = 0;
+		vrLen = 3046;
+		vrLoc = 6628;
+	};
+	39C5510312579FEB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 109";
+		rLen = 0;
+		rLoc = 5224;
+		rType = 0;
+		vrLen = 2981;
+		vrLoc = 4451;
 	};
 	39DD761C12562E8800DEF963 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -4722,7 +5118,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 63";
 		rLen = 0;
-		rLoc = 1094;
+		rLoc = 1106;
 		rType = 0;
 		vrLen = 1979;
 		vrLoc = 989;
@@ -4732,7 +5128,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 390";
 		rLen = 11;
-		rLoc = 22767;
+		rLoc = 23506;
 		rType = 0;
 		vrLen = 2057;
 		vrLoc = 19871;
@@ -4792,7 +5188,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 24";
 		rLen = 0;
-		rLoc = 543;
+		rLoc = 578;
 		rType = 0;
 		vrLen = 365;
 		vrLoc = 383;
@@ -4802,7 +5198,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 24";
 		rLen = 0;
-		rLoc = 543;
+		rLoc = 578;
 		rType = 0;
 		vrLen = 748;
 		vrLoc = 0;
@@ -4812,7 +5208,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 24";
 		rLen = 0;
-		rLoc = 543;
+		rLoc = 578;
 		rType = 0;
 		vrLen = 748;
 		vrLoc = 0;
@@ -4822,7 +5218,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 24";
 		rLen = 0;
-		rLoc = 543;
+		rLoc = 578;
 		rType = 0;
 		vrLen = 748;
 		vrLoc = 0;
@@ -4832,7 +5228,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 24";
 		rLen = 0;
-		rLoc = 543;
+		rLoc = 578;
 		rType = 0;
 		vrLen = 365;
 		vrLoc = 383;
@@ -5451,7 +5847,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 62";
 		rLen = 0;
-		rLoc = 1097;
+		rLoc = 1109;
 		rType = 0;
 		vrLen = 2178;
 		vrLoc = 1154;
@@ -5461,7 +5857,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 119";
 		rLen = 0;
-		rLoc = 6752;
+		rLoc = 6764;
 		rType = 0;
 		vrLen = 1395;
 		vrLoc = 4856;
@@ -5521,7 +5917,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10523;
+		rLoc = 10846;
 		rType = 0;
 		vrLen = 2619;
 		vrLoc = 7911;
@@ -5531,7 +5927,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10523;
+		rLoc = 10846;
 		rType = 0;
 		vrLen = 2670;
 		vrLoc = 7911;
@@ -5541,7 +5937,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 166";
 		rLen = 0;
-		rLoc = 10523;
+		rLoc = 10846;
 		rType = 0;
 		vrLen = 2675;
 		vrLoc = 7911;
@@ -5551,7 +5947,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 167";
 		rLen = 0;
-		rLoc = 10523;
+		rLoc = 10846;
 		rType = 0;
 		vrLen = 2677;
 		vrLoc = 7911;
@@ -5561,7 +5957,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 169";
 		rLen = 0;
-		rLoc = 10523;
+		rLoc = 10846;
 		rType = 0;
 		vrLen = 2610;
 		vrLoc = 7911;
@@ -5571,7 +5967,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 156";
 		rLen = 0;
-		rLoc = 9518;
+		rLoc = 9841;
 		rType = 0;
 		vrLen = 3122;
 		vrLoc = 476;
@@ -5581,7 +5977,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 119";
 		rLen = 0;
-		rLoc = 6752;
+		rLoc = 6764;
 		rType = 0;
 		vrLen = 1543;
 		vrLoc = 4708;
@@ -5591,7 +5987,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 70";
 		rLen = 0;
-		rLoc = 1604;
+		rLoc = 1616;
 		rType = 0;
 		vrLen = 2653;
 		vrLoc = 1350;
@@ -5601,7 +5997,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 70";
 		rLen = 0;
-		rLoc = 1604;
+		rLoc = 1616;
 		rType = 0;
 		vrLen = 2251;
 		vrLoc = 2242;
@@ -5611,7 +6007,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 156";
 		rLen = 0;
-		rLoc = 9518;
+		rLoc = 9841;
 		rType = 0;
 		vrLen = 3026;
 		vrLoc = 572;
@@ -5621,7 +6017,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 169";
 		rLen = 0;
-		rLoc = 10523;
+		rLoc = 10846;
 		rType = 0;
 		vrLen = 3008;
 		vrLoc = 8292;
@@ -5631,7 +6027,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10780;
+		rLoc = 11103;
 		rType = 0;
 		vrLen = 2642;
 		vrLoc = 8111;
@@ -5641,7 +6037,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10675;
+		rLoc = 10998;
 		rType = 0;
 		vrLen = 2674;
 		vrLoc = 8111;
@@ -5651,7 +6047,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10570;
+		rLoc = 10893;
 		rType = 0;
 		vrLen = 2698;
 		vrLoc = 8111;
@@ -5661,7 +6057,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10570;
+		rLoc = 10893;
 		rType = 0;
 		vrLen = 2698;
 		vrLoc = 8111;
@@ -5671,7 +6067,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10570;
+		rLoc = 10893;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 10151;
@@ -5681,7 +6077,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10566;
+		rLoc = 10889;
 		rType = 0;
 		vrLen = 2567;
 		vrLoc = 9145;
@@ -5691,7 +6087,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10566;
+		rLoc = 10889;
 		rType = 0;
 		vrLen = 2596;
 		vrLoc = 9145;
@@ -5701,7 +6097,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10566;
+		rLoc = 10889;
 		rType = 0;
 		vrLen = 2596;
 		vrLoc = 9145;
@@ -5711,7 +6107,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10566;
+		rLoc = 10889;
 		rType = 0;
 		vrLen = 782;
 		vrLoc = 9372;
@@ -5721,7 +6117,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 166";
 		rLen = 0;
-		rLoc = 10541;
+		rLoc = 10864;
 		rType = 0;
 		vrLen = 2607;
 		vrLoc = 9145;
@@ -5731,7 +6127,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 166";
 		rLen = 0;
-		rLoc = 10541;
+		rLoc = 10864;
 		rType = 0;
 		vrLen = 2607;
 		vrLoc = 9145;
@@ -5741,7 +6137,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 166";
 		rLen = 0;
-		rLoc = 10541;
+		rLoc = 10864;
 		rType = 0;
 		vrLen = 793;
 		vrLoc = 9372;
@@ -5751,7 +6147,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 167";
 		rLen = 0;
-		rLoc = 10566;
+		rLoc = 10889;
 		rType = 0;
 		vrLen = 2591;
 		vrLoc = 9145;
@@ -5761,7 +6157,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 253";
 		rLen = 0;
-		rLoc = 14292;
+		rLoc = 14546;
 		rType = 0;
 		vrLen = 1495;
 		vrLoc = 12786;
@@ -5771,7 +6167,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 253";
 		rLen = 0;
-		rLoc = 14292;
+		rLoc = 14546;
 		rType = 0;
 		vrLen = 1495;
 		vrLoc = 12786;
@@ -5781,7 +6177,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 250";
 		rLen = 0;
-		rLoc = 14187;
+		rLoc = 14441;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 12786;
@@ -5791,7 +6187,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 169";
 		rLen = 0;
-		rLoc = 10684;
+		rLoc = 11007;
 		rType = 0;
 		vrLen = 3006;
 		vrLoc = 7416;
@@ -5801,7 +6197,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 152";
 		rLen = 0;
-		rLoc = 9252;
+		rLoc = 9575;
 		rType = 0;
 		vrLen = 2541;
 		vrLoc = 4147;
@@ -5811,7 +6207,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 70";
 		rLen = 0;
-		rLoc = 1604;
+		rLoc = 1616;
 		rType = 0;
 		vrLen = 2277;
 		vrLoc = 2216;
@@ -5821,7 +6217,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 90";
 		rLen = 0;
-		rLoc = 1937;
+		rLoc = 1949;
 		rType = 0;
 		vrLen = 2240;
 		vrLoc = 1250;
@@ -5831,7 +6227,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 100";
 		rLen = 0;
-		rLoc = 2463;
+		rLoc = 2475;
 		rType = 0;
 		vrLen = 2304;
 		vrLoc = 1845;
@@ -5841,7 +6237,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 66";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1779;
 		vrLoc = 869;
@@ -5851,7 +6247,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 90";
 		rLen = 38;
-		rLoc = 1930;
+		rLoc = 1942;
 		rType = 0;
 		vrLen = 2290;
 		vrLoc = 1327;
@@ -5861,7 +6257,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 152";
 		rLen = 0;
-		rLoc = 9252;
+		rLoc = 9575;
 		rType = 0;
 		vrLen = 2469;
 		vrLoc = 4219;
@@ -5871,7 +6267,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 354";
 		rLen = 0;
-		rLoc = 19700;
+		rLoc = 19954;
 		rType = 0;
 		vrLen = 2718;
 		vrLoc = 16564;
@@ -5881,7 +6277,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 90";
 		rLen = 38;
-		rLoc = 1930;
+		rLoc = 1942;
 		rType = 0;
 		vrLen = 2290;
 		vrLoc = 1327;
@@ -5891,7 +6287,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 28";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 742;
 		vrLoc = 0;
@@ -5901,7 +6297,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 350";
 		rLen = 0;
-		rLoc = 19285;
+		rLoc = 19539;
 		rType = 0;
 		vrLen = 2718;
 		vrLoc = 16564;
@@ -5911,7 +6307,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 346";
 		rLen = 0;
-		rLoc = 19063;
+		rLoc = 19317;
 		rType = 0;
 		vrLen = 2802;
 		vrLoc = 15489;
@@ -5948,7 +6344,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 20072;
+		rLoc = 20811;
 		rType = 0;
 		vrLen = 2610;
 		vrLoc = 17319;
@@ -5958,7 +6354,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 29";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 821;
 		vrLoc = 0;
@@ -5976,7 +6372,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1800;
 		vrLoc = 1154;
@@ -5986,7 +6382,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 1800;
 		vrLoc = 1154;
@@ -5996,7 +6392,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 20072;
+		rLoc = 20811;
 		rType = 0;
 		vrLen = 2610;
 		vrLoc = 17319;
@@ -6006,7 +6402,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 20072;
+		rLoc = 20811;
 		rType = 0;
 		vrLen = 2610;
 		vrLoc = 17670;
@@ -6016,7 +6412,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 20072;
+		rLoc = 20811;
 		rType = 0;
 		vrLen = 840;
 		vrLoc = 17670;
@@ -6026,7 +6422,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 20072;
+		rLoc = 20811;
 		rType = 0;
 		vrLen = 2619;
 		vrLoc = 16826;
@@ -6036,7 +6432,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 20072;
+		rLoc = 20811;
 		rType = 0;
 		vrLen = 2619;
 		vrLoc = 16826;
@@ -6046,7 +6442,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 20072;
+		rLoc = 20811;
 		rType = 0;
 		vrLen = 2635;
 		vrLoc = 17203;
@@ -6056,7 +6452,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 18;
-		rLoc = 20022;
+		rLoc = 20276;
 		rType = 0;
 		vrLen = 790;
 		vrLoc = 18631;
@@ -6073,7 +6469,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 81";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 711;
 		vrLoc = 1863;
@@ -6093,7 +6489,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 29";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1014;
 		rType = 0;
 		vrLen = 821;
 		vrLoc = 0;
@@ -6103,7 +6499,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 78";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 2174;
 		vrLoc = 1389;
@@ -6113,7 +6509,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 20072;
+		rLoc = 20811;
 		rType = 0;
 		vrLen = 2688;
 		vrLoc = 17203;
@@ -6123,7 +6519,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 20050;
+		rLoc = 20304;
 		rType = 0;
 		vrLen = 2704;
 		vrLoc = 17460;
@@ -6133,7 +6529,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 20050;
+		rLoc = 20304;
 		rType = 0;
 		vrLen = 2704;
 		vrLoc = 17460;
@@ -6153,7 +6549,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 78";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 2174;
 		vrLoc = 1389;
@@ -6163,7 +6559,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 87";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 2259;
 		vrLoc = 1830;
@@ -6173,7 +6569,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 87";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 2277;
 		vrLoc = 1830;
@@ -6183,7 +6579,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 83";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 2365;
 		vrLoc = 1893;
@@ -6223,7 +6619,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 83";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 2497;
 		vrLoc = 1830;
@@ -6233,7 +6629,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 88";
 		rLen = 0;
-		rLoc = 653;
+		rLoc = 665;
 		rType = 0;
 		vrLen = 2279;
 		vrLoc = 1830;
@@ -6243,7 +6639,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 20050;
+		rLoc = 20304;
 		rType = 0;
 		vrLen = 2828;
 		vrLoc = 17382;
@@ -6253,7 +6649,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 160";
 		rLen = 0;
-		rLoc = 6812;
+		rLoc = 6824;
 		rType = 0;
 		vrLen = 1939;
 		vrLoc = 4869;
@@ -6411,7 +6807,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 160";
 		rLen = 0;
-		rLoc = 6812;
+		rLoc = 6824;
 		rType = 0;
 		vrLen = 1825;
 		vrLoc = 4983;
@@ -6421,7 +6817,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 142";
 		rLen = 0;
-		rLoc = 8264;
+		rLoc = 8294;
 		rType = 0;
 		vrLen = 3885;
 		vrLoc = 5779;
@@ -6451,7 +6847,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 82";
 		rLen = 0;
-		rLoc = 521;
+		rLoc = 533;
 		rType = 0;
 		vrLen = 494;
 		vrLoc = 2128;

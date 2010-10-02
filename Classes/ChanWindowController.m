@@ -12,7 +12,7 @@
 @end
 
 @implementation ChanWindowController
-@synthesize tabBar,tabView;
+@synthesize tabBar,tabView, ircSession;
 - (id)init
 {
     self = [super initWithWindowNibName:@"ChanWindow"];

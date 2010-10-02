@@ -107,13 +107,13 @@
 
 - (void)roomGotMessage:(NSNotification*)notification {
     NSData* message = [[notification userInfo] objectForKey:@"message"];
+	BOOL isAction = [[[notification userInfo] objectForKey:@"action"] boolValue];
     MVChatUser* _user = [[notification userInfo] objectForKey:@"user"];
     //NSString* room = [[notification userInfo] objectForKey:@"room"];
     NSParameterAssert( message != nil );
 	NSParameterAssert( _user != nil );
     
     MVChatRoom* chat = notification.object;
-	NSLog(@"chan: %@ ~~ %@", myChannel, chat.name);
     if ([chat.name isEqualToString:myChannel]) {
 		if (![_parent isCurrentTab:myChannel])
 			[_parent tabViewIncrementObjectforTabLabeled:myChannel];
@@ -144,14 +144,19 @@
             return;
         _message = [_message stringByEncodingXMLEntities];
         //[self writeLine:[NSString stringWithFormat:@"&lt;<span style='color:#ff8000'>%@</span>&gt; %@", user, _message]];
-		[self writeLine:[NSString stringWithFormat:@"&lt;%@&gt; %@", [[_user nickname] toHashedColour], _message]];
+		if (!isAction)
+			[self writeLine:[NSString stringWithFormat:@"&lt;%@&gt; %@", [[_user nickname] toHashedColour], _message]];
+		else 
+			[self writeLine:[NSString stringWithFormat:@"<span style=\"background-color: #ffcc66;\"><b>*</b> <span style=\"color: #999999\">%@</span> %@</span>",[[_user nickname] toHashedColour], _message]];
+
 
     } else if([_parent isCurrentTab:myChannel]){
 		NSString* _message = [NSString stringOrNilFromData:message];
         if (_message == nil) 
             return;
         _message = [_message stringByEncodingXMLEntities];
-		[self writeLine:[NSString stringWithFormat:@"[%@] Mentioned your name in '%@' (%@)",
+		if ([_message containsString:[[_parent ircSession] nickname]]) 
+			[self writeLine:[NSString stringWithFormat:@"[%@] Mentioned your name in '%@' (%@)",
 						 [[_user nickname] toHashedColour], chat.name, _message]];
 	}
 }
@@ -246,7 +251,6 @@
 
 
 -(void)userNickChange:(NSNotification*)notification {
-    NSLog(@"%@ - %@", [notification userInfo], notification.object);
     MVChatUser* user = notification.object;
     if ([[myRoom.memberUsers allObjects] containsObject:user]) {
         NSString* oldName = [notification.userInfo objectForKey:@"oldNickname"];
@@ -371,6 +375,11 @@
 					NSArray* tokens = [[[entryText stringValue] substringFromIndex:6] componentsSeparatedByString:@" "];
 					NSString* partMsg = [tokens componentsJoinedByString:@" "];
 					[_parent closeTabForChannel:myChannel withMessage:partMsg];
+				} else if ([rawCmd hasPrefix:@"me"]) {
+					NSArray* tokens = [[[entryText stringValue] substringFromIndex:4] componentsSeparatedByString:@" "];
+					NSString* meMsg = [tokens componentsJoinedByString:@" "];
+					[myRoom sendMessage:[[NSAttributedString alloc] initWithString:meMsg] asAction:YES];
+					[self writeLine:[NSString stringWithFormat:@"<span style=\"background-color: #ffcc66;\"><b>*</b> <span style=\"color: #999999\">%@</span> %@</span>",[session nickname], meMsg]];
 				} else {
                     [session sendRawMessage:rawCmd];
                 }
