@@ -9,18 +9,9 @@
 #import "ChanWindowController.h"
 
 @implementation iaicAppDelegate
-
-//@synthesize window;
-
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    NSLog(@"Finished loading..");
-    	// Insert code here to initialize your application 
-        //ChanWindowController* cwc = [[ChanWindowController alloc] initWithWindowNibName:@"ChanWindow"];
-        //    [cwc showWindow:self];
+    LOG(@"Finished loading..");
     ChanWindowController* cwc = [[ChanWindowController alloc] init];
     [cwc showWindow:self];
-    //[window setIsVisible:NO];
 }
-
-
 @end

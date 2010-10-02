@@ -18,9 +18,8 @@
     self = [super initWithWindowNibName:@"ChanWindow"];
     if (self)
     {
-        NSLog(@"ChanWindowController loaded");
+        LOG(@"ChanWindowController loaded");
         [tabBar setTabView:tabView];
-        //initialize stuff
     }
     return self;
 }
@@ -30,7 +29,7 @@
 #pragma mark -
 
 - (void)windowWillClose:(NSNotification *)notification {
-	//[ircSession sendRawMessage:@"quit objirc" immediately:YES];
+	[ircSession sendRawMessage:@"quit objirc" immediately:YES];
 	exit(0);
 }
 
@@ -42,24 +41,10 @@
     [RubyInterop ruby_initialize];
     //RubyInterop* ri = [[RubyInterop alloc] initWithScript:@"testScript.rb"];
     //RubyInterop* ri2 = [[RubyInterop alloc] initWithScript:@"testScript2.rb"];
-	//NSLog(@"%@ ~ %@", ri, ri2);
-    //NSLog(@"%@ - %@", tabBar, [tabBar tabView]);
-    //ChanTabViewController* ctvc = [[ChanTabViewController alloc] init];
-    //[[tabView tabViewItemAtIndex:0] setView:[ctvc view]];
-    //[[tabView tabViewItemAtIndex:0] setLabel:@"test"];
-    //[[tabView tabViewItemAtIndex:1] setLabel:@"baw"];
     ircSession = [[[MVChatConnection alloc] initWithServer:@"irc.streetgeek.com.au" type:MVChatConnectionIRCType port:6667 user:@"objircc"] retain];
     [ircSession connect];
-    //NSString* mainChan = @"#streetgeek";
-    //[ircSession joinChatRoomNamed:mainChan];
-    //[ircSession joinChatRoomNamed:@"#test"];
-    //[channels addObject:[[ircSession chatRoomWithName:mainChan] retain]];
-    //[channels addObject:[[ircSession chatRoomWithName:@"#test"] retain]];
-//    [self addNewTab:self objectCount:0];
-	[self createTabForChannel:@"#test"];
-    //[self addNewTab:self objectCount:0];
-    //[self addNewTab:self objectCount:1];
-//    [self addNewTab:self objectCount:0];
+   	[self createTabForChannel:@"#test"];
+
 	/*
     [[tabView tabViewItemAtIndex:0] setLabel:@"Home"];
     HomeViewController* hvc = [[HomeViewController alloc] init];
@@ -67,29 +52,10 @@
     [[tabView tabViewItemAtIndex:3] setLabel:@"Scripts"];
     ScriptViewController* svc = [[ScriptViewController alloc] init];
     [[tabView tabViewItemAtIndex:3] setView:[svc view]];*/
-/*
-    [[tabView tabViewItemAtIndex:1] setLabel:mainChan];
-    ChanTabViewController* ctvc = [[ChanTabViewController alloc] 
-                                   initWithMyRoom:[[ircSession chatRoomWithName:mainChan]retain]
-                                   andSession:[ircSession retain]
-                                  ];
-    ctvc._parent = self;
-    [[tabView tabViewItemAtIndex:1] setView:[ctvc view]];
-    [[tabView tabViewItemAtIndex:2] setLabel:@"#test"];
-    ChanTabViewController* ctvc2 = [[ChanTabViewController alloc] 
-                                   initWithMyRoom:[[ircSession chatRoomWithName:@"#test"]retain]
-                                   andSession:[ircSession retain]
-                                   ];
-    ctvc2._parent = self;
-    [[tabView tabViewItemAtIndex:2] setView:[ctvc2 view]];
- */
     //[tabView selectTabViewItem:[tabView tabViewItemAtIndex:1]];
     //ChanTabViewController* ctvc = [[ChanTabViewController alloc] init];
     //[[tabView tabViewItemAtIndex:0] setView:[ctvc view]];
-    //[[tabView tabViewItemAtIndex:1] setLabel:@"#test"];
     //[[tabView tabViewItemAtIndex:2] setLabel:@"@Plugins"];
-    //ircChannel = [[ircSession chatRoomWithName:@"#main"] retain];
-    //NSLog(@"Joined %@", gah.name);
     //NSAttributedString* wth = [[NSAttributedString alloc] initWithString:@"werd"];
     //[ircChannel sendMessage:wth asAction:YES];
 }
@@ -125,7 +91,7 @@
 }
 
 -(void)testCallback:(NSNotification*) notification {
-    NSLog(@"yipeee");
+    LOG(@"yipeee");
 }
 
 -(void)tabViewIncrementObjectforTabLabeled:(NSString*)label {
@@ -166,7 +132,7 @@
     [[tabView tabViewItemAtIndex:[[tabView tabViewItems] count]-1] setView:[ctvc view]];
 }
 -(void)closeTabForChannel:(NSString*)channel withMessage:(NSString*)message {
-	NSLog(@"Leaving.. %@", channel);
+	LOG(@"Leaving.. %@", channel);
 	[channels removeObject:[ircSession chatRoomWithName:channel]];
 	NSAttributedString* attrStr = [NSAttributedString attributedStringWithHTMLFragment:message baseURL:nil];
 	[[ircSession chatRoomWithName:channel] partWithReason:attrStr];
@@ -178,7 +144,7 @@
 }
 
 - (IBAction)closeTab:(id)sender {
-	NSLog(@"Closing tab..");
+	LOG(@"Closing tab..");
 }
 
 - (void)stopProcessing:(id)sender {
@@ -212,7 +178,7 @@
     return YES;
 }
 - (void)tabView:(NSTabView *)aTabView didCloseTabViewItem:(NSTabViewItem *)tabViewItem {
-	NSLog(@"didCloseTabViewItem: %@", [tabViewItem label]);
+	LOG(@"didCloseTabViewItem: %@", [tabViewItem label]);
 }
 
 - (PSMTabBarControl *)tabBar {

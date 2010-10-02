@@ -68,9 +68,7 @@
         myChannel = chatroom.name;
         textBuffer = [[NSMutableArray arrayWithCapacity:0] retain];
         [textBuffer addObject:@""];
-        textBufferOffset = -1;
-        
-        NSLog(@"ChanTabView initialized");
+        textBufferOffset = -1;        
     }
     return self;
 }
@@ -94,15 +92,13 @@
     NSDictionary* payload = notification.object;
     if ([[payload valueForKey:kCBScriptCommandType] isEqualToString:kCBScriptCommandWriteLine] && 
         [[payload valueForKey:kCBScriptCommandPayloadArgs1] isEqualToString:myChannel]) 
-        NSLog(@"WriteLine script command fired");
+        LOG(@"WriteLine script command fired");
         [self writeLine:[[payload valueForKey:kCBScriptCommandPayloadArgs0] stringByEncodingXMLEntities]];
 }
 
 #pragma mark IRC notifications
 - (void)rawMessage:(NSNotification*)notification {
     //NSString* raw = [NSString stringOrNilFromData:[notification.userInfo objectForKey:@"messageData"]];
-    //if (raw != nil)
-    //    NSLog(@"%@", raw);
 }
 
 - (void)roomGotMessage:(NSNotification*)notification {
@@ -164,7 +160,7 @@
 -(void)joinedRoom:(NSNotification*)notification {
     MVChatRoom* room = notification.object;
     if ([room.name isEqualToString:myChannel]) {
-        NSLog(@"Really joined %@ (rec: %@)", room.name, myChannel);
+        LOG(@"Really joined %@ (rec: %@)", room.name, myChannel);
         //NSString* htmlStatusFormat = @"<span style='width: 100\%; background-color: #c0c0c0;'>&nbsp;%@&nbsp;</span> <br />";
         NSString* topicHtml = [NSString stringOrNilFromData:myRoom.topic];
         if (topicHtml != nil)
@@ -177,7 +173,6 @@
                                                                @"body{ color: #666666; background-color: #e6e6e6;"
                                                                @"font-size: 12px; font-family: menlo; }" //line-height: 140%%;
                                                                @"</style><script>window.location='#bottom'</script></head><body>%@%@",topicHtml, joinHtml]] retain];
-        NSLog(@"%@", webContentbuffer);
         [[content mainFrame] loadHTMLString:webContentbuffer baseURL:nil];
         nicklist = [[NSMutableArray arrayWithArray:[room.memberUsers allObjects]] retain];
 		[nicklist sortUsingComparator:^(id nick1, id nick2) 
@@ -193,14 +188,13 @@
 }
 
 -(void)nicknameAccepted:(NSNotification*)notification {
-    //NSLog(@"Nickname accepted! %@ - %@", notification.object, notification.userInfo);
+    //LOG(@"Nickname accepted! %@ - %@", notification.object, notification.userInfo);
     [self _writeLine:[NSString stringAsStatus:[NSString stringWithFormat:@"<b>You are now known as</b> %@", [session.nickname asUser]]]];
 }
 -(void)nicknameDenied:(NSNotification*)notification {
-    NSLog(@"Nickname denied! %@ - %@", notification.object, notification.userInfo);
+    LOG(@"Nickname denied! %@ - %@", notification.object, notification.userInfo);
 }
 -(void)userJoined:(NSNotification*)notification {
-    //NSLog(@"%@", [notification userInfo]);
     if ([self isMyChannel:notification]) {
         MVChatUser* user = [[notification userInfo] objectForKey:@"user"];
         NSString* longUser = [NSString stringWithFormat:@"%@!%@@%@", [user.nickname asUser], user.username, user.address];
@@ -305,7 +299,6 @@
 
 - (BOOL)control:(NSControl*)control textView:(NSTextView*)textView doCommandBySelector:(SEL)commandSelector {
     BOOL result = NO;
-    //NSLog(@"CommandSelector: %@", NSStringFromSelector(commandSelector));
     if (commandSelector == @selector(insertNewline:)) {
         if (![[entryText stringValue] isEqualToString:@""] && webContentbuffer != nil) {
             if ([[entryText stringValue] hasPrefix:@"/"]) {
@@ -400,7 +393,6 @@
     else if (commandSelector == @selector(insertTab:)) {
         NSMutableArray* words = [NSMutableArray arrayWithArray:[[entryText stringValue] componentsSeparatedByString:@" "]];
         NSString* lastWord = [words objectAtIndex:[words count]-1];
-        //NSLog(@"Lastword is %@", lastWord);
         if ([self getNickFor:lastWord] != nil) {
             [words removeLastObject];
             [words addObject:[self getNickFor:lastWord]];
@@ -433,7 +425,7 @@
 }
 
 - (void)writeLine:(NSString *)_content {
-    NSLog(@"Writing '%@' to the content buffer", _content);
+    LOG(@"Writing '%@' to the content buffer", _content);
     NSDateFormatter *timeFormatter = [[[NSDateFormatter alloc] init] autorelease];
 	[timeFormatter setDateStyle:NSDateFormatterNoStyle];
 	[timeFormatter setTimeStyle:NSDateFormatterMediumStyle];
@@ -443,7 +435,7 @@
     [[content mainFrame] loadHTMLString:[NSString stringWithFormat:@"%@<a name=\"bottom\">&nbsp;</a>",webContentbuffer] baseURL:nil];
 }
 - (void)_writeLine:(NSString *)_content {
-    NSLog(@"Writing '%@' to the content buffer", _content);
+    LOG(@"Writing '%@' to the content buffer", _content);
     webContentbuffer = [[NSMutableString stringWithString:[webContentbuffer stringByAppendingFormat:@"%@", _content]] retain];
     [[content mainFrame] loadHTMLString:[NSString stringWithFormat:@"%@<a name=\"bottom\">&nbsp;</a>",webContentbuffer] baseURL:nil];
 }
@@ -465,7 +457,6 @@
     // UserClass *newClass = [nicklist objectAtIndex:rowIndex];
     //theRecord = newClass.Nickname;
     //theValue = @"nick";//[theRecord objectForKey:[aTableColumn identifier]];
-    //NSLog(@"Showing row: %i(/%i)", rowIndex, [nicklist count]);
     //NSCell *testCell = [[NSCell alloc] initTextCell:[[nicklist objectAtIndex:rowIndex] Nickname]];
     //NSCell *testCell = [[NSCell alloc] initTextCell:[[nicklist objectAtIndex:rowIndex] nickname]];
     NSCell *testCell = [[NSCell alloc] initTextCell:[[[myRoom.memberUsers allObjects] objectAtIndex:rowIndex] nickname]];

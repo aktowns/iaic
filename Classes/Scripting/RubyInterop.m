@@ -32,8 +32,7 @@ VALUE IAIC_klass;
 /* Static ruby embedded because macruby requires gc compiles which fuck everything up royally */
 static VALUE t_init(VALUE self)
 {
-    //NSLog(@"!!");
-    //NSLog(@"%s",STR2CSTR(klass));
+    //LOG(@"%s",STR2CSTR(klass));
     //VALUE arr;
     //arr = rb_ary_new();
     //rb_iv_set(self, "@arr", arr);
@@ -41,16 +40,16 @@ static VALUE t_init(VALUE self)
 }
 
 static VALUE _rbCallbackManager(VALUE self, VALUE aKlass, VALUE anObject, VALUE callback) {
-    NSLog(@"Ruby code requesting a callback: %@", [NSString fromRubyString:anObject]);
+    LOG(@"Ruby code requesting a callback: %@", [NSString fromRubyString:anObject]);
     // Lets create the class instance here.... (prepend? iaic_)
     //
     NSString* instance_name =  [NSString stringWithFormat:@"iaic_%@",[NSString fromRubyString:aKlass]];
     VALUE ourklass;
     if (rb_gv_get([instance_name UTF8String]) == Qnil) {
-        NSLog(@"Creating a new class.");
+        LOG(@"Creating a new class.");
         ourklass = rb_class_new_instance(0, 0, rb_const_get(rb_cObject, rb_intern([[NSString fromRubyString:aKlass] UTF8String])));
     } else {
-        NSLog(@"Class already exists.");
+        LOG(@"Class already exists.");
         ourklass = rb_gv_get([instance_name UTF8String]);
     }
     rb_gv_set([instance_name UTF8String], ourklass);
@@ -160,7 +159,7 @@ static VALUE _rbTest (VALUE _self){
     NSDictionary* cObj = notification.object;
     NSAssert([cObj valueForKey:kCBType], @"Invalid type specified");
     if ([[cObj valueForKey:kCBType] isEqualTo:kCBTypeRegister] && [[cObj valueForKey:kCBFileName] isEqualTo:filename]) {
-        NSLog(@"Registering a new callback! (%@.%@[%@] <%@>)", [cObj valueForKey:kCBKlassDef], [cObj valueForKey:kCBMethodDef], [cObj valueForKey:kCBCallbackType], [NSString stringWithUTF8String:rbfile]);
+        LOG(@"Registering a new callback! (%@.%@[%@] <%@>)", [cObj valueForKey:kCBKlassDef], [cObj valueForKey:kCBMethodDef], [cObj valueForKey:kCBCallbackType], [NSString stringWithUTF8String:rbfile]);
         //NSDictionary* klassmeth = [NSDictionary dictionaryWithObjectsAndKeys:[cObj valueForKey:kCBMethodDef] forKey:kCBMethodDef]
         //[registeredCallbacks setObject:[cObj valueForKey:kCBMethodDef] forKey:[cObj valueForKey:kCBCallbackType]];
         [registeredCallbacks setObject:cObj forKey:[cObj valueForKey:kCBCallbackType]];
@@ -170,26 +169,24 @@ static VALUE _rbTest (VALUE _self){
 -(void)fireCallback:(NSString*)callbackType content:(NSDictionary*)content {
     for (NSString* key in registeredCallbacks) {
         if ([key isEqualToString:callbackType] && [[[registeredCallbacks valueForKey:key] valueForKey:kCBFileName] isEqualToString:filename]) {
-            NSLog(@"Firing (on file %@) '%@'",filename, [[registeredCallbacks valueForKey:key] valueForKey:kCBMethodDef]);
+            LOG(@"Firing (on file %@) '%@'",filename, [[registeredCallbacks valueForKey:key] valueForKey:kCBMethodDef]);
             ID funct = rb_intern([[[registeredCallbacks valueForKey:key] valueForKey:kCBMethodDef] UTF8String]);
             VALUE class = rb_gv_get([[[registeredCallbacks valueForKey:key] valueForKey:kCBKlassDef] UTF8String]);
             rb_funcall(class, funct, 1, [content toRubyHash]);
             
             if ([[[registeredCallbacks valueForKey:key] valueForKey:kCBCallbackType] isEqualToString:kRBonLoad])
             {
-                NSLog(@"Removing %@.%@(%@) callback for onLoad as its onehit", [[registeredCallbacks valueForKey:key] valueForKey:kCBKlassDef], [[registeredCallbacks valueForKey:key] valueForKey:kCBMethodDef],filename);
+                LOG(@"Removing %@.%@(%@) callback for onLoad as its onehit", [[registeredCallbacks valueForKey:key] valueForKey:kCBKlassDef], [[registeredCallbacks valueForKey:key] valueForKey:kCBMethodDef],filename);
                 // loop+mutating = bad
                 //[registeredCallbacks removeObjectForKey:kRBonLoad];
                 //[[NSNotificationCenter defaultCenter] removeObserver:self forKeyPath:kRBonLoad];
             }
-            //NSLog(@"Fire ended with retval: %i", NUM2INT(retVal));
             // Should probably handle the above and error check, meh.
         }
     }
 }
 
 -(void)callbackHandler:(NSNotification*)notification {
-    //NSLog(@"Attempting to fire %@", notification.name);
     [self fireCallback:notification.name content:notification.object];
 }
 
