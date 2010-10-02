@@ -27,4 +27,7 @@ UB NSTabView* tabView;
 -(void)setTitle:(NSString *)title;
 -(void)createTabForChannel:(NSString *)channel;
 -(void)closeTabForChannel:(NSString *)channel withMessage:(NSString *)message;
+-(BOOL)isCurrentTab:(NSString *)channel;
+-(NSTabViewItem*)tabViewForTabViewLabeled:(NSString *)label;
+-(void)tabViewIncrementObjectforTabLabeled:(NSString *)label;
 @end

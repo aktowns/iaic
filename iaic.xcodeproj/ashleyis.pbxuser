@@ -9,7 +9,7 @@
 	};
 	256AC3D90F4B6AC300CF3369 /* iaicAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {862, 579}}";
+			sepNavIntBoundsRect = "{{0, 0}, {862, 556}}";
 			sepNavSelRange = "{636, 0}";
 			sepNavVisRange = "{0, 643}";
 		};
@@ -353,6 +353,151 @@
 			39C54F641257752400ACF2F0 /* PBXTextBookmark */ = 39C54F641257752400ACF2F0 /* PBXTextBookmark */;
 			39C54F651257752400ACF2F0 /* PBXTextBookmark */ = 39C54F651257752400ACF2F0 /* PBXTextBookmark */;
 			39C54F661257752B00ACF2F0 /* PBXTextBookmark */ = 39C54F661257752B00ACF2F0 /* PBXTextBookmark */;
+			39C54F8112577BD500ACF2F0 /* PBXTextBookmark */ = 39C54F8112577BD500ACF2F0 /* PBXTextBookmark */;
+			39C54F8212577BD500ACF2F0 /* PBXTextBookmark */ = 39C54F8212577BD500ACF2F0 /* PBXTextBookmark */;
+			39C54F8312577BD500ACF2F0 /* PBXTextBookmark */ = 39C54F8312577BD500ACF2F0 /* PBXTextBookmark */;
+			39C54F8412577BD500ACF2F0 /* PBXTextBookmark */ = 39C54F8412577BD500ACF2F0 /* PBXTextBookmark */;
+			39C54F8612577BFA00ACF2F0 /* PBXTextBookmark */ = 39C54F8612577BFA00ACF2F0 /* PBXTextBookmark */;
+			39C54F8712577C0000ACF2F0 /* PBXTextBookmark */ = 39C54F8712577C0000ACF2F0 /* PBXTextBookmark */;
+			39C54F8812577C0000ACF2F0 /* PBXTextBookmark */ = 39C54F8812577C0000ACF2F0 /* PBXTextBookmark */;
+			39C54F8D12577C4100ACF2F0 /* PBXTextBookmark */ = 39C54F8D12577C4100ACF2F0 /* PBXTextBookmark */;
+			39C54F8E12577C4100ACF2F0 /* PBXTextBookmark */ = 39C54F8E12577C4100ACF2F0 /* PBXTextBookmark */;
+			39C54F8F12577C4100ACF2F0 /* PBXTextBookmark */ = 39C54F8F12577C4100ACF2F0 /* PBXTextBookmark */;
+			39C54F9012577C4100ACF2F0 /* PBXTextBookmark */ = 39C54F9012577C4100ACF2F0 /* PBXTextBookmark */;
+			39C54F9112577C5600ACF2F0 /* PBXTextBookmark */ = 39C54F9112577C5600ACF2F0 /* PBXTextBookmark */;
+			39C54F9212577C6900ACF2F0 /* PBXTextBookmark */ = 39C54F9212577C6900ACF2F0 /* PBXTextBookmark */;
+			39C54F9312577C6900ACF2F0 /* PBXTextBookmark */ = 39C54F9312577C6900ACF2F0 /* PBXTextBookmark */;
+			39C54F9412577C6C00ACF2F0 /* PBXTextBookmark */ = 39C54F9412577C6C00ACF2F0 /* PBXTextBookmark */;
+			39C54F9512577C6C00ACF2F0 /* PBXTextBookmark */ = 39C54F9512577C6C00ACF2F0 /* PBXTextBookmark */;
+			39C54F9612577C6C00ACF2F0 /* PBXTextBookmark */ = 39C54F9612577C6C00ACF2F0 /* PBXTextBookmark */;
+			39C54F9C12577C9F00ACF2F0 /* PBXTextBookmark */ = 39C54F9C12577C9F00ACF2F0 /* PBXTextBookmark */;
+			39C54F9E12577DFB00ACF2F0 /* PBXTextBookmark */ = 39C54F9E12577DFB00ACF2F0 /* PBXTextBookmark */;
+			39C54F9F12577DFB00ACF2F0 /* PBXTextBookmark */ = 39C54F9F12577DFB00ACF2F0 /* PBXTextBookmark */;
+			39C54FA012577DFB00ACF2F0 /* PBXTextBookmark */ = 39C54FA012577DFB00ACF2F0 /* PBXTextBookmark */;
+			39C54FA112577DFB00ACF2F0 /* PBXTextBookmark */ = 39C54FA112577DFB00ACF2F0 /* PBXTextBookmark */;
+			39C54FA212577DFB00ACF2F0 /* PBXTextBookmark */ = 39C54FA212577DFB00ACF2F0 /* PBXTextBookmark */;
+			39C54FA512577E2200ACF2F0 /* PBXTextBookmark */ = 39C54FA512577E2200ACF2F0 /* PBXTextBookmark */;
+			39C54FC1125782FB00ACF2F0 /* PBXTextBookmark */ = 39C54FC1125782FB00ACF2F0 /* PBXTextBookmark */;
+			39C54FC2125782FB00ACF2F0 /* PBXTextBookmark */ = 39C54FC2125782FB00ACF2F0 /* PBXTextBookmark */;
+			39C54FC3125782FB00ACF2F0 /* PBXTextBookmark */ = 39C54FC3125782FB00ACF2F0 /* PBXTextBookmark */;
+			39C54FC4125782FB00ACF2F0 /* PBXTextBookmark */ = 39C54FC4125782FB00ACF2F0 /* PBXTextBookmark */;
+			39C54FC5125782FB00ACF2F0 /* PBXTextBookmark */ = 39C54FC5125782FB00ACF2F0 /* PBXTextBookmark */;
+			39C54FC6125782FB00ACF2F0 /* PBXTextBookmark */ = 39C54FC6125782FB00ACF2F0 /* PBXTextBookmark */;
+			39C54FC7125782FB00ACF2F0 /* PBXTextBookmark */ = 39C54FC7125782FB00ACF2F0 /* PBXTextBookmark */;
+			39C54FC91257832A00ACF2F0 /* PBXTextBookmark */ = 39C54FC91257832A00ACF2F0 /* PBXTextBookmark */;
+			39C54FCA1257833B00ACF2F0 /* PBXTextBookmark */ = 39C54FCA1257833B00ACF2F0 /* PBXTextBookmark */;
+			39C54FCB1257833B00ACF2F0 /* PBXTextBookmark */ = 39C54FCB1257833B00ACF2F0 /* PBXTextBookmark */;
+			39C54FD01257836A00ACF2F0 /* PBXTextBookmark */ = 39C54FD01257836A00ACF2F0 /* PBXTextBookmark */;
+			39C54FD11257836A00ACF2F0 /* PBXTextBookmark */ = 39C54FD11257836A00ACF2F0 /* PBXTextBookmark */;
+			39C54FD21257836A00ACF2F0 /* PBXTextBookmark */ = 39C54FD21257836A00ACF2F0 /* PBXTextBookmark */;
+			39C54FD41257838900ACF2F0 /* PBXTextBookmark */ = 39C54FD41257838900ACF2F0 /* PBXTextBookmark */;
+			39C54FD51257838E00ACF2F0 /* PBXTextBookmark */ = 39C54FD51257838E00ACF2F0 /* PBXTextBookmark */;
+			39C54FD61257852300ACF2F0 /* PBXTextBookmark */ = 39C54FD61257852300ACF2F0 /* PBXTextBookmark */;
+			39C54FD71257852300ACF2F0 /* PBXTextBookmark */ = 39C54FD71257852300ACF2F0 /* PBXTextBookmark */;
+			39C54FDC1257854200ACF2F0 /* PBXTextBookmark */ = 39C54FDC1257854200ACF2F0 /* PBXTextBookmark */;
+			39C54FDE1257854400ACF2F0 /* PBXTextBookmark */ = 39C54FDE1257854400ACF2F0 /* PBXTextBookmark */;
+			39C54FDF1257854500ACF2F0 /* PBXTextBookmark */ = 39C54FDF1257854500ACF2F0 /* PBXTextBookmark */;
+			39C54FE01257854700ACF2F0 /* PBXTextBookmark */ = 39C54FE01257854700ACF2F0 /* PBXTextBookmark */;
+			39C54FE11257855900ACF2F0 /* PBXTextBookmark */ = 39C54FE11257855900ACF2F0 /* PBXTextBookmark */;
+			39C54FE21257855B00ACF2F0 /* PBXTextBookmark */ = 39C54FE21257855B00ACF2F0 /* PBXTextBookmark */;
+			39C54FE31257855D00ACF2F0 /* PBXTextBookmark */ = 39C54FE31257855D00ACF2F0 /* PBXTextBookmark */;
+			39C54FF812578A4C00ACF2F0 /* PBXTextBookmark */ = 39C54FF812578A4C00ACF2F0 /* PBXTextBookmark */;
+			39C54FF912578A4C00ACF2F0 /* PBXTextBookmark */ = 39C54FF912578A4C00ACF2F0 /* PBXTextBookmark */;
+			39C54FFA12578A4C00ACF2F0 /* PBXTextBookmark */ = 39C54FFA12578A4C00ACF2F0 /* PBXTextBookmark */;
+			39C54FFB12578A4C00ACF2F0 /* PBXTextBookmark */ = 39C54FFB12578A4C00ACF2F0 /* PBXTextBookmark */;
+			39C54FFC12578A4C00ACF2F0 /* PBXTextBookmark */ = 39C54FFC12578A4C00ACF2F0 /* PBXTextBookmark */;
+			39C54FFD12578A4C00ACF2F0 /* PBXTextBookmark */ = 39C54FFD12578A4C00ACF2F0 /* PBXTextBookmark */;
+			39C5500512578B8B00ACF2F0 /* PBXTextBookmark */ = 39C5500512578B8B00ACF2F0 /* PBXTextBookmark */;
+			39C5500612578B8B00ACF2F0 /* PBXTextBookmark */ = 39C5500612578B8B00ACF2F0 /* PBXTextBookmark */;
+			39C5500712578B8B00ACF2F0 /* PBXTextBookmark */ = 39C5500712578B8B00ACF2F0 /* PBXTextBookmark */;
+			39C5500912578B9F00ACF2F0 /* PBXTextBookmark */ = 39C5500912578B9F00ACF2F0 /* PBXTextBookmark */;
+			39C5500A12578BA100ACF2F0 /* PBXTextBookmark */ = 39C5500A12578BA100ACF2F0 /* PBXTextBookmark */;
+			39C5500B12578BA100ACF2F0 /* PBXTextBookmark */ = 39C5500B12578BA100ACF2F0 /* PBXTextBookmark */;
+			39C5501012578BBB00ACF2F0 /* PBXTextBookmark */ = 39C5501012578BBB00ACF2F0 /* PBXTextBookmark */;
+			39C5501112578BBB00ACF2F0 /* PBXTextBookmark */ = 39C5501112578BBB00ACF2F0 /* PBXTextBookmark */;
+			39C5501212578BBB00ACF2F0 /* PBXTextBookmark */ = 39C5501212578BBB00ACF2F0 /* PBXTextBookmark */;
+			39C5501312578BBB00ACF2F0 /* PBXTextBookmark */ = 39C5501312578BBB00ACF2F0 /* PBXTextBookmark */;
+			39C5501512578C4D00ACF2F0 /* PBXTextBookmark */ = 39C5501512578C4D00ACF2F0 /* PBXTextBookmark */;
+			39C5501612578C5100ACF2F0 /* PBXTextBookmark */ = 39C5501612578C5100ACF2F0 /* PBXTextBookmark */;
+			39C5501712578C5100ACF2F0 /* PBXTextBookmark */ = 39C5501712578C5100ACF2F0 /* PBXTextBookmark */;
+			39C5501812578C5200ACF2F0 /* PBXTextBookmark */ = 39C5501812578C5200ACF2F0 /* PBXTextBookmark */;
+			39C5501912578C5E00ACF2F0 /* PBXTextBookmark */ = 39C5501912578C5E00ACF2F0 /* PBXTextBookmark */;
+			39C5501A12578C6100ACF2F0 /* PBXTextBookmark */ = 39C5501A12578C6100ACF2F0 /* PBXTextBookmark */;
+			39C5501D12578C7000ACF2F0 /* PBXTextBookmark */ = 39C5501D12578C7000ACF2F0 /* PBXTextBookmark */;
+			39C5502312578C9600ACF2F0 /* PBXTextBookmark */ = 39C5502312578C9600ACF2F0 /* PBXTextBookmark */;
+			39C5502412578C9600ACF2F0 /* PBXTextBookmark */ = 39C5502412578C9600ACF2F0 /* PBXTextBookmark */;
+			39C5502512578C9600ACF2F0 /* PBXTextBookmark */ = 39C5502512578C9600ACF2F0 /* PBXTextBookmark */;
+			39C5502712578CA900ACF2F0 /* PBXTextBookmark */ = 39C5502712578CA900ACF2F0 /* PBXTextBookmark */;
+			39C5502812578CAA00ACF2F0 /* PBXTextBookmark */ = 39C5502812578CAA00ACF2F0 /* PBXTextBookmark */;
+			39C5502912578CAA00ACF2F0 /* PBXTextBookmark */ = 39C5502912578CAA00ACF2F0 /* PBXTextBookmark */;
+			39C5503612578D0800ACF2F0 /* PBXTextBookmark */ = 39C5503612578D0800ACF2F0 /* PBXTextBookmark */;
+			39C5503712578D0800ACF2F0 /* PBXTextBookmark */ = 39C5503712578D0800ACF2F0 /* PBXTextBookmark */;
+			39C5503812578D0800ACF2F0 /* PBXTextBookmark */ = 39C5503812578D0800ACF2F0 /* PBXTextBookmark */;
+			39C5503912578D0800ACF2F0 /* PBXTextBookmark */ = 39C5503912578D0800ACF2F0 /* PBXTextBookmark */;
+			39C5503E12578F9E00ACF2F0 /* PBXTextBookmark */ = 39C5503E12578F9E00ACF2F0 /* PBXTextBookmark */;
+			39C5503F12578F9E00ACF2F0 /* PBXTextBookmark */ = 39C5503F12578F9E00ACF2F0 /* PBXTextBookmark */;
+			39C5504012578F9E00ACF2F0 /* PBXTextBookmark */ = 39C5504012578F9E00ACF2F0 /* PBXTextBookmark */;
+			39C5504112578F9E00ACF2F0 /* PBXTextBookmark */ = 39C5504112578F9E00ACF2F0 /* PBXTextBookmark */;
+			39C5504312578FA600ACF2F0 /* PBXTextBookmark */ = 39C5504312578FA600ACF2F0 /* PBXTextBookmark */;
+			39C5504412578FAA00ACF2F0 /* PBXTextBookmark */ = 39C5504412578FAA00ACF2F0 /* PBXTextBookmark */;
+			39C5504512578FC100ACF2F0 /* PBXTextBookmark */ = 39C5504512578FC100ACF2F0 /* PBXTextBookmark */;
+			39C5504612578FE800ACF2F0 /* PBXTextBookmark */ = 39C5504612578FE800ACF2F0 /* PBXTextBookmark */;
+			39C5504712578FE800ACF2F0 /* PBXTextBookmark */ = 39C5504712578FE800ACF2F0 /* PBXTextBookmark */;
+			39C5504812578FE800ACF2F0 /* PBXTextBookmark */ = 39C5504812578FE800ACF2F0 /* PBXTextBookmark */;
+			39C5504912578FE900ACF2F0 /* PBXTextBookmark */ = 39C5504912578FE900ACF2F0 /* PBXTextBookmark */;
+			39C5504A12578FE900ACF2F0 /* PBXTextBookmark */ = 39C5504A12578FE900ACF2F0 /* PBXTextBookmark */;
+			39C5504F1257907100ACF2F0 /* PBXTextBookmark */ = 39C5504F1257907100ACF2F0 /* PBXTextBookmark */;
+			39C550501257907100ACF2F0 /* PBXTextBookmark */ = 39C550501257907100ACF2F0 /* PBXTextBookmark */;
+			39C550511257907100ACF2F0 /* PBXTextBookmark */ = 39C550511257907100ACF2F0 /* PBXTextBookmark */;
+			39C550531257907F00ACF2F0 /* PBXTextBookmark */ = 39C550531257907F00ACF2F0 /* PBXTextBookmark */;
+			39C550541257908000ACF2F0 /* PBXTextBookmark */ = 39C550541257908000ACF2F0 /* PBXTextBookmark */;
+			39C550551257908B00ACF2F0 /* PBXTextBookmark */ = 39C550551257908B00ACF2F0 /* PBXTextBookmark */;
+			39C55058125790A100ACF2F0 /* PBXTextBookmark */ = 39C55058125790A100ACF2F0 /* PBXTextBookmark */;
+			39C55059125790A100ACF2F0 /* PBXTextBookmark */ = 39C55059125790A100ACF2F0 /* PBXTextBookmark */;
+			39C5505A125790A100ACF2F0 /* PBXTextBookmark */ = 39C5505A125790A100ACF2F0 /* PBXTextBookmark */;
+			39C550621257912000ACF2F0 /* PBXTextBookmark */ = 39C550621257912000ACF2F0 /* PBXTextBookmark */;
+			39C550631257912000ACF2F0 /* PBXTextBookmark */ = 39C550631257912000ACF2F0 /* PBXTextBookmark */;
+			39C550641257912000ACF2F0 /* PBXTextBookmark */ = 39C550641257912000ACF2F0 /* PBXTextBookmark */;
+			39C550651257912000ACF2F0 /* PBXTextBookmark */ = 39C550651257912000ACF2F0 /* PBXTextBookmark */;
+			39C550671257912B00ACF2F0 /* PBXTextBookmark */ = 39C550671257912B00ACF2F0 /* PBXTextBookmark */;
+			39C550681257912E00ACF2F0 /* PBXTextBookmark */ = 39C550681257912E00ACF2F0 /* PBXTextBookmark */;
+			39C550691257912F00ACF2F0 /* PBXTextBookmark */ = 39C550691257912F00ACF2F0 /* PBXTextBookmark */;
+			39C5506E1257915F00ACF2F0 /* PBXTextBookmark */ = 39C5506E1257915F00ACF2F0 /* PBXTextBookmark */;
+			39C550701257916F00ACF2F0 /* PBXTextBookmark */ = 39C550701257916F00ACF2F0 /* PBXTextBookmark */;
+			39C55071125791FE00ACF2F0 /* PBXTextBookmark */ = 39C55071125791FE00ACF2F0 /* PBXTextBookmark */;
+			39C550761257922D00ACF2F0 /* PBXTextBookmark */ = 39C550761257922D00ACF2F0 /* PBXTextBookmark */;
+			39C550781257923500ACF2F0 /* PBXTextBookmark */ = 39C550781257923500ACF2F0 /* PBXTextBookmark */;
+			39C550791257923700ACF2F0 /* PBXTextBookmark */ = 39C550791257923700ACF2F0 /* PBXTextBookmark */;
+			39C5507A1257928A00ACF2F0 /* PBXTextBookmark */ = 39C5507A1257928A00ACF2F0 /* PBXTextBookmark */;
+			39C5507B1257928B00ACF2F0 /* PBXTextBookmark */ = 39C5507B1257928B00ACF2F0 /* PBXTextBookmark */;
+			39C5507C1257929F00ACF2F0 /* PBXTextBookmark */ = 39C5507C1257929F00ACF2F0 /* PBXTextBookmark */;
+			39C5507D1257929F00ACF2F0 /* PBXTextBookmark */ = 39C5507D1257929F00ACF2F0 /* PBXTextBookmark */;
+			39C5507E1257929F00ACF2F0 /* PBXTextBookmark */ = 39C5507E1257929F00ACF2F0 /* PBXTextBookmark */;
+			39C5507F125792AE00ACF2F0 /* PBXTextBookmark */ = 39C5507F125792AE00ACF2F0 /* PBXTextBookmark */;
+			39C55080125792AE00ACF2F0 /* PBXTextBookmark */ = 39C55080125792AE00ACF2F0 /* PBXTextBookmark */;
+			39C55081125792AE00ACF2F0 /* PBXTextBookmark */ = 39C55081125792AE00ACF2F0 /* PBXTextBookmark */;
+			39C55082125792B000ACF2F0 /* PBXTextBookmark */ = 39C55082125792B000ACF2F0 /* PBXTextBookmark */;
+			39C55083125792BE00ACF2F0 /* PBXTextBookmark */ = 39C55083125792BE00ACF2F0 /* PBXTextBookmark */;
+			39C550861257943000ACF2F0 /* PBXTextBookmark */ = 39C550861257943000ACF2F0 /* PBXTextBookmark */;
+			39C5508A1257944800ACF2F0 /* PBXTextBookmark */ = 39C5508A1257944800ACF2F0 /* PBXTextBookmark */;
+			39C5508C1257945A00ACF2F0 /* PBXTextBookmark */ = 39C5508C1257945A00ACF2F0 /* PBXTextBookmark */;
+			39C5508D1257945F00ACF2F0 /* PBXTextBookmark */ = 39C5508D1257945F00ACF2F0 /* PBXTextBookmark */;
+			39C5508E1257946900ACF2F0 /* PBXTextBookmark */ = 39C5508E1257946900ACF2F0 /* PBXTextBookmark */;
+			39C5508F1257947800ACF2F0 /* PBXTextBookmark */ = 39C5508F1257947800ACF2F0 /* PBXTextBookmark */;
+			39C550941257949A00ACF2F0 /* PBXTextBookmark */ = 39C550941257949A00ACF2F0 /* PBXTextBookmark */;
+			39C55099125794E700ACF2F0 /* PBXTextBookmark */ = 39C55099125794E700ACF2F0 /* PBXTextBookmark */;
+			39C5509B1257951700ACF2F0 /* PBXTextBookmark */ = 39C5509B1257951700ACF2F0 /* PBXTextBookmark */;
+			39C5509C1257951900ACF2F0 /* PBXTextBookmark */ = 39C5509C1257951900ACF2F0 /* PBXTextBookmark */;
+			39C5509D1257951B00ACF2F0 /* PBXTextBookmark */ = 39C5509D1257951B00ACF2F0 /* PBXTextBookmark */;
+			39C5509E1257953000ACF2F0 /* PBXTextBookmark */ = 39C5509E1257953000ACF2F0 /* PBXTextBookmark */;
+			39C5509F1257953300ACF2F0 /* PBXTextBookmark */ = 39C5509F1257953300ACF2F0 /* PBXTextBookmark */;
+			39C550A01257953800ACF2F0 /* PBXTextBookmark */ = 39C550A01257953800ACF2F0 /* PBXTextBookmark */;
+			39C550A31257974600ACF2F0 /* PBXTextBookmark */ = 39C550A31257974600ACF2F0 /* PBXTextBookmark */;
+			39C550A41257974600ACF2F0 /* PBXTextBookmark */ = 39C550A41257974600ACF2F0 /* PBXTextBookmark */;
+			39C550A51257974600ACF2F0 /* PBXTextBookmark */ = 39C550A51257974600ACF2F0 /* PBXTextBookmark */;
+			39C550A61257974600ACF2F0 /* PBXTextBookmark */ = 39C550A61257974600ACF2F0 /* PBXTextBookmark */;
+			39C550AB125797BD00ACF2F0 /* PBXTextBookmark */ = 39C550AB125797BD00ACF2F0 /* PBXTextBookmark */;
+			39C550AF1257980C00ACF2F0 /* PBXTextBookmark */ = 39C550AF1257980C00ACF2F0 /* PBXTextBookmark */;
 			39DD761C12562E8800DEF963 = 39DD761C12562E8800DEF963 /* PBXTextBookmark */;
 			39DD764A125630D400DEF963 = 39DD764A125630D400DEF963 /* PBXTextBookmark */;
 			39DD764B125630D400DEF963 = 39DD764B125630D400DEF963 /* PBXTextBookmark */;
@@ -569,15 +714,15 @@
 	3947A06C11E8E162006D532E /* ChanWindowController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {862, 556}}";
-			sepNavSelRange = "{815, 0}";
-			sepNavVisRange = "{0, 821}";
+			sepNavSelRange = "{979, 0}";
+			sepNavVisRange = "{0, 985}";
 		};
 	};
 	3947A06D11E8E162006D532E /* ChanWindowController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1379, 3042}}";
-			sepNavSelRange = "{1500, 0}";
-			sepNavVisRange = "{6511, 870}";
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 3146}}";
+			sepNavSelRange = "{7901, 0}";
+			sepNavVisRange = "{478, 1858}";
 		};
 	};
 	3947A13911E8EB7B006D532E /* ChanTabViewController.h */ = {
@@ -589,9 +734,9 @@
 	};
 	3947A13A11E8EB7B006D532E /* ChanTabViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {3162, 5694}}";
-			sepNavSelRange = "{5614, 0}";
-			sepNavVisRange = "{9302, 2559}";
+			sepNavIntBoundsRect = "{{0, 0}, {3162, 5954}}";
+			sepNavSelRange = "{8861, 0}";
+			sepNavVisRange = "{6569, 3204}";
 		};
 	};
 	3947A18F11E8EF03006D532E /* lazy.h */ = {
@@ -603,7 +748,7 @@
 	};
 	3947A29111E8F5F4006D532E /* tabModel.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1019, 475}}";
+			sepNavIntBoundsRect = "{{0, 0}, {862, 556}}";
 			sepNavSelRange = "{659, 0}";
 			sepNavVisRange = "{0, 666}";
 		};
@@ -612,7 +757,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {862, 1066}}";
 			sepNavSelRange = "{1127, 0}";
-			sepNavVisRange = "{501, 632}";
+			sepNavVisRange = "{483, 628}";
 		};
 	};
 	3947A2A711E8F6B1006D532E /* PBXTextBookmark */ = {
@@ -702,7 +847,7 @@
 	};
 	398A4E4411EC7FDA00A49122 /* HomeViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {862, 560}}";
+			sepNavIntBoundsRect = "{{0, 0}, {862, 556}}";
 			sepNavSelRange = "{81, 0}";
 			sepNavVisRange = "{0, 236}";
 		};
@@ -765,7 +910,7 @@
 		rLen = 0;
 		rLoc = 224;
 		rType = 0;
-		vrLen = 290;
+		vrLen = 236;
 		vrLoc = 0;
 	};
 	398A4E7E11EC81A000A49122 /* PBXTextBookmark */ = {
@@ -1118,7 +1263,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 1500;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 412;
@@ -1408,7 +1553,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 1500;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 412;
@@ -1568,7 +1713,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 29";
 		rLen = 0;
-		rLoc = 815;
+		rLoc = 979;
 		rType = 0;
 		vrLen = 821;
 		vrLoc = 0;
@@ -1578,7 +1723,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 1500;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 412;
@@ -2870,7 +3015,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 144";
 		rLen = 0;
-		rLoc = 8354;
+		rLoc = 8455;
 		rType = 0;
 		vrLen = 3471;
 		vrLoc = 6297;
@@ -2880,7 +3025,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 144";
 		rLen = 0;
-		rLoc = 8354;
+		rLoc = 8455;
 		rType = 0;
 		vrLen = 3471;
 		vrLoc = 6297;
@@ -2900,7 +3045,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 144";
 		rLen = 0;
-		rLoc = 8354;
+		rLoc = 8455;
 		rType = 0;
 		vrLen = 1237;
 		vrLoc = 7699;
@@ -2950,7 +3095,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 144";
 		rLen = 0;
-		rLoc = 8368;
+		rLoc = 8469;
 		rType = 0;
 		vrLen = 3432;
 		vrLoc = 5517;
@@ -2960,7 +3105,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 144";
 		rLen = 0;
-		rLoc = 8368;
+		rLoc = 8469;
 		rType = 0;
 		vrLen = 3312;
 		vrLoc = 4927;
@@ -2970,7 +3115,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 1500;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 412;
@@ -2980,7 +3125,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 1500;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 1393;
 		vrLoc = 6511;
@@ -2990,7 +3135,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 1500;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 1507;
 		vrLoc = 6397;
@@ -3010,7 +3155,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 1500;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 6511;
@@ -3020,7 +3165,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 1500;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 2169;
 		vrLoc = 1486;
@@ -3030,7 +3175,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 1500;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 1781;
 		vrLoc = 5600;
@@ -3050,7 +3195,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 144";
 		rLen = 0;
-		rLoc = 8368;
+		rLoc = 8469;
 		rType = 0;
 		vrLen = 3423;
 		vrLoc = 4926;
@@ -3090,7 +3235,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 1500;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 6511;
@@ -3115,6 +3260,1453 @@
 		vrLen = 2559;
 		vrLoc = 9302;
 	};
+	39C54F8112577BD500ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 120";
+		rLen = 0;
+		rLoc = 5765;
+		rType = 0;
+		vrLen = 3198;
+		vrLoc = 5115;
+	};
+	39C54F8212577BD500ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 74";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1443;
+		vrLoc = 1034;
+	};
+	39C54F8312577BD500ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		name = "ChanWindowController.h: 30";
+		rLen = 0;
+		rLoc = 979;
+		rType = 0;
+		vrLen = 862;
+		vrLoc = 0;
+	};
+	39C54F8412577BD500ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		name = "ChanWindowController.h: 31";
+		rLen = 0;
+		rLoc = 979;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	39C54F8612577BFA00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		name = "ChanWindowController.h: 31";
+		rLen = 0;
+		rLoc = 979;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	39C54F8712577C0000ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 116";
+		rLen = 0;
+		rLoc = 5614;
+		rType = 0;
+		vrLen = 1970;
+		vrLoc = 5707;
+	};
+	39C54F8812577C0000ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		name = "ChanWindowController.h: 31";
+		rLen = 0;
+		rLoc = 979;
+		rType = 0;
+		vrLen = 682;
+		vrLoc = 241;
+	};
+	39C54F8D12577C4100ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		name = "ChanWindowController.h: 31";
+		rLen = 0;
+		rLoc = 979;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	39C54F8E12577C4100ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 117";
+		rLen = 0;
+		rLoc = 5663;
+		rType = 0;
+		vrLen = 3198;
+		vrLoc = 5115;
+	};
+	39C54F8F12577C4100ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 74";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1443;
+		vrLoc = 1034;
+	};
+	39C54F9012577C4100ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 66";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1610;
+		vrLoc = 1001;
+	};
+	39C54F9112577C5600ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 66";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1576;
+		vrLoc = 1001;
+	};
+	39C54F9212577C6900ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		name = "ChanWindowController.h: 31";
+		rLen = 0;
+		rLoc = 979;
+		rType = 0;
+		vrLen = 682;
+		vrLoc = 241;
+	};
+	39C54F9312577C6900ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 66";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 628;
+		vrLoc = 1325;
+	};
+	39C54F9412577C6C00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 66";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1576;
+		vrLoc = 1001;
+	};
+	39C54F9512577C6C00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 117";
+		rLen = 0;
+		rLoc = 5663;
+		rType = 0;
+		vrLen = 3198;
+		vrLoc = 5115;
+	};
+	39C54F9612577C6C00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 117";
+		rLen = 0;
+		rLoc = 5663;
+		rType = 0;
+		vrLen = 3198;
+		vrLoc = 5115;
+	};
+	39C54F9C12577C9F00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 121";
+		rLen = 0;
+		rLoc = 5765;
+		rType = 0;
+		vrLen = 3253;
+		vrLoc = 5115;
+	};
+	39C54F9E12577DFB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A29111E8F5F4006D532E /* tabModel.h */;
+		name = "tabModel.h: 33";
+		rLen = 0;
+		rLoc = 659;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 0;
+	};
+	39C54F9F12577DFB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A29211E8F5F4006D532E /* tabModel.m */;
+		name = "tabModel.m: 80";
+		rLen = 0;
+		rLoc = 1127;
+		rType = 0;
+		vrLen = 604;
+		vrLoc = 30;
+	};
+	39C54FA012577DFB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 66";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1158;
+		vrLoc = 392;
+	};
+	39C54FA112577DFB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 127";
+		rLen = 0;
+		rLoc = 6516;
+		rType = 0;
+		vrLen = 2926;
+		vrLoc = 1117;
+	};
+	39C54FA212577DFB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 120";
+		rLen = 0;
+		rLoc = 5705;
+		rType = 0;
+		vrLen = 3365;
+		vrLoc = 5009;
+	};
+	39C54FA512577E2200ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 120";
+		rLen = 0;
+		rLoc = 5705;
+		rType = 0;
+		vrLen = 3360;
+		vrLoc = 5009;
+	};
+	39C54FC1125782FB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A29211E8F5F4006D532E /* tabModel.m */;
+		name = "tabModel.m: 80";
+		rLen = 0;
+		rLoc = 1127;
+		rType = 0;
+		vrLen = 628;
+		vrLoc = 498;
+	};
+	39C54FC2125782FB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A29111E8F5F4006D532E /* tabModel.h */;
+		name = "tabModel.h: 33";
+		rLen = 0;
+		rLoc = 659;
+		rType = 0;
+		vrLen = 666;
+		vrLoc = 0;
+	};
+	39C54FC3125782FB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		name = "ChanWindowController.h: 31";
+		rLen = 0;
+		rLoc = 979;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	39C54FC4125782FB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13911E8EB7B006D532E /* ChanTabViewController.h */;
+		name = "ChanTabViewController.h: 18";
+		rLen = 0;
+		rLoc = 375;
+		rType = 0;
+		vrLen = 1185;
+		vrLoc = 0;
+	};
+	39C54FC5125782FB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 57";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1390;
+		vrLoc = 1034;
+	};
+	39C54FC6125782FB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 121";
+		rLen = 0;
+		rLoc = 5765;
+		rType = 0;
+		vrLen = 3348;
+		vrLoc = 5009;
+	};
+	39C54FC7125782FB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 121";
+		rLen = 0;
+		rLoc = 5765;
+		rType = 0;
+		vrLen = 3323;
+		vrLoc = 5009;
+	};
+	39C54FC91257832A00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 121";
+		rLen = 0;
+		rLoc = 5765;
+		rType = 0;
+		vrLen = 3323;
+		vrLoc = 5009;
+	};
+	39C54FCA1257833B00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 77";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 886;
+		vrLoc = 2196;
+	};
+	39C54FCB1257833B00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 121";
+		rLen = 0;
+		rLoc = 5765;
+		rType = 0;
+		vrLen = 1547;
+		vrLoc = 5297;
+	};
+	39C54FD01257836A00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 121";
+		rLen = 0;
+		rLoc = 5765;
+		rType = 0;
+		vrLen = 3323;
+		vrLoc = 5009;
+	};
+	39C54FD11257836A00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 57";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1390;
+		vrLoc = 1034;
+	};
+	39C54FD21257836A00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 58";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1630;
+		vrLoc = 1208;
+	};
+	39C54FD41257838900ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 58";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1630;
+		vrLoc = 1208;
+	};
+	39C54FD51257838E00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 58";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1630;
+		vrLoc = 1208;
+	};
+	39C54FD61257852300ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 121";
+		rLen = 0;
+		rLoc = 5765;
+		rType = 0;
+		vrLen = 1547;
+		vrLoc = 5297;
+	};
+	39C54FD71257852300ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 58";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 650;
+		vrLoc = 1208;
+	};
+	39C54FDC1257854200ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 58";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1411;
+		vrLoc = 1101;
+	};
+	39C54FDE1257854400ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 58";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1411;
+		vrLoc = 1101;
+	};
+	39C54FDF1257854500ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 58";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 609;
+		vrLoc = 1208;
+	};
+	39C54FE01257854700ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 58";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1411;
+		vrLoc = 1101;
+	};
+	39C54FE11257855900ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 58";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1411;
+		vrLoc = 1101;
+	};
+	39C54FE21257855B00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 58";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 609;
+		vrLoc = 1208;
+	};
+	39C54FE31257855D00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 58";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1411;
+		vrLoc = 1101;
+	};
+	39C54FF812578A4C00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		name = "ChanWindowController.h: 31";
+		rLen = 0;
+		rLoc = 979;
+		rType = 0;
+		vrLen = 923;
+		vrLoc = 0;
+	};
+	39C54FF912578A4C00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 58";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1131;
+		vrLoc = 197;
+	};
+	39C54FFA12578A4C00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A29211E8F5F4006D532E /* tabModel.m */;
+		name = "tabModel.m: 80";
+		rLen = 0;
+		rLoc = 1127;
+		rType = 0;
+		vrLen = 628;
+		vrLoc = 483;
+	};
+	39C54FFB12578A4C00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 398A4E4411EC7FDA00A49122 /* HomeViewController.h */;
+		name = "HomeViewController.h: 6";
+		rLen = 0;
+		rLoc = 81;
+		rType = 0;
+		vrLen = 236;
+		vrLoc = 0;
+	};
+	39C54FFC12578A4C00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 117";
+		rLen = 1;
+		rLoc = 5657;
+		rType = 0;
+		vrLen = 3336;
+		vrLoc = 5009;
+	};
+	39C54FFD12578A4C00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 121";
+		rLen = 0;
+		rLoc = 5765;
+		rType = 0;
+		vrLen = 3358;
+		vrLoc = 5009;
+	};
+	39C5500512578B8B00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 61";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 728;
+	};
+	39C5500612578B8B00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 121";
+		rLen = 0;
+		rLoc = 5717;
+		rType = 0;
+		vrLen = 3361;
+		vrLoc = 5009;
+	};
+	39C5500712578B8B00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 120";
+		rLen = 0;
+		rLoc = 5705;
+		rType = 0;
+		vrLen = 3185;
+		vrLoc = 4927;
+	};
+	39C5500912578B9F00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 120";
+		rLen = 0;
+		rLoc = 5705;
+		rType = 0;
+		vrLen = 3185;
+		vrLoc = 4927;
+	};
+	39C5500A12578BA100ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 58";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 635;
+		vrLoc = 1584;
+	};
+	39C5500B12578BA100ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 120";
+		rLen = 0;
+		rLoc = 5705;
+		rType = 0;
+		vrLen = 1533;
+		vrLoc = 5297;
+	};
+	39C5501012578BBB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 120";
+		rLen = 0;
+		rLoc = 5705;
+		rType = 0;
+		vrLen = 3185;
+		vrLoc = 4927;
+	};
+	39C5501112578BBB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A29211E8F5F4006D532E /* tabModel.m */;
+		name = "tabModel.m: 80";
+		rLen = 0;
+		rLoc = 1127;
+		rType = 0;
+		vrLen = 628;
+		vrLoc = 483;
+	};
+	39C5501212578BBB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 61";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1219;
+		vrLoc = 728;
+	};
+	39C5501312578BBB00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 63";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1362;
+		vrLoc = 846;
+	};
+	39C5501512578C4D00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 63";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1362;
+		vrLoc = 846;
+	};
+	39C5501612578C5100ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 120";
+		rLen = 0;
+		rLoc = 5705;
+		rType = 0;
+		vrLen = 1533;
+		vrLoc = 5297;
+	};
+	39C5501712578C5100ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 63";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 659;
+		vrLoc = 1250;
+	};
+	39C5501812578C5200ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 63";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1362;
+		vrLoc = 846;
+	};
+	39C5501912578C5E00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 63";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1362;
+		vrLoc = 846;
+	};
+	39C5501A12578C6100ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 63";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 659;
+		vrLoc = 1250;
+	};
+	39C5501D12578C7000ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 63";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1374;
+		vrLoc = 846;
+	};
+	39C5502312578C9600ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 63";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 1374;
+		vrLoc = 846;
+	};
+	39C5502412578C9600ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 120";
+		rLen = 0;
+		rLoc = 5705;
+		rType = 0;
+		vrLen = 3185;
+		vrLoc = 4927;
+	};
+	39C5502512578C9600ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 120";
+		rLen = 0;
+		rLoc = 5705;
+		rType = 0;
+		vrLen = 3198;
+		vrLoc = 4927;
+	};
+	39C5502712578CA900ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 120";
+		rLen = 0;
+		rLoc = 5705;
+		rType = 0;
+		vrLen = 3198;
+		vrLoc = 4927;
+	};
+	39C5502812578CAA00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 63";
+		rLen = 0;
+		rLoc = 521;
+		rType = 0;
+		vrLen = 671;
+		vrLoc = 1250;
+	};
+	39C5502912578CAA00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 120";
+		rLen = 0;
+		rLoc = 5705;
+		rType = 0;
+		vrLen = 1546;
+		vrLoc = 5297;
+	};
+	39C5503612578D0800ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 120";
+		rLen = 0;
+		rLoc = 5765;
+		rType = 0;
+		vrLen = 3259;
+		vrLoc = 4927;
+	};
+	39C5503712578D0800ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		name = "ChanWindowController.h: 32";
+		rLen = 0;
+		rLoc = 979;
+		rType = 0;
+		vrLen = 985;
+		vrLoc = 0;
+	};
+	39C5503812578D0800ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 171";
+		rLen = 0;
+		rLoc = 6612;
+		rType = 0;
+		vrLen = 1980;
+		vrLoc = 5825;
+	};
+	39C5503912578D0800ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 11";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 1068;
+		vrLoc = 0;
+	};
+	39C5503E12578F9E00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 11";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 2154;
+		vrLoc = 506;
+	};
+	39C5503F12578F9E00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* iaicAppDelegate.m */;
+		name = "iaicAppDelegate.m: 24";
+		rLen = 0;
+		rLoc = 636;
+		rType = 0;
+		vrLen = 643;
+		vrLoc = 0;
+	};
+	39C5504012578F9E00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 120";
+		rLen = 0;
+		rLoc = 5765;
+		rType = 0;
+		vrLen = 3259;
+		vrLoc = 4927;
+	};
+	39C5504112578F9E00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 79";
+		rLen = 0;
+		rLoc = 4061;
+		rType = 0;
+		vrLen = 2503;
+		vrLoc = 1907;
+	};
+	39C5504312578FA600ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 79";
+		rLen = 0;
+		rLoc = 4061;
+		rType = 0;
+		vrLen = 2503;
+		vrLoc = 1907;
+	};
+	39C5504412578FAA00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 79";
+		rLen = 0;
+		rLoc = 4061;
+		rType = 0;
+		vrLen = 2503;
+		vrLoc = 1907;
+	};
+	39C5504512578FC100ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 79";
+		rLen = 0;
+		rLoc = 4061;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 4037;
+	};
+	39C5504612578FE800ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 79";
+		rLen = 0;
+		rLoc = 4061;
+		rType = 0;
+		vrLen = 1543;
+		vrLoc = 3434;
+	};
+	39C5504712578FE800ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 11";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 2154;
+		vrLoc = 506;
+	};
+	39C5504812578FE800ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 11";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 1607;
+		vrLoc = 6842;
+	};
+	39C5504912578FE900ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 79";
+		rLen = 0;
+		rLoc = 4061;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 4037;
+	};
+	39C5504A12578FE900ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 11";
+		rLen = 0;
+		rLoc = 183;
+		rType = 0;
+		vrLen = 726;
+		vrLoc = 6842;
+	};
+	39C5504F1257907100ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		name = "ChanWindowController.h: 32";
+		rLen = 0;
+		rLoc = 979;
+		rType = 0;
+		vrLen = 985;
+		vrLoc = 0;
+	};
+	39C550501257907100ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		rLen = 1;
+		rLoc = 113;
+		rType = 1;
+	};
+	39C550511257907100ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 23";
+		rLen = 0;
+		rLoc = 428;
+		rType = 0;
+		vrLen = 1014;
+		vrLoc = 0;
+	};
+	39C550531257907F00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 23";
+		rLen = 0;
+		rLoc = 428;
+		rType = 0;
+		vrLen = 1014;
+		vrLoc = 0;
+	};
+	39C550541257908000ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 23";
+		rLen = 0;
+		rLoc = 428;
+		rType = 0;
+		vrLen = 1014;
+		vrLoc = 0;
+	};
+	39C550551257908B00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 23";
+		rLen = 0;
+		rLoc = 428;
+		rType = 0;
+		vrLen = 559;
+		vrLoc = 455;
+	};
+	39C55058125790A100ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 22";
+		rLen = 0;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 1521;
+		vrLoc = 121;
+	};
+	39C55059125790A100ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 79";
+		rLen = 0;
+		rLoc = 4061;
+		rType = 0;
+		vrLen = 1542;
+		vrLoc = 3434;
+	};
+	39C5505A125790A100ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 79";
+		rLen = 0;
+		rLoc = 4061;
+		rType = 0;
+		vrLen = 1542;
+		vrLoc = 3434;
+	};
+	39C550621257912000ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 79";
+		rLen = 0;
+		rLoc = 4061;
+		rType = 0;
+		vrLen = 1542;
+		vrLoc = 3434;
+	};
+	39C550631257912000ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 39DEFB2D11E8E0D700CC9638 /* ChanWindow.xib */;
+		name = "ChanWindow.xib: 8";
+		rLen = 0;
+		rLoc = 361;
+		rType = 0;
+		vrLen = 1620;
+		vrLoc = 20550;
+	};
+	39C550641257912000ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 22";
+		rLen = 0;
+		rLoc = 391;
+		rType = 0;
+		vrLen = 1478;
+		vrLoc = 121;
+	};
+	39C550651257912000ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 179";
+		rLen = 0;
+		rLoc = 6750;
+		rType = 0;
+		vrLen = 1848;
+		vrLoc = 6535;
+	};
+	39C550671257912B00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 179";
+		rLen = 0;
+		rLoc = 6750;
+		rType = 0;
+		vrLen = 1848;
+		vrLoc = 6535;
+	};
+	39C550681257912E00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 179";
+		rLen = 0;
+		rLoc = 6750;
+		rType = 0;
+		vrLen = 778;
+		vrLoc = 6535;
+	};
+	39C550691257912F00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 179";
+		rLen = 0;
+		rLoc = 6750;
+		rType = 0;
+		vrLen = 2032;
+		vrLoc = 5883;
+	};
+	39C5506E1257915F00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 183";
+		rLen = 0;
+		rLoc = 6812;
+		rType = 0;
+		vrLen = 2057;
+		vrLoc = 5883;
+	};
+	39C550701257916F00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 183";
+		rLen = 0;
+		rLoc = 6812;
+		rType = 0;
+		vrLen = 2057;
+		vrLoc = 5883;
+	};
+	39C55071125791FE00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 183";
+		rLen = 0;
+		rLoc = 6812;
+		rType = 0;
+		vrLen = 1226;
+		vrLoc = 705;
+	};
+	39C550761257922D00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 94";
+		rLen = 0;
+		rLoc = 3843;
+		rType = 0;
+		vrLen = 2016;
+		vrLoc = 2071;
+	};
+	39C550781257923500ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 94";
+		rLen = 0;
+		rLoc = 3843;
+		rType = 0;
+		vrLen = 2016;
+		vrLoc = 2071;
+	};
+	39C550791257923700ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 94";
+		rLen = 0;
+		rLoc = 3843;
+		rType = 0;
+		vrLen = 2016;
+		vrLoc = 2071;
+	};
+	39C5507A1257928A00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 94";
+		rLen = 0;
+		rLoc = 3843;
+		rType = 0;
+		vrLen = 1040;
+		vrLoc = 506;
+	};
+	39C5507B1257928B00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 94";
+		rLen = 0;
+		rLoc = 3843;
+		rType = 0;
+		vrLen = 1807;
+		vrLoc = 268;
+	};
+	39C5507C1257929F00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 94";
+		rLen = 0;
+		rLoc = 3843;
+		rType = 0;
+		vrLen = 2380;
+		vrLoc = 522;
+	};
+	39C5507D1257929F00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 79";
+		rLen = 0;
+		rLoc = 4061;
+		rType = 0;
+		vrLen = 1713;
+		vrLoc = 3263;
+	};
+	39C5507E1257929F00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 76";
+		rLen = 0;
+		rLoc = 4061;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 3263;
+	};
+	39C5507F125792AE00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 76";
+		rLen = 0;
+		rLoc = 4061;
+		rType = 0;
+		vrLen = 2338;
+		vrLoc = 19769;
+	};
+	39C55080125792AE00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 94";
+		rLen = 0;
+		rLoc = 3843;
+		rType = 0;
+		vrLen = 2323;
+		vrLoc = 579;
+	};
+	39C55081125792AE00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 94";
+		rLen = 0;
+		rLoc = 3843;
+		rType = 0;
+		vrLen = 1675;
+		vrLoc = 7046;
+	};
+	39C55082125792B000ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 94";
+		rLen = 0;
+		rLoc = 3843;
+		rType = 0;
+		vrLen = 895;
+		vrLoc = 7046;
+	};
+	39C55083125792BE00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 94";
+		rLen = 0;
+		rLoc = 3843;
+		rType = 0;
+		vrLen = 1994;
+		vrLoc = 6470;
+	};
+	39C550861257943000ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 40";
+		rLen = 0;
+		rLoc = 755;
+		rType = 0;
+		vrLen = 1717;
+		vrLoc = 338;
+	};
+	39C5508A1257944800ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 39";
+		rLen = 0;
+		rLoc = 737;
+		rType = 0;
+		vrLen = 1765;
+		vrLoc = 391;
+	};
+	39C5508C1257945A00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 39";
+		rLen = 0;
+		rLoc = 737;
+		rType = 0;
+		vrLen = 1765;
+		vrLoc = 391;
+	};
+	39C5508D1257945F00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 39";
+		rLen = 0;
+		rLoc = 737;
+		rType = 0;
+		vrLen = 1765;
+		vrLoc = 391;
+	};
+	39C5508E1257946900ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 39";
+		rLen = 0;
+		rLoc = 737;
+		rType = 0;
+		vrLen = 1062;
+		vrLoc = 1094;
+	};
+	39C5508F1257947800ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 184";
+		rLen = 0;
+		rLoc = 6812;
+		rType = 0;
+		vrLen = 1749;
+		vrLoc = 6228;
+	};
+	39C550941257949A00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 218";
+		rLen = 0;
+		rLoc = 8324;
+		rType = 0;
+		vrLen = 1618;
+		vrLoc = 7105;
+	};
+	39C55099125794E700ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 180";
+		rLen = 0;
+		rLoc = 6749;
+		rType = 0;
+		vrLen = 1746;
+		vrLoc = 5406;
+	};
+	39C5509B1257951700ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 184";
+		rLen = 26;
+		rLoc = 6787;
+		rType = 0;
+		vrLen = 1759;
+		vrLoc = 5406;
+	};
+	39C5509C1257951900ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 184";
+		rLen = 26;
+		rLoc = 6787;
+		rType = 0;
+		vrLen = 1759;
+		vrLoc = 5406;
+	};
+	39C5509D1257951B00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 184";
+		rLen = 26;
+		rLoc = 6787;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 5406;
+	};
+	39C5509E1257953000ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 181";
+		rLen = 0;
+		rLoc = 6759;
+		rType = 0;
+		vrLen = 1535;
+		vrLoc = 7055;
+	};
+	39C5509F1257953300ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 181";
+		rLen = 0;
+		rLoc = 6759;
+		rType = 0;
+		vrLen = 1535;
+		vrLoc = 7055;
+	};
+	39C550A01257953800ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 181";
+		rLen = 0;
+		rLoc = 6759;
+		rType = 0;
+		vrLen = 969;
+		vrLoc = 7055;
+	};
+	39C550A31257974600ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
+		name = "ChanWindowController.h: 32";
+		rLen = 0;
+		rLoc = 979;
+		rType = 0;
+		vrLen = 985;
+		vrLoc = 0;
+	};
+	39C550A41257974600ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
+		name = "ChanWindowController.m: 209";
+		rLen = 0;
+		rLoc = 7901;
+		rType = 0;
+		vrLen = 1858;
+		vrLoc = 478;
+	};
+	39C550A51257974600ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 76";
+		rLen = 0;
+		rLoc = 4061;
+		rType = 0;
+		vrLen = 2183;
+		vrLoc = 19787;
+	};
+	39C550A61257974600ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 150";
+		rLen = 0;
+		rLoc = 8768;
+		rType = 0;
+		vrLen = 3537;
+		vrLoc = 5933;
+	};
+	39C550AB125797BD00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 156";
+		rLen = 0;
+		rLoc = 8872;
+		rType = 0;
+		vrLen = 3096;
+		vrLoc = 6569;
+	};
+	39C550AF1257980C00ACF2F0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
+		name = "ChanTabViewController.m: 155";
+		rLen = 0;
+		rLoc = 8861;
+		rType = 0;
+		vrLen = 3204;
+		vrLoc = 6569;
+	};
 	39DD761C12562E8800DEF963 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 256AC3F00F4B6AF500CF3369 /* iaic_Prefix.pch */;
@@ -3130,7 +4722,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 63";
 		rLen = 0;
-		rLoc = 3151;
+		rLoc = 1094;
 		rType = 0;
 		vrLen = 1979;
 		vrLoc = 989;
@@ -3140,7 +4732,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 390";
 		rLen = 11;
-		rLoc = 22200;
+		rLoc = 22767;
 		rType = 0;
 		vrLen = 2057;
 		vrLoc = 19871;
@@ -3859,7 +5451,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 62";
 		rLen = 0;
-		rLoc = 3154;
+		rLoc = 1097;
 		rType = 0;
 		vrLen = 2178;
 		vrLoc = 1154;
@@ -3869,7 +5461,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 119";
 		rLen = 0;
-		rLoc = 6091;
+		rLoc = 6752;
 		rType = 0;
 		vrLen = 1395;
 		vrLoc = 4856;
@@ -3929,7 +5521,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10052;
+		rLoc = 10523;
 		rType = 0;
 		vrLen = 2619;
 		vrLoc = 7911;
@@ -3939,7 +5531,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10052;
+		rLoc = 10523;
 		rType = 0;
 		vrLen = 2670;
 		vrLoc = 7911;
@@ -3949,7 +5541,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 166";
 		rLen = 0;
-		rLoc = 10052;
+		rLoc = 10523;
 		rType = 0;
 		vrLen = 2675;
 		vrLoc = 7911;
@@ -3959,7 +5551,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 167";
 		rLen = 0;
-		rLoc = 10052;
+		rLoc = 10523;
 		rType = 0;
 		vrLen = 2677;
 		vrLoc = 7911;
@@ -3969,7 +5561,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 169";
 		rLen = 0;
-		rLoc = 10052;
+		rLoc = 10523;
 		rType = 0;
 		vrLen = 2610;
 		vrLoc = 7911;
@@ -3979,7 +5571,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 156";
 		rLen = 0;
-		rLoc = 9047;
+		rLoc = 9518;
 		rType = 0;
 		vrLen = 3122;
 		vrLoc = 476;
@@ -3989,7 +5581,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 119";
 		rLen = 0;
-		rLoc = 6091;
+		rLoc = 6752;
 		rType = 0;
 		vrLen = 1543;
 		vrLoc = 4708;
@@ -3999,7 +5591,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 70";
 		rLen = 0;
-		rLoc = 3661;
+		rLoc = 1604;
 		rType = 0;
 		vrLen = 2653;
 		vrLoc = 1350;
@@ -4009,7 +5601,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 70";
 		rLen = 0;
-		rLoc = 3661;
+		rLoc = 1604;
 		rType = 0;
 		vrLen = 2251;
 		vrLoc = 2242;
@@ -4019,7 +5611,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 156";
 		rLen = 0;
-		rLoc = 9047;
+		rLoc = 9518;
 		rType = 0;
 		vrLen = 3026;
 		vrLoc = 572;
@@ -4029,7 +5621,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 169";
 		rLen = 0;
-		rLoc = 10052;
+		rLoc = 10523;
 		rType = 0;
 		vrLen = 3008;
 		vrLoc = 8292;
@@ -4039,7 +5631,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10261;
+		rLoc = 10780;
 		rType = 0;
 		vrLen = 2642;
 		vrLoc = 8111;
@@ -4049,7 +5641,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10156;
+		rLoc = 10675;
 		rType = 0;
 		vrLen = 2674;
 		vrLoc = 8111;
@@ -4059,7 +5651,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10150;
+		rLoc = 10570;
 		rType = 0;
 		vrLen = 2698;
 		vrLoc = 8111;
@@ -4069,7 +5661,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10150;
+		rLoc = 10570;
 		rType = 0;
 		vrLen = 2698;
 		vrLoc = 8111;
@@ -4079,7 +5671,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10150;
+		rLoc = 10570;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 10151;
@@ -4089,7 +5681,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10095;
+		rLoc = 10566;
 		rType = 0;
 		vrLen = 2567;
 		vrLoc = 9145;
@@ -4099,7 +5691,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10095;
+		rLoc = 10566;
 		rType = 0;
 		vrLen = 2596;
 		vrLoc = 9145;
@@ -4109,7 +5701,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10095;
+		rLoc = 10566;
 		rType = 0;
 		vrLen = 2596;
 		vrLoc = 9145;
@@ -4119,7 +5711,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 168";
 		rLen = 0;
-		rLoc = 10095;
+		rLoc = 10566;
 		rType = 0;
 		vrLen = 782;
 		vrLoc = 9372;
@@ -4129,7 +5721,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 166";
 		rLen = 0;
-		rLoc = 10070;
+		rLoc = 10541;
 		rType = 0;
 		vrLen = 2607;
 		vrLoc = 9145;
@@ -4139,7 +5731,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 166";
 		rLen = 0;
-		rLoc = 10070;
+		rLoc = 10541;
 		rType = 0;
 		vrLen = 2607;
 		vrLoc = 9145;
@@ -4149,7 +5741,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 166";
 		rLen = 0;
-		rLoc = 10070;
+		rLoc = 10541;
 		rType = 0;
 		vrLen = 793;
 		vrLoc = 9372;
@@ -4159,7 +5751,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 167";
 		rLen = 0;
-		rLoc = 10095;
+		rLoc = 10566;
 		rType = 0;
 		vrLen = 2591;
 		vrLoc = 9145;
@@ -4169,7 +5761,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 253";
 		rLen = 0;
-		rLoc = 13725;
+		rLoc = 14292;
 		rType = 0;
 		vrLen = 1495;
 		vrLoc = 12786;
@@ -4179,7 +5771,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 253";
 		rLen = 0;
-		rLoc = 13725;
+		rLoc = 14292;
 		rType = 0;
 		vrLen = 1495;
 		vrLoc = 12786;
@@ -4189,7 +5781,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 250";
 		rLen = 0;
-		rLoc = 13620;
+		rLoc = 14187;
 		rType = 0;
 		vrLen = 1497;
 		vrLoc = 12786;
@@ -4199,7 +5791,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 169";
 		rLen = 0;
-		rLoc = 10165;
+		rLoc = 10684;
 		rType = 0;
 		vrLen = 3006;
 		vrLoc = 7416;
@@ -4209,7 +5801,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 152";
 		rLen = 0;
-		rLoc = 8781;
+		rLoc = 9252;
 		rType = 0;
 		vrLen = 2541;
 		vrLoc = 4147;
@@ -4219,7 +5811,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 70";
 		rLen = 0;
-		rLoc = 3661;
+		rLoc = 1604;
 		rType = 0;
 		vrLen = 2277;
 		vrLoc = 2216;
@@ -4229,7 +5821,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 90";
 		rLen = 0;
-		rLoc = 3994;
+		rLoc = 1937;
 		rType = 0;
 		vrLen = 2240;
 		vrLoc = 1250;
@@ -4239,7 +5831,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 100";
 		rLen = 0;
-		rLoc = 4520;
+		rLoc = 2463;
 		rType = 0;
 		vrLen = 2304;
 		vrLoc = 1845;
@@ -4249,7 +5841,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 66";
 		rLen = 0;
-		rLoc = 2159;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 1779;
 		vrLoc = 869;
@@ -4259,7 +5851,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 90";
 		rLen = 38;
-		rLoc = 3987;
+		rLoc = 1930;
 		rType = 0;
 		vrLen = 2290;
 		vrLoc = 1327;
@@ -4269,7 +5861,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 152";
 		rLen = 0;
-		rLoc = 8781;
+		rLoc = 9252;
 		rType = 0;
 		vrLen = 2469;
 		vrLoc = 4219;
@@ -4279,7 +5871,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 354";
 		rLen = 0;
-		rLoc = 19133;
+		rLoc = 19700;
 		rType = 0;
 		vrLen = 2718;
 		vrLoc = 16564;
@@ -4289,7 +5881,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 90";
 		rLen = 38;
-		rLoc = 3987;
+		rLoc = 1930;
 		rType = 0;
 		vrLen = 2290;
 		vrLoc = 1327;
@@ -4299,7 +5891,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 28";
 		rLen = 0;
-		rLoc = 815;
+		rLoc = 979;
 		rType = 0;
 		vrLen = 742;
 		vrLoc = 0;
@@ -4309,7 +5901,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 350";
 		rLen = 0;
-		rLoc = 18718;
+		rLoc = 19285;
 		rType = 0;
 		vrLen = 2718;
 		vrLoc = 16564;
@@ -4319,7 +5911,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 346";
 		rLen = 0;
-		rLoc = 18496;
+		rLoc = 19063;
 		rType = 0;
 		vrLen = 2802;
 		vrLoc = 15489;
@@ -4356,7 +5948,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 19505;
+		rLoc = 20072;
 		rType = 0;
 		vrLen = 2610;
 		vrLoc = 17319;
@@ -4366,7 +5958,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 29";
 		rLen = 0;
-		rLoc = 815;
+		rLoc = 979;
 		rType = 0;
 		vrLen = 821;
 		vrLoc = 0;
@@ -4375,8 +5967,8 @@
 		isa = PBXTextBookmark;
 		comments = "Incompatible Objective-C types returning ‘struct NSString *’, expected ‘struct NSTabViewItem *’";
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
-		rLen = 1;
-		rLoc = 58;
+		rLen = 0;
+		rLoc = 30;
 		rType = 1;
 	};
 	39DD7B921256529200DEF963 /* PBXTextBookmark */ = {
@@ -4384,7 +5976,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 1499;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 1800;
 		vrLoc = 1154;
@@ -4394,7 +5986,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 59";
 		rLen = 0;
-		rLoc = 1499;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 1800;
 		vrLoc = 1154;
@@ -4404,7 +5996,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 19505;
+		rLoc = 20072;
 		rType = 0;
 		vrLen = 2610;
 		vrLoc = 17319;
@@ -4414,7 +6006,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 19505;
+		rLoc = 20072;
 		rType = 0;
 		vrLen = 2610;
 		vrLoc = 17670;
@@ -4424,7 +6016,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 19505;
+		rLoc = 20072;
 		rType = 0;
 		vrLen = 840;
 		vrLoc = 17670;
@@ -4434,7 +6026,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 19505;
+		rLoc = 20072;
 		rType = 0;
 		vrLen = 2619;
 		vrLoc = 16826;
@@ -4444,7 +6036,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 19505;
+		rLoc = 20072;
 		rType = 0;
 		vrLen = 2619;
 		vrLoc = 16826;
@@ -4454,7 +6046,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 19505;
+		rLoc = 20072;
 		rType = 0;
 		vrLen = 2635;
 		vrLoc = 17203;
@@ -4464,7 +6056,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 18;
-		rLoc = 19455;
+		rLoc = 20022;
 		rType = 0;
 		vrLen = 790;
 		vrLoc = 18631;
@@ -4472,8 +6064,8 @@
 	39DD7B9F1256536D00DEF963 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
-		rLen = 1;
-		rLoc = 77;
+		rLen = 0;
+		rLoc = 30;
 		rType = 1;
 	};
 	39DD7BA01256536D00DEF963 /* PBXTextBookmark */ = {
@@ -4481,7 +6073,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 81";
 		rLen = 0;
-		rLoc = 2556;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 711;
 		vrLoc = 1863;
@@ -4501,7 +6093,7 @@
 		fRef = 3947A06C11E8E162006D532E /* ChanWindowController.h */;
 		name = "ChanWindowController.h: 29";
 		rLen = 0;
-		rLoc = 815;
+		rLoc = 979;
 		rType = 0;
 		vrLen = 821;
 		vrLoc = 0;
@@ -4510,8 +6102,8 @@
 		isa = PBXTextBookmark;
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 78";
-		rLen = 7;
-		rLoc = 2287;
+		rLen = 0;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 2174;
 		vrLoc = 1389;
@@ -4521,7 +6113,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 19505;
+		rLoc = 20072;
 		rType = 0;
 		vrLen = 2688;
 		vrLoc = 17203;
@@ -4531,7 +6123,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 19483;
+		rLoc = 20050;
 		rType = 0;
 		vrLen = 2704;
 		vrLoc = 17460;
@@ -4541,7 +6133,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 19483;
+		rLoc = 20050;
 		rType = 0;
 		vrLen = 2704;
 		vrLoc = 17460;
@@ -4560,8 +6152,8 @@
 		isa = PBXTextBookmark;
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 78";
-		rLen = 7;
-		rLoc = 2287;
+		rLen = 0;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 2174;
 		vrLoc = 1389;
@@ -4571,7 +6163,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 87";
 		rLen = 0;
-		rLoc = 2603;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 2259;
 		vrLoc = 1830;
@@ -4581,7 +6173,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 87";
 		rLen = 0;
-		rLoc = 2603;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 2277;
 		vrLoc = 1830;
@@ -4591,7 +6183,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 83";
 		rLen = 0;
-		rLoc = 2603;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 2365;
 		vrLoc = 1893;
@@ -4631,7 +6223,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 83";
 		rLen = 0;
-		rLoc = 2603;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 2497;
 		vrLoc = 1830;
@@ -4641,7 +6233,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 88";
 		rLen = 0;
-		rLoc = 2736;
+		rLoc = 653;
 		rType = 0;
 		vrLen = 2279;
 		vrLoc = 1830;
@@ -4651,7 +6243,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 361";
 		rLen = 0;
-		rLoc = 19483;
+		rLoc = 20050;
 		rType = 0;
 		vrLen = 2828;
 		vrLoc = 17382;
@@ -4661,7 +6253,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 160";
 		rLen = 0;
-		rLoc = 6288;
+		rLoc = 6812;
 		rType = 0;
 		vrLen = 1939;
 		vrLoc = 4869;
@@ -4819,7 +6411,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 160";
 		rLen = 0;
-		rLoc = 6288;
+		rLoc = 6812;
 		rType = 0;
 		vrLen = 1825;
 		vrLoc = 4983;
@@ -4829,7 +6421,7 @@
 		fRef = 3947A13A11E8EB7B006D532E /* ChanTabViewController.m */;
 		name = "ChanTabViewController.m: 142";
 		rLen = 0;
-		rLoc = 8163;
+		rLoc = 8264;
 		rType = 0;
 		vrLen = 3885;
 		vrLoc = 5779;
@@ -4859,7 +6451,7 @@
 		fRef = 3947A06D11E8E162006D532E /* ChanWindowController.m */;
 		name = "ChanWindowController.m: 82";
 		rLen = 0;
-		rLoc = 2556;
+		rLoc = 521;
 		rType = 0;
 		vrLen = 494;
 		vrLoc = 2128;

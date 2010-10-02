@@ -115,6 +115,8 @@
     MVChatRoom* chat = notification.object;
 	NSLog(@"chan: %@ ~~ %@", myChannel, chat.name);
     if ([chat.name isEqualToString:myChannel]) {
+		if (![_parent isCurrentTab:myChannel])
+			[_parent tabViewIncrementObjectforTabLabeled:myChannel];
         /*
         NSFont *baseFont = [[NSFontManager sharedFontManager] fontWithFamily:@"Menlo" traits:( NSUnboldFontMask | NSUnitalicFontMask ) weight:5 size:12.0f];
         if( ! baseFont ) baseFont = [NSFont userFontOfSize:12.];
@@ -144,7 +146,14 @@
         //[self writeLine:[NSString stringWithFormat:@"&lt;<span style='color:#ff8000'>%@</span>&gt; %@", user, _message]];
 		[self writeLine:[NSString stringWithFormat:@"&lt;%@&gt; %@", [[_user nickname] toHashedColour], _message]];
 
-    }
+    } else if([_parent isCurrentTab:myChannel]){
+		NSString* _message = [NSString stringOrNilFromData:message];
+        if (_message == nil) 
+            return;
+        _message = [_message stringByEncodingXMLEntities];
+		[self writeLine:[NSString stringWithFormat:@"[%@] Mentioned your name in '%@' (%@)",
+						 [[_user nickname] toHashedColour], chat.name, _message]];
+	}
 }
 
 -(void)joinedRoom:(NSNotification*)notification {
@@ -168,7 +177,7 @@
         nicklist = [[NSMutableArray arrayWithArray:[room.memberUsers allObjects]] retain];
 		[nicklist sortUsingComparator:^(id nick1, id nick2) 
 		 {
-			 NSComparisonResult comp = [nick1 compareByNickname:nick2];
+			 NSComparisonResult comp = [[[nick1 nickname] lowercaseString] compare:[[nick2 nickname] lowercaseString]];
 			 //comp = (comp == NSOrderedAscending) ? NSOrderedDescending : NSOrderedAscending;
 			 return comp;
 			 
@@ -249,7 +258,7 @@
 -(void)resyncUserList {
 	[nicklist sortUsingComparator:^(id nick1, id nick2) 
 	 {
-		 NSComparisonResult comp = [nick1 compareByNickname:nick2];
+		 NSComparisonResult comp = [[[nick1 nickname] lowercaseString] compare:[[nick2 nickname] lowercaseString]];
 		 //comp = (comp == NSOrderedAscending) ? NSOrderedDescending : NSOrderedAscending;
 		 return comp;
 		 

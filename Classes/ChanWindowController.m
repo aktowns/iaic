@@ -7,6 +7,10 @@
 
 #import "ChanWindowController.h"
 
+@interface ChanWindowController (Private)
+	-(void)tabBarSetup;
+@end
+
 @implementation ChanWindowController
 @synthesize tabBar,tabView;
 - (id)init
@@ -25,63 +29,6 @@
 #pragma mark UI Related
 #pragma mark -
 
--(IBAction)addNewTab:(id)sender objectCount:(NSUInteger)count {
-	tabModel *newModel = [[tabModel alloc] init];
-    [newModel setObjectCount: count];
-	NSTabViewItem *newItem = [[[NSTabViewItem alloc] initWithIdentifier:newModel] autorelease];
-	[newItem setLabel:@"Untitled"];
-	[tabView addTabViewItem:newItem];
-	//[tabView selectTabViewItem:newItem]; // this is optional, but expected behavior
-	[newModel release];
-}
-
--(void)tabBarSetup {
-    [[tabBar addTabButton] setTarget:self];
-	[[tabBar addTabButton] setAction:@selector(addNewTab:)];   
-    
-    [tabBar setTabView:tabView];
-    
-    NSArray *existingItems = [[tabBar tabView] tabViewItems];
-	NSEnumerator *e = [existingItems objectEnumerator];
-	NSTabViewItem *item;
-	while(item = [e nextObject]) {
-		[tabView removeTabViewItem:item];
-	}
-}
-
--(void)testCallback:(NSNotification*) notification {
-    NSLog(@"yipeee");
-}
-
--(NSTabViewItem*)tabViewForTabViewLabeled:(NSString*)label {
-	for (NSTabViewItem* tab in [tabView tabViewItems]) {
-		if ([[tab label] isEqualToString:label])
-			return tab;
-	}
-	NSLog(@"Tab remove panic!");
-	return nil;
-}
-
--(void)createTabForChannel:(NSString*)channel {
-	[ircSession joinChatRoomNamed:channel];
-	[channels addObject:[[ircSession chatRoomWithName:channel] retain]];
-	[self addNewTab:self objectCount:0];
-	[[tabView tabViewItemAtIndex:[[tabView tabViewItems] count]-1] setLabel:channel];
-	ChanTabViewController* ctvc = [[ChanTabViewController alloc] 
-                                   initWithMyRoom:[[ircSession chatRoomWithName:channel]retain]
-                                   andSession:[ircSession retain]
-								   ];
-    ctvc._parent = self;
-    [[tabView tabViewItemAtIndex:[[tabView tabViewItems] count]-1] setView:[ctvc view]];
-}
--(void)closeTabForChannel:(NSString*)channel withMessage:(NSString*)message {
-	NSLog(@"Leaving.. %@", channel);
-	[channels removeObject:[ircSession chatRoomWithName:channel]];
-	NSAttributedString* attrStr = [NSAttributedString attributedStringWithHTMLFragment:message baseURL:nil];
-	[[ircSession chatRoomWithName:channel] partWithReason:attrStr];
-	[tabView removeTabViewItem:[self tabViewForTabViewLabeled:channel]];
-}
-
 - (void)windowWillClose:(NSNotification *)notification {
 	//[ircSession sendRawMessage:@"quit objirc" immediately:YES];
 	exit(0);
@@ -89,6 +36,8 @@
 
 -(void)windowDidLoad {
     self.window.title = @"Ikes awkward irc client";
+	tabBar.delegate = self;
+
     [self tabBarSetup];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(testCallback:) name:kRbTest object:nil];
     [RubyInterop ruby_initialize];
@@ -151,15 +100,86 @@
 }
 
 #pragma mark tabView
-- (void)tabView:(NSTabView *)aTabView didSelectTabViewItem:(NSTabViewItem *)tabViewItem {
+
+-(IBAction)addNewTab:(id)sender objectCount:(NSUInteger)count {
+	tabModel *newModel = [[tabModel alloc] init];
+    [newModel setObjectCount: count];
+	NSTabViewItem *newItem = [[[NSTabViewItem alloc] initWithIdentifier:newModel] autorelease];
+	[newItem setLabel:@"Untitled"];
+	[tabView addTabViewItem:newItem];
+	//[tabView selectTabViewItem:newItem]; // this is optional, but expected behavior
+	[newModel release];
+}
+
+-(void)tabBarSetup {
+    [[tabBar addTabButton] setTarget:self];
+	[[tabBar addTabButton] setAction:@selector(addNewTab:)];   
     
+    [tabBar setTabView:tabView];
+    
+    NSArray *existingItems = [[tabBar tabView] tabViewItems];
+	NSEnumerator *e = [existingItems objectEnumerator];
+	NSTabViewItem *item;
+	while(item = [e nextObject]) {
+		[tabView removeTabViewItem:item];
+	}
+}
+
+-(void)testCallback:(NSNotification*) notification {
+    NSLog(@"yipeee");
+}
+
+-(void)tabViewIncrementObjectforTabLabeled:(NSString*)label {
+	NSTabViewItem* tab = [self tabViewForTabViewLabeled:label];
+	[[tab identifier] setObjectCount:[[tab identifier] objectCount]+1];
+}
+
+-(void)tabViewSetObjectCount:(int)count forTabLabeled:(NSString*)label {
+	NSTabViewItem* tab = [self tabViewForTabViewLabeled:label];
+	[[tab identifier] setObjectCount:count];
+}
+
+-(NSTabViewItem*)tabViewForTabViewLabeled:(NSString*)label {
+	for (NSTabViewItem* tab in [tabView tabViewItems]) {
+		if ([[tab label] isEqualToString:label])
+			return tab;
+	}
+	return nil;
+}
+
+-(BOOL)isCurrentTab:(NSString*)channel {
+	if ([[tabView selectedTabViewItem] identifier] == [[self tabViewForTabViewLabeled:channel] identifier]) {
+		return YES;
+	}
+	return NO;
+}
+
+-(void)createTabForChannel:(NSString*)channel {
+	[ircSession joinChatRoomNamed:channel];
+	[channels addObject:[[ircSession chatRoomWithName:channel] retain]];
+	[self addNewTab:self objectCount:0];
+	[[tabView tabViewItemAtIndex:[[tabView tabViewItems] count]-1] setLabel:channel];
+	ChanTabViewController* ctvc = [[ChanTabViewController alloc] 
+                                   initWithMyRoom:[[ircSession chatRoomWithName:channel]retain]
+                                   andSession:[ircSession retain]
+								   ];
+    ctvc._parent = self;
+    [[tabView tabViewItemAtIndex:[[tabView tabViewItems] count]-1] setView:[ctvc view]];
+}
+-(void)closeTabForChannel:(NSString*)channel withMessage:(NSString*)message {
+	NSLog(@"Leaving.. %@", channel);
+	[channels removeObject:[ircSession chatRoomWithName:channel]];
+	NSAttributedString* attrStr = [NSAttributedString attributedStringWithHTMLFragment:message baseURL:nil];
+	[[ircSession chatRoomWithName:channel] partWithReason:attrStr];
+	[tabView removeTabViewItem:[self tabViewForTabViewLabeled:channel]];
+}
+
+- (void)tabView:(NSTabView *)aTabView didSelectTabViewItem:(NSTabViewItem *)tabViewItem {
+	[[tabViewItem identifier] setObjectCount:0];
 }
 
 - (IBAction)closeTab:(id)sender {
-	[channels removeObject:[ircSession chatRoomWithName:[[tabView selectedTabViewItem] label]]];
-	[[ircSession chatRoomWithName:[[tabView selectedTabViewItem] label]] part];
-
-	[tabView removeTabViewItem:[tabView selectedTabViewItem]];
+	NSLog(@"Closing tab..");
 }
 
 - (void)stopProcessing:(id)sender {
@@ -187,6 +207,9 @@
 	[[tabView selectedTabViewItem] setLabel:[sender stringValue]];
 }
 - (BOOL)tabView:(NSTabView *)aTabView shouldCloseTabViewItem:(NSTabViewItem *)tabViewItem {
+	[channels removeObject:[ircSession chatRoomWithName:[[tabView selectedTabViewItem] label]]];
+	[[ircSession chatRoomWithName:[[tabView selectedTabViewItem] label]] part];
+	[tabView removeTabViewItem:[tabView selectedTabViewItem]];
     return YES;
 }
 - (void)tabView:(NSTabView *)aTabView didCloseTabViewItem:(NSTabViewItem *)tabViewItem {

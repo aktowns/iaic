@@ -292,7 +292,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {495, 760}}</string>
+							<string>{{0, 359}, {495, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -339,10 +339,9 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>39C54F661257752B00ACF2F0</string>
+										<string>39C550AF1257980C00ACF2F0</string>
 										<key>history</key>
 										<array>
-											<string>3947A34711E8FB1C006D532E</string>
 											<string>3947A7B311E9B40D006D532E</string>
 											<string>39AD64CD11E9F2C00089F4E7</string>
 											<string>39AD65E711EA06DF0089F4E7</string>
@@ -362,11 +361,8 @@
 											<string>39DD7A8F125641F000DEF963</string>
 											<string>39DD7AD9125643D700DEF963</string>
 											<string>39DD7ADA125643D700DEF963</string>
-											<string>39DD7ADB125643D700DEF963</string>
-											<string>39DD7B8C1256529200DEF963</string>
 											<string>39DD7B8D1256529200DEF963</string>
 											<string>39DD7C5B125661E800DEF963</string>
-											<string>39C54D7912572BDC00ACF2F0</string>
 											<string>39C54D7C12572BDC00ACF2F0</string>
 											<string>39C54D7D12572BDC00ACF2F0</string>
 											<string>39C54DA212572F8200ACF2F0</string>
@@ -374,10 +370,15 @@
 											<string>39C54F2E12576ED600ACF2F0</string>
 											<string>39C54F3B12576F2800ACF2F0</string>
 											<string>39C54F3C12576F2800ACF2F0</string>
-											<string>39C54F3D12576F2800ACF2F0</string>
-											<string>39C54F5D125774A500ACF2F0</string>
-											<string>39C54F5E125774A500ACF2F0</string>
-											<string>39C54F651257752400ACF2F0</string>
+											<string>39C54FC2125782FB00ACF2F0</string>
+											<string>39C54FC4125782FB00ACF2F0</string>
+											<string>39C54FFB12578A4C00ACF2F0</string>
+											<string>39C5501112578BBB00ACF2F0</string>
+											<string>39C5503F12578F9E00ACF2F0</string>
+											<string>39C550631257912000ACF2F0</string>
+											<string>39C550A31257974600ACF2F0</string>
+											<string>39C550A41257974600ACF2F0</string>
+											<string>39C550A51257974600ACF2F0</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -694,7 +695,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>39C54F61125774A500ACF2F0</string>
+		<string>39C550AC125797BD00ACF2F0</string>
 		<string>39C54D001257215200ACF2F0</string>
 		<string>39C54D011257215200ACF2F0</string>
 		<string>/Users/ashleyis/Documents/Projects/iaic/iaic.xcodeproj</string>
