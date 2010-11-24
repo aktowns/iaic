@@ -417,7 +417,6 @@
     }
     return result;
 }
-//<a name="bottom"> at bottom of page, then window.location='#bottom' .
 
 #pragma mark helpers
 - (void)exitApplication {

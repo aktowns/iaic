@@ -41,9 +41,9 @@
     [RubyInterop ruby_initialize];
     //RubyInterop* ri = [[RubyInterop alloc] initWithScript:@"testScript.rb"];
     //RubyInterop* ri2 = [[RubyInterop alloc] initWithScript:@"testScript2.rb"];
-    ircSession = [[[MVChatConnection alloc] initWithServer:@"irc.streetgeek.com.au" type:MVChatConnectionIRCType port:6667 user:@"objircc"] retain];
+    ircSession = [[[MVChatConnection alloc] initWithServer:@"irc.blackhats.net.au" type:MVChatConnectionIRCType port:6667 user:@"ikeeex"] retain];
     [ircSession connect];
-   	[self createTabForChannel:@"#test"];
+   	[self createTabForChannel:@"#blackhats"];
 
 	/*
     [[tabView tabViewItemAtIndex:0] setLabel:@"Home"];
